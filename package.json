@@ -1,0 +1,21 @@
+{
+    "name": "cotton-candy",
+    "displayName": "Cotton Candy",
+    "description": "pastel color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cotton Candy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cotton Candy-color-theme.json"
+            }
+        ]
+    }
+}
