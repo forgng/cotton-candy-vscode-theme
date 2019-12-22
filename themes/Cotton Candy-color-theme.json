@@ -2,6 +2,246 @@
   "name": "Cotton Candy",
   "type": "dark",
 
-  "colors": {},
-  "tokenColors": []
+  "colors": {
+    "editor.background": "#24292e",
+    "editor.foreground": "#f0efe2",
+    "editorError.foreground": "#DF7599"
+  },
+  "tokenColors": [
+    {
+      "name": "JS import",
+      "scope": "keyword.control.import.tsx",
+      "settings": {
+        "foreground": "#faa9e0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JS import variable",
+      "scope": "variable.other.readwrite.alias.tsx",
+      "settings": {
+        "foreground": "#74bec1"
+      }
+    },
+    {
+      "name": "JS String",
+      "scope": "string.quoted.double.tsx",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS import_from",
+      "scope": "keyword.control.from.tsx",
+      "settings": {
+        "foreground": "#faa9e0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JS parenthesis",
+      "scope": "punctuation.definition.block.tsx,punctuation.section.embedded.begin.tsx,punctuation.section.embedded.end.tsx",
+      "settings": {
+        "foreground": "#faa9e0",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS comment",
+      "scope": "comment.line.double-slash.tsx",
+      "settings": {
+        "foreground": "#7f848e",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS variable type",
+      "scope": "storage.type.tsx",
+      "settings": {
+        "foreground": "#DE8FFF"
+      }
+    },
+    {
+      "name": "JS variable name",
+      "scope": "variable.other.constant.tsx,variable.other.readwrite.tsx",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS function",
+      "scope": "storage.type.function.tsx",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "JS function",
+      "scope": "storage.modifier.async.tsx, keyword.control.flow.tsx",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "italic bold"
+      }
+    },
+
+    {
+      "name": "JS function name",
+      "scope": "entity.name.function.tsx, meta.definition.function.tsx",
+      "settings": {
+        "foreground": "#81dafc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JS function name",
+      "scope": "meta.function-call.tsx",
+      "settings": {
+        "foreground": "#6FF3D6"
+      }
+    },
+    {
+      "name": "JS property",
+      "scope": "variable.other.property.tsx",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "JS magic number",
+      "scope": "constant.numeric.decimal.tsx",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS object",
+      "scope": "variable.other.object.tsx",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS if,else,try,catch",
+      "scope": "keyword.control.conditional.tsx, keyword.control.trycatch.tsx",
+      "settings": {
+        "foreground": "#9795F1"
+      }
+    },
+    {
+      "name": "JS JSX element",
+      "scope": "support.class.component.tsx",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JS property",
+      "scope": "meta.tag.attributes.tsx",
+      "settings": {
+        "foreground": "#72D6C9",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS function parameter",
+      "scope": "variable.parameter.tsx",
+      "settings": {
+        "foreground": "#DE8FFF",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JS Tag angular bracket",
+      "scope": "punctuation.definition.tag.begin.tsx,punctuation.definition.tag.end.tsx",
+      "settings": {
+        "foreground": "#DE8FFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JS object key",
+      "scope": "meta.object-literal.key.tsx",
+      "settings": {
+        "foreground": "#FF9AA2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS console",
+      "scope": "support.class.console.tsx",
+      "settings": {
+        "foreground": "#FF9AA2"
+      }
+    },
+    {
+      "name": "JS Dot accessor",
+      "scope": "punctuation.accessor.tsx",
+      "settings": {
+        "foreground": "#FFFEEC"
+      }
+    },
+    {
+      "name": "JS logical operator",
+      "scope": "keyword.operator.logical.tsx",
+      "settings": {
+        "foreground": "#FFB7B2"
+      }
+    },
+    {
+      "name": "JS export",
+      "scope": "keyword.control.export.tsx,keyword.control.default.tsx",
+      "settings": {
+        "foreground": "#faa9e0",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSX text",
+      "scope": "meta.jsx.children.tsx",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS comma",
+      "scope": "punctuation.separator.comma.tsx",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS Square bracket",
+      "scope": "meta.brace.square.tsx",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JS Ternary operator",
+      "scope": "keyword.operator.ternary.tsx,keyword.operator.arithmetic.tsx",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "JS arrow function",
+      "scope": "storage.type.function.arrow.tsx",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": "bold"
+      }
+    }
+  ]
 }
