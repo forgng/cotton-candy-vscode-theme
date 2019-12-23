@@ -143,21 +143,30 @@
       }
     },
     {
-      "name": "HTML element",
-      "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html",
+      "name": "HTML/XML element",
+      "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html,entity.name.tag.localname.xml",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "JSX/Vue/HTML attribute",
-      "scope": "meta.tag.attributes,entity.other.attribute-name.html",
+      "name": "JSX/Vue/HTML/XML attribute",
+      "scope": "meta.tag.attributes,entity.other.attribute-name.html,entity.other.attribute-name.localname.xml,entity.other.attribute-name.xml",
       "settings": {
         "foreground": "#72D6C9",
         "fontStyle": "italic"
       }
     },
+    {
+      "name": "XML xml tag",
+      "scope": "entity.name.tag.xml",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": ""
+      }
+    },
+
     {
       "name": "JS function parameter",
       "scope": "variable.parameter",
@@ -167,8 +176,8 @@
       }
     },
     {
-      "name": "JS Tag angular bracket",
-      "scope": "punctuation.definition.tag.begin,punctuation.definition.tag.end",
+      "name": "Tag angular bracket",
+      "scope": "punctuation.definition.tag.begin,punctuation.definition.tag.end,punctuation.definition.tag.xml",
       "settings": {
         "foreground": "#DE8FFF",
         "fontStyle": "bold"
@@ -287,7 +296,7 @@
     },
     {
       "name": "Python docstring",
-      "scope": "comment.block.documentation.phpdoc.php,string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js",
+      "scope": "comment.block.php,comment.block.documentation.phpdoc.php,string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js",
       "settings": {
         "foreground": "#00cee6",
         "fontStyle": "bold"
@@ -326,11 +335,19 @@
       }
     },
     {
-      "name": "JSON string",
-      "scope": "support.type.property-name.json",
+      "name": "JSON string, ENV key",
+      "scope": "support.type.property-name.json,variable.other.env",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "ENV base",
+      "scope": "source.env",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
       }
     },
 
@@ -407,8 +424,8 @@
       }
     },
     {
-      "name": "Git",
-      "scope": "text.gitignore,source.ini",
+      "name": "Ignore file",
+      "scope": "text.gitignore,source.ini,source.ignore",
       "settings": {
         "foreground": "#cfd8dc",
         "fontStyle": ""
@@ -456,6 +473,15 @@
       }
     },
     {
+      "name": "CSS costant",
+      "scope": "constant.numeric.css,support.constant.property-value.css",
+      "settings": {
+        "foreground": "#72D6C9",
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "CSS/SCSS class",
       "scope": "entity.other.attribute-name.class.css,entity.name.tag.css",
       "settings": {
@@ -465,7 +491,7 @@
     },
     {
       "name": "CSS/SCSS class",
-      "scope": "entity.name.tag.reference.scss",
+      "scope": "entity.name.tag.reference.scss,entity.other.attribute-name.pseudo-class.css",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -545,5 +571,7 @@
         "fontStyle": "bold"
       }
     }
+
+    //XML
   ]
 }
