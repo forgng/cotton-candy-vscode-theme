@@ -609,6 +609,30 @@
         "foreground": "#DF7599",
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "Gradle",
+      "scope": "support.type.project.buildscript.gradle,support.type.project.allprojects.gradle",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Gradle",
+      "scope": "source.gradle",
+      "settings": {
+        "foreground": "#cacfff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Gradle",
+      "scope": "meta.method.groovy",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
     }
   ]
 }
