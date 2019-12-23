@@ -10,9 +10,9 @@
   "tokenColors": [
     {
       "name": "import keywork",
-      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.export,keyword.control.default,support.type.object.module.js",
+      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.default,support.type.object.module.js,keyword.control.export",
       "settings": {
-        "foreground": "#ebb1ff",
+        "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
@@ -43,7 +43,7 @@
     },
     {
       "name": "This",
-      "scope": "keyword.operator,variable.language.this.js,variable.language.this.php,variable.language.this.java",
+      "scope": "keyword.operator,variable.language.this",
       "settings": {
         "foreground": "#68bcd2"
       }
@@ -97,6 +97,16 @@
         "fontStyle": ""
       }
     },
+
+    {
+      "name": "decorator",
+      "scope": "punctuation.decorator",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": "bold"
+      }
+    },
+
     {
       "name": "function definition",
       "scope": "storage.type.function,keyword.function,keyword.other.fn",
@@ -502,15 +512,24 @@
 
     {
       "name": "CSS/SCSS class, id",
-      "scope": "entity.other.attribute-name.class.css,entity.name.tag.css,entity.other.attribute-name.id.css",
+      "scope": "entity.other.attribute-name.class.css,entity.name.tag.css,entity.other.attribute-name.id.css,entity.other.attribute-name.css,punctuation.definition.entity.begin.bracket.square.css,punctuation.definition.entity.end.bracket.square.css",
       "settings": {
         "foreground": "#DE8FFF",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "CSS/SCSS class",
-      "scope": "entity.name.tag.reference.scss,entity.other.attribute-name.pseudo-class.css",
+      "name": "CSS curly bracket",
+      "scope": "punctuation.section.property-list.begin.bracket.curly.css,punctuation.section.property-list.end.bracket.curly.css",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "CSS/SCSS pseudo class",
+      "scope": "entity.other.attribute-name.pseudo-class.css",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
