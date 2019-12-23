@@ -134,7 +134,7 @@
     },
     {
       "name": "Function call",
-      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go",
+      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less",
       "settings": {
         "foreground": "#6FF3D6"
       }
@@ -149,7 +149,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust",
+      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -243,7 +243,7 @@
     },
     {
       "name": "Operator",
-      "scope": "keyword.operator.logical,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic",
+      "scope": "keyword.operator.logical.coffee,keyword.operator.logical,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic",
       "settings": {
         "foreground": "#fffeec",
         "fontStyle": ""
@@ -495,7 +495,7 @@
 
     {
       "name": "SCSS/LESS variable",
-      "scope": "variable.scss,support.constant.property-value.css,keyword.other.important.css,variable.other.less",
+      "scope": "variable.scss,support.constant.property-value.css,keyword.other.important.css,variable.other.less,meta.property-value.css",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": ""
@@ -503,9 +503,18 @@
     },
     {
       "name": "CSS custom tag",
-      "scope": "entity.name.tag.custom.css,punctuation.definition.entity.css,",
+      "scope": "entity.name.tag.custom.css,punctuation.definition.entity.css",
       "settings": {
         "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "CSS vendor",
+      "scope": "support.type.vendored.property-name.css",
+      "settings": {
+        "foreground": "#FEC8FE",
         "fontStyle": ""
       }
     },
