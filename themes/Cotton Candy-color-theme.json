@@ -99,7 +99,7 @@
     },
     {
       "name": "function definition",
-      "scope": "storage.type.function,keyword.function",
+      "scope": "storage.type.function,keyword.function,keyword.other.fn",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": "italic bold"
@@ -139,7 +139,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier,variable.language.java",
+      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -812,6 +812,63 @@
         "foreground": "#99e1e5",
         "fontStyle": ""
       }
+    },
+    {
+      "name": "Rust meta attribute",
+      "scope": "meta.attribute.rust",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust Base",
+      "scope": "source.rust",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust other",
+      "scope": "keyword.other.rust",
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust modifier lifetime",
+      "scope": "storage.modifier.lifetime.rust",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust angular bracket",
+      "scope": "meta.type_params.rust",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust angular bracket",
+      "scope": "support.function.std.rust",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
     }
+
+    // {
+    //   "name": "Rust other",
+    //   "scope": "keyword.other.fn.rust",
+    //   "settings": {
+    //     "foreground": "#be97dc",
+    //     "fontStyle": ""
+    //   }
+    // },
   ]
 }
