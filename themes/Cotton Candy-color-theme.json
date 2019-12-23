@@ -9,23 +9,23 @@
   },
   "tokenColors": [
     {
-      "name": "JS import",
-      "scope": "keyword.control.import,keyword.control.from,keyword.control.export,keyword.control.default,support.type.object.module.js",
+      "name": "import keywork",
+      "scope": "keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.export,keyword.control.default,support.type.object.module.js",
       "settings": {
         "foreground": "#ebb1ff",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "JS import variable",
-      "scope": "variable.other.readwrite.alias",
+      "name": "import subject",
+      "scope": "variable.other.readwrite.alias,storage.modifier.import.java",
       "settings": {
         "foreground": "#68bcd2"
       }
     },
     {
-      "name": "JS operator",
-      "scope": "keyword.operator,variable.language.this.js,variable.language.this.php",
+      "name": "This",
+      "scope": "keyword.operator,variable.language.this.js,variable.language.this.php,variable.language.this.java",
       "settings": {
         "foreground": "#68bcd2"
       }
@@ -72,8 +72,8 @@
       }
     },
     {
-      "name": "JS variable name",
-      "scope": "variable.other.constant,variable.other.readwrite",
+      "name": "Variable name",
+      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java",
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": ""
@@ -121,7 +121,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier.extends,storage.modifier.implements",
+      "scope": "constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier,variable.language.java",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -154,7 +154,7 @@
       "name": "JSX/Vue/HTML/XML attribute",
       "scope": "meta.tag.attributes,entity.other.attribute-name.html,entity.other.attribute-name.localname.xml,entity.other.attribute-name.xml",
       "settings": {
-        "foreground": "#72D6C9",
+        "foreground": "#FF9AA2",
         "fontStyle": "italic"
       }
     },
@@ -295,8 +295,8 @@
       }
     },
     {
-      "name": "Python docstring",
-      "scope": "comment.block.php,comment.block.documentation.phpdoc.php,string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js",
+      "name": "doc",
+      "scope": "comment.block,comment.block.documentation.phpdoc.php,string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js,comment.block.html",
       "settings": {
         "foreground": "#00cee6",
         "fontStyle": "bold"
@@ -466,7 +466,7 @@
 
     {
       "name": "SCSS variable",
-      "scope": "variable.scss,support.constant.property-value.css",
+      "scope": "variable.scss,support.constant.property-value.css,keyword.other.important.css",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": ""
@@ -474,7 +474,7 @@
     },
     {
       "name": "CSS costant",
-      "scope": "constant.numeric.css,support.constant.property-value.css",
+      "scope": "constant.numeric.css,support.constant.property-value.css,support.constant.font-name.css",
       "settings": {
         "foreground": "#72D6C9",
         "fontStyle": ""
@@ -482,8 +482,8 @@
     },
 
     {
-      "name": "CSS/SCSS class",
-      "scope": "entity.other.attribute-name.class.css,entity.name.tag.css",
+      "name": "CSS/SCSS class, id",
+      "scope": "entity.other.attribute-name.class.css,entity.name.tag.css,entity.other.attribute-name.id.css",
       "settings": {
         "foreground": "#DE8FFF",
         "fontStyle": "bold"
@@ -522,10 +522,9 @@
         "fontStyle": "bold"
       }
     },
-    ///// PHP
     {
-      "name": "PHP extended/implemented",
-      "scope": "entity.other.inherited-class.php",
+      "name": "Class extend/implement subject",
+      "scope": "entity.other.inherited-class",
       "settings": {
         "foreground": "#F5B5FC",
         "fontStyle": "italic"
@@ -570,8 +569,46 @@
         "foreground": "#cacfff",
         "fontStyle": "bold"
       }
+    },
+    {
+      "name": "Java @",
+      "scope": "punctuation.definition.annotation.java",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java type",
+      "scope": "storage.type.generic.java",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java type",
+      "scope": "punctuation.bracket.angle.java",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java type",
+      "scope": "meta.method.body.java",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java type",
+      "scope": "keyword.other.package.java",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
     }
-
-    //XML
   ]
 }
