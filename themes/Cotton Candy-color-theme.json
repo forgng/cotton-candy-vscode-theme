@@ -971,6 +971,30 @@
         "foreground": "#DF7599",
         "fontStyle": ""
       }
+    },
+    {
+      "name": "Liquid entity",
+      "scope": "entity.name.tag.liquid",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Liquid entity",
+      "scope": "punctuation.tag.liquid,variable.other.liquid",
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Liquid entity",
+      "scope": "text.html.liquid",
+      "settings": {
+        "foreground": "#F5B5FC",
+        "fontStyle": ""
+      }
     }
   ]
 }
