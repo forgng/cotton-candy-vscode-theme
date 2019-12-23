@@ -947,6 +947,30 @@
         "foreground": "#FFFEEC",
         "fontStyle": ""
       }
+    },
+    {
+      "name": "Ruby other",
+      "scope": "keyword.other.special-method.ruby",
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Ruby other",
+      "scope": "variable.other.ruby",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Ruby class",
+      "scope": "support.class.ruby",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
     }
   ]
 }
