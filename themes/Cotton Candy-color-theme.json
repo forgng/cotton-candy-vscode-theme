@@ -26,6 +26,15 @@
     },
 
     {
+      "name": "TS interface key",
+      "scope": "variable.object.property.ts",
+      "settings": {
+        "foreground": "#68bcd2",
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "import subject",
       "scope": "variable.other.readwrite.alias,storage.modifier.import.java",
       "settings": {
@@ -66,8 +75,8 @@
       }
     },
     {
-      "name": "JS comment",
-      "scope": "comment.line",
+      "name": "Comment",
+      "scope": "comment",
       "settings": {
         "foreground": "#7f848e",
         "fontStyle": "italic"
@@ -194,7 +203,7 @@
     },
     {
       "name": "Tag angular bracket",
-      "scope": "punctuation.definition.tag.begin,punctuation.definition.tag.end,punctuation.definition.tag.xml",
+      "scope": "punctuation.definition.typeparameters,punctuation.definition.tag.begin,punctuation.definition.tag.end,punctuation.definition.tag.xml",
       "settings": {
         "foreground": "#DE8FFF",
         "fontStyle": "bold"
@@ -264,10 +273,10 @@
       }
     },
     {
-      "name": "TS type",
-      "scope": "entity.name.type,support.type.primitive",
+      "name": "TS/GrapqhQL type",
+      "scope": "entity.name.type,support.type.primitive,support.type.builtin.ts,support.type.builtin.graphql,support.type.graphql",
       "settings": {
-        "foreground": "#FFDAC1"
+        "foreground": "#f8d0b0"
         // "fontStyle": "bold"
       }
     },
@@ -378,8 +387,8 @@
       }
     },
     {
-      "name": "TOML(like) keyword",
-      "scope": "keyword.key.toml,keyword.other.definition.ini",
+      "name": "TOML/YAML key",
+      "scope": "keyword.key.toml,keyword.other.definition.ini,entity.name.tag.yaml",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -737,6 +746,30 @@
       "scope": "markup.fenced_code.block.markdown",
       "settings": {
         "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Grapqh Operation",
+      "scope": "keyword.operation.graphql",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Grapqh selection",
+      "scope": "meta.selectionset.graphql",
+      "settings": {
+        "foreground": "#72D6C9",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Grapqh variable",
+      "scope": "meta.arguments.graphql",
+      "settings": {
+        "foreground": "#efca8c",
         "fontStyle": ""
       }
     }
