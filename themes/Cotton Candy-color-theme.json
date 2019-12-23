@@ -24,6 +24,22 @@
       }
     },
     {
+      "name": "JS operator",
+      "scope": "keyword.operator,variable.language.this.js,variable.language.this.php",
+      "settings": {
+        "foreground": "#68bcd2"
+      }
+    },
+    {
+      "name": "JS class",
+      "scope": "entity.name.type.class,entity.name.type.js",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "String",
       "scope": "string,punctuation.definition.string.begin.shell",
       "settings": {
@@ -64,7 +80,7 @@
       }
     },
     {
-      "name": "JS function",
+      "name": "function definition",
       "scope": "storage.type.function",
       "settings": {
         "foreground": "#FFC785",
@@ -72,7 +88,7 @@
       }
     },
     {
-      "name": "JS function",
+      "name": "function modifier",
       "scope": "storage.modifier.async, keyword.control.flow",
       "settings": {
         "foreground": "#FFC785",
@@ -84,12 +100,12 @@
       "name": "JS function name",
       "scope": "entity.name.function, meta.definition.function",
       "settings": {
-        "foreground": "#81dafc",
+        "foreground": "#ffa5a5",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "JS function name",
+      "name": "JS function call",
       "scope": "meta.function-call",
       "settings": {
         "foreground": "#6FF3D6"
@@ -97,15 +113,15 @@
     },
     {
       "name": "JS property",
-      "scope": "variable.other.property",
+      "scope": "variable.other.property,support.variable.property.js",
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": "italic bold"
       }
     },
     {
-      "name": "magic number, costants, ecc",
-      "scope": "constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments",
+      "name": "magic number, costants, types,built in functions, ecc",
+      "scope": "constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier.extends,storage.modifier.implements",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -127,16 +143,16 @@
       }
     },
     {
-      "name": "JS JSX element",
-      "scope": "support.class.component",
+      "name": "HTML element",
+      "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
     {
-      "name": "JS property",
-      "scope": "meta.tag.attributes",
+      "name": "JSX/Vue/HTML attribute",
+      "scope": "meta.tag.attributes,entity.other.attribute-name.html",
       "settings": {
         "foreground": "#72D6C9",
         "fontStyle": "italic"
@@ -271,9 +287,9 @@
     },
     {
       "name": "Python docstring",
-      "scope": "string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js",
+      "scope": "comment.block.documentation.phpdoc.php,string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js",
       "settings": {
-        "foreground": "#00e5ff",
+        "foreground": "#00cee6",
         "fontStyle": "bold"
       }
     },
@@ -396,6 +412,137 @@
       "settings": {
         "foreground": "#cfd8dc",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "Vue directive",
+      "scope": "meta.directive.vue",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML script",
+      "scope": "entity.name.tag.script.html",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "HTML property =",
+      "scope": "meta.tag.inline.any.html,meta.tag.block.any.html",
+      "settings": {
+        "foreground": "#f0efe2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "HTML style tag",
+      "scope": "entity.name.tag.style.html",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "SCSS variable",
+      "scope": "variable.scss,support.constant.property-value.css",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "CSS/SCSS class",
+      "scope": "entity.other.attribute-name.class.css,entity.name.tag.css",
+      "settings": {
+        "foreground": "#DE8FFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS/SCSS class",
+      "scope": "entity.name.tag.reference.scss",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "CSS/SCSS property",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Blad keyword",
+      "scope": "keyword.blade",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP namespace",
+      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.other.use-as.php",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    ///// PHP
+    {
+      "name": "PHP extended/implemented",
+      "scope": "entity.other.inherited-class.php",
+      "settings": {
+        "foreground": "#F5B5FC",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP ",
+      "scope": "support.other.namespace.php",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "PHP ",
+      "scope": "support.class.php,entity.other.alias.php",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP storage modifier",
+      "scope": "storage.modifier.php",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP variable",
+      "scope": "variable.other.php",
+      "settings": {
+        "foreground": "#68bcd2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP doc variable",
+      "scope": "keyword.other.phpdoc.php,keyword.other.type.php",
+      "settings": {
+        "foreground": "#cacfff",
+        "fontStyle": "bold"
       }
     }
   ]
