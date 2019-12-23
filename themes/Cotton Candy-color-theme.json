@@ -213,7 +213,7 @@
       "name": "JS object key",
       "scope": "meta.object-literal.key",
       "settings": {
-        "foreground": "#FF9AA2",
+        "foreground": "#9795F1",
         "fontStyle": ""
       }
     },
@@ -770,6 +770,46 @@
       "scope": "meta.arguments.graphql",
       "settings": {
         "foreground": "#efca8c",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "SQL operation",
+      "scope": "keyword.other.sql,keyword.other.DML.sql",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL BEGIN/END",
+      "scope": "keyword.other.LUW.sql",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "SQL Base",
+      "scope": "source.sql",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "SQL DB name",
+      "scope": "constant.other.database-name.sql",
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "SQL AS",
+      "scope": "keyword.other.alias.sql",
+      "settings": {
+        "foreground": "#99e1e5",
         "fontStyle": ""
       }
     }
