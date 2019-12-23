@@ -494,13 +494,22 @@
     },
 
     {
-      "name": "SCSS variable",
-      "scope": "variable.scss,support.constant.property-value.css,keyword.other.important.css",
+      "name": "SCSS/LESS variable",
+      "scope": "variable.scss,support.constant.property-value.css,keyword.other.important.css,variable.other.less",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": ""
       }
     },
+    {
+      "name": "CSS custom tag",
+      "scope": "entity.name.tag.custom.css,punctuation.definition.entity.css,",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+
     {
       "name": "CSS costant",
       "scope": "constant.numeric.css,support.constant.property-value.css,support.constant.font-name.css",
@@ -528,8 +537,8 @@
     },
 
     {
-      "name": "CSS/SCSS pseudo class",
-      "scope": "entity.other.attribute-name.pseudo-class.css",
+      "name": "CSS/SCSS pseudo class/element",
+      "scope": "entity.other.attribute-name.pseudo-class.css,entity.other.attribute-name.pseudo-element.css",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -544,8 +553,9 @@
         "fontStyle": "bold"
       }
     },
+
     {
-      "name": "Blad keyword",
+      "name": "Blade keyword",
       "scope": "keyword.blade",
       "settings": {
         "foreground": "#FFC785",
@@ -879,15 +889,30 @@
         "foreground": "#8ed6ff",
         "fontStyle": ""
       }
+    },
+    {
+      "name": "Html derivative",
+      "scope": "text.html.derivative",
+      "settings": {
+        "foreground": "#72D6C9",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Coffee Base",
+      "scope": "source.coffee",
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Coffee variable assignment",
+      "scope": "variable.assignment.coffee",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
     }
-
-    // {
-    //   "name": "Rust other",
-    //   "scope": "keyword.other.fn.rust",
-    //   "settings": {
-    //     "foreground": "#be97dc",
-    //     "fontStyle": ""
-    //   }
-    // },
   ]
 }
