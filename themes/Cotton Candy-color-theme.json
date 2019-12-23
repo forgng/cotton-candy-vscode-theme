@@ -107,7 +107,7 @@
 
     {
       "name": "Variable name",
-      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment,variable.other.declaration.scala,variable.language.dart,entity.name.variable.parameter.cs,entity.name.variable.local.cs,entity.name.variable.field.cs",
+      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment,variable.other.declaration.scala,variable.language.dart,entity.name.variable.parameter.cs,entity.name.variable.local.cs,entity.name.variable.field.cs,meta.scope.implementation.objc",
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": ""
@@ -165,7 +165,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust,entity.name.package,keyword.declaration.dart,keyword.other.var.cs",
+      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust,entity.name.package,keyword.declaration.dart,keyword.other.var.cs,keyword.other.property.directive.objc",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -188,7 +188,7 @@
     },
     {
       "name": "HTML/XML element",
-      "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html,entity.name.tag.localname.xml",
+      "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html,entity.name.tag.localname.xml,source.svelte,source.jest.snap,entity.name.tag.tsx",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -196,7 +196,7 @@
     },
     {
       "name": "JSX/Vue/HTML/XML attribute",
-      "scope": "meta.tag.attributes,entity.other.attribute-name.html,entity.other.attribute-name.localname.xml,entity.other.attribute-name.xml",
+      "scope": "meta.tag.attributes,entity.other.attribute-name.html,entity.other.attribute-name.localname.xml,entity.other.attribute-name.xml,entity.other.attribute-name.tsx",
       "settings": {
         "foreground": "#FF9AA2",
         "fontStyle": "italic"
@@ -537,6 +537,14 @@
       "scope": "support.type.property-name.css",
       "settings": {
         "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS & reference",
+      "scope": "entity.name.tag.reference.scss,entity.name.tag.wildcard.css",
+      "settings": {
+        "foreground": "#6FF3D6",
         "fontStyle": "bold"
       }
     },
