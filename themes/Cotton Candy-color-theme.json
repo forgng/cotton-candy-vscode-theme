@@ -10,7 +10,7 @@
   "tokenColors": [
     {
       "name": "import keywork",
-      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.default,support.type.object.module.js,keyword.control.export",
+      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.default,support.type.object.module.js,keyword.control.export,keyword.other.using.cs",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -22,6 +22,14 @@
       "settings": {
         "foreground": "#f0efe2",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "New",
+      "scope": "keyword.other.new.cs",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": "bold"
       }
     },
 
@@ -50,7 +58,7 @@
     },
     {
       "name": "JS class",
-      "scope": "entity.name.type.class,entity.name.type.js",
+      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -91,7 +99,7 @@
     },
     {
       "name": "Variable name",
-      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment,variable.other.declaration.scala",
+      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment,variable.other.declaration.scala,variable.language.dart,entity.name.variable.parameter.cs,entity.name.variable.local.cs,entity.name.variable.field.cs",
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": ""
@@ -149,7 +157,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust,entity.name.package",
+      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust,entity.name.package,keyword.declaration.dart,keyword.other.var.cs",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -572,8 +580,8 @@
       }
     },
     {
-      "name": "PHP namespace",
-      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.other.use-as.php",
+      "name": "Namespace",
+      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.other.use-as.php,keyword.other.namespace.cs",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -596,7 +604,7 @@
       }
     },
     {
-      "name": "PHP ",
+      "name": "PHP class",
       "scope": "support.class.php,entity.other.alias.php",
       "settings": {
         "foreground": "#DF7599",
@@ -993,6 +1001,62 @@
       "scope": "text.html.liquid",
       "settings": {
         "foreground": "#F5B5FC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Dart class",
+      "scope": "support.class.dart",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Dart variable",
+      "scope": "variable.other.source.dart",
+      "settings": {
+        "foreground": "#F5B5FC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "C# type",
+      "scope": "keyword.type.cs",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "C# await",
+      "scope": "keyword.other.await.cs",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "C++ ",
+      "scope": "meta.body.namespace.cpp,entity.name.namespace.cpp,keyword.other.typedef.cpp",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "C++ operator *",
+      "scope": "keyword.operator.cpp",
+      "settings": {
+        "foreground": "#F0F696",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Elixir",
+      "scope": "keyword.other.special-method.elixir,parameter.variable.function.elixir",
+      "settings": {
+        "foreground": "#8ed6ff",
         "fontStyle": ""
       }
     }
