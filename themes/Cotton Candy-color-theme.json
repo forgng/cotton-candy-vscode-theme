@@ -34,7 +34,7 @@
 
     {
       "name": "JS parenthesis",
-      "scope": "punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx",
+      "scope": "punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx,punctuation.separator.element.python",
       "settings": {
         "foreground": "#faa9e0",
         "fontStyle": ""
@@ -105,7 +105,7 @@
     },
     {
       "name": "JS magic number",
-      "scope": "constant.numeric.decimal,constant.language.boolean,constant.numeric.dec.python",
+      "scope": "constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -233,7 +233,7 @@
       "name": "Python base",
       "scope": "source.python",
       "settings": {
-        "foreground": "#b0bec5"
+        "foreground": "#f1c6e7"
         // "fontStyle": "bold"
       }
     },
@@ -275,6 +275,54 @@
       "settings": {
         "foreground": "#00e5ff",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python item access argument",
+      "scope": "meta.item-access.arguments.python",
+      "settings": {
+        "foreground": "#f0f696",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python item access",
+      "scope": "meta.item-access.python",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python placeholder",
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python cast",
+      "scope": "support.type.python",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON string",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON string",
+      "scope": "string.quoted.double.json",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
       }
     }
   ]
