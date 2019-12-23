@@ -10,12 +10,21 @@
   "tokenColors": [
     {
       "name": "import keywork",
-      "scope": "keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.export,keyword.control.default,support.type.object.module.js",
+      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.export,keyword.control.default,support.type.object.module.js",
       "settings": {
         "foreground": "#ebb1ff",
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "Comma",
+      "scope": "punctuation.other.comma",
+      "settings": {
+        "foreground": "#f0efe2",
+        "fontStyle": ""
+      }
+    },
+
     {
       "name": "import subject",
       "scope": "variable.other.readwrite.alias,storage.modifier.import.java",
@@ -49,7 +58,7 @@
     },
 
     {
-      "name": "JS parenthesis",
+      "name": "Parenthesis",
       "scope": "punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx,punctuation.separator.element.python",
       "settings": {
         "foreground": "#faa9e0",
@@ -73,7 +82,7 @@
     },
     {
       "name": "Variable name",
-      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java",
+      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment",
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": ""
@@ -81,7 +90,7 @@
     },
     {
       "name": "function definition",
-      "scope": "storage.type.function",
+      "scope": "storage.type.function,keyword.function",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": "italic bold"
@@ -105,8 +114,8 @@
       }
     },
     {
-      "name": "JS function call",
-      "scope": "meta.function-call",
+      "name": "Function call",
+      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go",
       "settings": {
         "foreground": "#6FF3D6"
       }
@@ -121,7 +130,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier,variable.language.java",
+      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,constant.numeric.css,support.class.builtin.js,storage.modifier,variable.language.java",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -166,6 +175,14 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "XML text",
+      "scope": "text.xml",
+      "settings": {
+        "foreground": "#CBF1F5",
+        "fontStyle": ""
+      }
+    },
 
     {
       "name": "JS function parameter",
@@ -206,10 +223,10 @@
       }
     },
     {
-      "name": "JS operator",
+      "name": "Operator",
       "scope": "keyword.operator.logical,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic",
       "settings": {
-        "foreground": "#72D6C9",
+        "foreground": "#fffeec",
         "fontStyle": ""
       }
     },
@@ -262,30 +279,23 @@
         // "fontStyle": "bold"
       }
     },
+
     {
-      "name": "Python function",
-      "scope": "meta.function-call.generic.python",
-      "settings": {
-        "foreground": "#B19CD9"
-        // "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Python function",
+      "name": "Function arguments",
       "scope": "meta.function-call.arguments.python",
       "settings": {
         "foreground": "#DF7599"
         // "fontStyle": "bold"
       }
     },
-    {
-      "name": "Python function",
-      "scope": "punctuation.separator.dict.python",
-      "settings": {
-        "foreground": "#F6C3E5"
-        // "fontStyle": "bold"
-      }
-    },
+    // {
+    //   "name": "Python function",
+    //   "scope": "punctuation.separator.dict.python",
+    //   "settings": {
+    //     "foreground": "#F6C3E5"
+    //     // "fontStyle": "bold"
+    //   }
+    // },
     {
       "name": "Python function",
       "scope": "keyword.operator.logical.python",
@@ -622,7 +632,7 @@
       "name": "Gradle",
       "scope": "source.gradle",
       "settings": {
-        "foreground": "#cacfff",
+        "foreground": "#FFC785",
         "fontStyle": ""
       }
     },
@@ -631,6 +641,22 @@
       "scope": "meta.method.groovy",
       "settings": {
         "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Go base",
+      "scope": "source.go",
+      "settings": {
+        "foreground": "#68bcd2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Go address operator",
+      "scope": "keyword.operator.address.go",
+      "settings": {
+        "foreground": "#1de9b6",
         "fontStyle": ""
       }
     }
