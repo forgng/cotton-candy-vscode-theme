@@ -24,8 +24,8 @@
       }
     },
     {
-      "name": "JS String",
-      "scope": "string.quoted.double,string.quoted.multi,string.quoted.single",
+      "name": "String",
+      "scope": "string,punctuation.definition.string.begin.shell",
       "settings": {
         "foreground": "#1de9b6",
         "fontStyle": ""
@@ -42,7 +42,7 @@
     },
     {
       "name": "JS comment",
-      "scope": "comment.line.double-slash,comment.line.number-sign.python",
+      "scope": "comment.line",
       "settings": {
         "foreground": "#7f848e",
         "fontStyle": "italic"
@@ -120,8 +120,8 @@
       }
     },
     {
-      "name": "JS if,else,try,catch",
-      "scope": "keyword.control.conditional, keyword.control.trycatch",
+      "name": "if,else,try,catch,then",
+      "scope": "keyword.control",
       "settings": {
         "foreground": "#9795F1"
       }
@@ -168,7 +168,7 @@
     },
     {
       "name": "JS console, Python builtin",
-      "scope": "support.class.console,support.function.builtin.python",
+      "scope": "support.class.console,support.function.builtin.python,support.function.builtin",
       "settings": {
         "foreground": "#FF9AA2"
       }
@@ -271,7 +271,7 @@
     },
     {
       "name": "Python docstring",
-      "scope": "string.quoted.docstring.multi.python",
+      "scope": "string.quoted.docstring.multi.python,string.unquoted.heredoc.shell",
       "settings": {
         "foreground": "#00e5ff",
         "fontStyle": "bold"
@@ -317,14 +317,6 @@
         "fontStyle": "bold"
       }
     },
-    {
-      "name": "JSON string",
-      "scope": "string.quoted.double.json",
-      "settings": {
-        "foreground": "#1de9b6",
-        "fontStyle": ""
-      }
-    },
 
     {
       "name": "TOML table",
@@ -348,6 +340,54 @@
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Shebang",
+      "scope": "comment.line.number-sign.shebang.shell",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Shebang",
+      "scope": "source.shell",
+      "settings": {
+        "foreground": "#DE8FFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Shebang",
+      "scope": "punctuation.definition.string.begin.shell",
+      "settings": {
+        "foreground": "#FF9AA2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Shebang",
+      "scope": "string.interpolated.dollar.shell,keyword.control.heredoc-token.shell",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bash variable",
+      "scope": "variable.other.positional.shell,punctuation.definition.variable.shell,variable.other.normal.shell",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bash parenthesis",
+      "scope": "punctuation.definition.logical-expression.shell",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": ""
       }
     }
   ]
