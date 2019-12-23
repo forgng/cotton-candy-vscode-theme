@@ -92,11 +92,19 @@
     },
     {
       "name": "JS variable type",
-      "scope": "storage.type,keyword.declaration.stable.scala",
+      "scope": "storage.type,keyword.declaration.stable.scala,keyword.other.declaration-specifier.swift",
       "settings": {
         "foreground": "#DE8FFF"
       }
     },
+    {
+      "name": "Modifier",
+      "scope": "keyword.other.declaration-specifier.accessibility.swift",
+      "settings": {
+        "foreground": "#DE8FFF"
+      }
+    },
+
     {
       "name": "Variable name",
       "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment,variable.other.declaration.scala,variable.language.dart,entity.name.variable.parameter.cs,entity.name.variable.local.cs,entity.name.variable.field.cs",
@@ -133,8 +141,8 @@
     },
 
     {
-      "name": "JS function name",
-      "scope": "entity.name.function, meta.definition.function",
+      "name": "Function name",
+      "scope": "entity.name.function, meta.definition.function,meta.definition.type.body.swift",
       "settings": {
         "foreground": "#ffa5a5",
         "fontStyle": "bold"
@@ -242,54 +250,16 @@
         "foreground": "#FF9AA2"
       }
     },
-    {
-      "name": "JS Dot accessor",
-      "scope": "punctuation.accessor",
-      "settings": {
-        "foreground": "#f0efe2"
-      }
-    },
-    {
-      "name": "Operator",
-      "scope": "keyword.operator.logical.coffee,keyword.operator.logical,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic",
-      "settings": {
-        "foreground": "#fffeec",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "JSX text",
-      "scope": "meta.jsx.children",
-      "settings": {
-        "foreground": "#f0efe2",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "JS comma",
-      "scope": "punctuation.separator.comma",
-      "settings": {
-        "foreground": "#f0efe2",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "JS Square bracket",
-      "scope": "meta.brace.square",
-      "settings": {
-        "foreground": "#f0efe2",
-        "fontStyle": ""
-      }
-    },
 
     {
-      "name": "JS arrow function",
-      "scope": "storage.type.function.arrow",
+      "name": "JS comma,..",
+      "scope": "punctuation.accessor,keyword.operator.logical.coffee,keyword.operator.logical,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic,meta.jsx.children,punctuation.separator.comma,meta.brace.square,storage.type.function.arrow",
       "settings": {
         "foreground": "#f0efe2",
         "fontStyle": "bold"
       }
     },
+
     {
       "name": "TS/GrapqhQL type",
       "scope": "entity.name.type,support.type.primitive,support.type.builtin.ts,support.type.builtin.graphql,support.type.graphql",
@@ -589,7 +559,7 @@
     },
     {
       "name": "Class extend/implement subject",
-      "scope": "entity.other.inherited-class",
+      "scope": "entity.other.inherited-class,meta.inheritance-clause.swift",
       "settings": {
         "foreground": "#F5B5FC",
         "fontStyle": "italic"
