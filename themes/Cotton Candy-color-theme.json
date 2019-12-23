@@ -167,8 +167,8 @@
       }
     },
     {
-      "name": "JS console",
-      "scope": "support.class.console",
+      "name": "JS console, Python builtin",
+      "scope": "support.class.console,support.function.builtin.python",
       "settings": {
         "foreground": "#FF9AA2"
       }
@@ -323,6 +323,31 @@
       "settings": {
         "foreground": "#1de9b6",
         "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "TOML table",
+      "scope": "entity.other.attribute-name.table.array.toml,entity.other.attribute-name.table.toml",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TOML table punctuation",
+      "scope": "punctuation.definition.table.toml,punctuation.definition.table.array.toml",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TOML keyword",
+      "scope": "keyword.key.toml",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
       }
     }
   ]
