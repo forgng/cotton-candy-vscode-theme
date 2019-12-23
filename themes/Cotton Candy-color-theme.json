@@ -36,7 +36,7 @@
 
     {
       "name": "import subject",
-      "scope": "variable.other.readwrite.alias,storage.modifier.import.java",
+      "scope": "variable.other.readwrite.alias,storage.modifier.import.java,entity.name.import",
       "settings": {
         "foreground": "#68bcd2"
       }
@@ -84,14 +84,14 @@
     },
     {
       "name": "JS variable type",
-      "scope": "storage.type",
+      "scope": "storage.type,keyword.declaration.stable.scala",
       "settings": {
         "foreground": "#DE8FFF"
       }
     },
     {
       "name": "Variable name",
-      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment",
+      "scope": "variable.other.constant,variable.other.readwrite,variable.other.definition.java,variable.other.assignment,variable.other.declaration.scala",
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": ""
@@ -149,7 +149,7 @@
     },
     {
       "name": "magic number, costants, types,built in functions, ecc",
-      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust",
+      "scope": "constant,constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments, support.variable.object.node.js,support.class.builtin.js,storage.modifier,variable.language.java,support.type.core.rust,support.function.core.rust,entity.name.package",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -920,6 +920,31 @@
       "scope": "variable.assignment.coffee",
       "settings": {
         "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "Scala declaration",
+      "scope": "keyword.declaration.scala",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Scala class",
+      "scope": "entity.name.class.declaration,entity.name.class",
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Scala base",
+      "scope": "source.scala",
+      "settings": {
+        "foreground": "#FFFEEC",
         "fontStyle": ""
       }
     }
