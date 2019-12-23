@@ -10,7 +10,7 @@
   "tokenColors": [
     {
       "name": "JS import",
-      "scope": "keyword.control.import,keyword.control.from,keyword.control.export,keyword.control.default",
+      "scope": "keyword.control.import,keyword.control.from,keyword.control.export,keyword.control.default,support.type.object.module.js",
       "settings": {
         "foreground": "#ebb1ff",
         "fontStyle": "bold"
@@ -104,8 +104,8 @@
       }
     },
     {
-      "name": "JS magic number",
-      "scope": "constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python",
+      "name": "magic number, costants, ecc",
+      "scope": "constant.other,constant.language,constant.numeric.decimal,constant.language.boolean,constant.numeric.dec,constant.other.caps.python,constant.language.json.comments",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -271,7 +271,7 @@
     },
     {
       "name": "Python docstring",
-      "scope": "string.quoted.docstring.multi.python,string.unquoted.heredoc.shell",
+      "scope": "string.quoted.docstring.multi.python,string.unquoted.heredoc.shell,comment.block.documentation.js",
       "settings": {
         "foreground": "#00e5ff",
         "fontStyle": "bold"
@@ -319,24 +319,24 @@
     },
 
     {
-      "name": "TOML table",
-      "scope": "entity.other.attribute-name.table.array.toml,entity.other.attribute-name.table.toml",
+      "name": "TOML(like) table",
+      "scope": "punctuation.definition.entity.ini,entity.other.attribute-name.table.array.toml,entity.other.attribute-name.table.toml",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": ""
       }
     },
     {
-      "name": "TOML table punctuation",
-      "scope": "punctuation.definition.table.toml,punctuation.definition.table.array.toml",
+      "name": "TOML(like) table punctuation",
+      "scope": "entity.name.section.group-title.ini,punctuation.definition.table.toml,punctuation.definition.table.array.toml",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
       }
     },
     {
-      "name": "TOML keyword",
-      "scope": "keyword.key.toml",
+      "name": "TOML(like) keyword",
+      "scope": "keyword.key.toml,keyword.other.definition.ini",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
@@ -387,6 +387,14 @@
       "scope": "punctuation.definition.logical-expression.shell",
       "settings": {
         "foreground": "#FFC785",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Git",
+      "scope": "text.gitignore,source.ini",
+      "settings": {
+        "foreground": "#cfd8dc",
         "fontStyle": ""
       }
     }
