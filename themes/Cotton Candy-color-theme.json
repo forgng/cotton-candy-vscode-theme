@@ -142,7 +142,7 @@
     },
     {
       "name": "Function call",
-      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less",
+      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less,support.function.kotlin",
       "settings": {
         "foreground": "#6FF3D6"
       }
@@ -446,7 +446,7 @@
     },
     {
       "name": "Bash variable",
-      "scope": "variable.other.positional.shell,punctuation.definition.variable.shell,variable.other.normal.shell",
+      "scope": "variable.other.positional.shell,punctuation.definition.variable.shell,variable.other.normal.shell,variable",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": "bold"
@@ -645,7 +645,7 @@
     },
     {
       "name": "Java type",
-      "scope": "storage.type.generic.java",
+      "scope": "storage.type.generic.java,meta.generic.kotlin",
       "settings": {
         "foreground": "#1de9b6",
         "fontStyle": "bold"
@@ -669,7 +669,7 @@
     },
     {
       "name": "Java type",
-      "scope": "keyword.other.package.java",
+      "scope": "keyword.other.package.java,keyword.other.kotlin",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": "bold"
@@ -942,7 +942,7 @@
     },
     {
       "name": "Scala class",
-      "scope": "entity.name.class.declaration,entity.name.class",
+      "scope": "entity.name.class.declaration,entity.name.class,meta.class.kotlin",
       "settings": {
         "foreground": "#efca8c",
         "fontStyle": ""
@@ -1057,6 +1057,30 @@
       "scope": "keyword.other.special-method.elixir,parameter.variable.function.elixir",
       "settings": {
         "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Kotlin",
+      "scope": "meta.block",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Nginx",
+      "scope": "constant.language.module.core",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Nginx base",
+      "scope": "source.nginx",
+      "settings": {
+        "foreground": "#72D6C9",
         "fontStyle": ""
       }
     }
