@@ -659,6 +659,86 @@
         "foreground": "#1de9b6",
         "fontStyle": ""
       }
+    },
+    {
+      "name": "Markdown title",
+      "scope": "heading.1.markdown",
+      "settings": {
+        "foreground": "#a374d5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown title",
+      "scope": "heading.2.markdown,heading.3.markdown,heading.4.markdown,heading.5.markdown, heading.6.markdown",
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown paragraph",
+      "scope": "meta.paragraph.markdown",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown list",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown link",
+      "scope": "markup.underline.link.markdown",
+      "settings": {
+        "foreground": "#cacfff",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown link title",
+      "scope": "string.other.link.title.markdown",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markdown link description",
+      "scope": "string.other.link.description.markdown",
+      "settings": {
+        "foreground": "#FF9AA2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown punctuation",
+      "scope": "punctuation.definition.string.begin.markdown",
+      "settings": {
+        "foreground": "#F5B5FC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Markdown Bold",
+      "scope": "punctuation.definition.bold.markdown",
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown code",
+      "scope": "markup.fenced_code.block.markdown",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
     }
   ]
 }
