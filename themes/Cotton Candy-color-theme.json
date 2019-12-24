@@ -95,7 +95,7 @@
     },
     {
       "name": "Boolean, costants",
-      "scope": "constant.language.boolean,constant.numeric",
+      "scope": "constant.language.boolean,constant.numeric,constant.language.python",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -128,7 +128,7 @@
     },
     {
       "name": "Decorator @",
-      "scope": "punctuation.decorator,punctuation.definition.annotation.java",
+      "scope": "punctuation.decorator,punctuation.definition.annotation.java,punctuation.definition.decorator.python",
       "settings": {
         "foreground": "#75dfbb",
         "fontStyle": "bold"
@@ -136,7 +136,7 @@
     },
     {
       "name": "Decorator annotation",
-      "scope": "meta.decorator,storage.type.annotation.java",
+      "scope": "meta.decorator,storage.type.annotation.java,entity.name.function.decorator.python",
       "settings": {
         "foreground": "#FF9AA2",
         "fontStyle": "bold"
@@ -184,6 +184,14 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "Function call",
+      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less,support.function.kotlin",
+      "settings": {
+        "foreground": "#68bcd2",
+        "fontStyle": "bold"
+      }
+    },
 
     // {
     //   "name": "C# await",
@@ -191,15 +199,6 @@
     //   "settings": {
     //     "foreground": "#8ed6ff",
     //     "fontStyle": ""
-    //   }
-    // },
-
-    // {
-    //   "name": "Function call",
-    //   "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less,support.function.kotlin",
-    //   "settings": {
-    //     "foreground": "#68bcd2",
-    //     "fontStyle": "bold"
     //   }
     // },
 
@@ -343,7 +342,7 @@
     },
     {
       "name": "Function parameter",
-      "scope": "variable.parameter",
+      "scope": "variable.parameter,variable.parameter.function-call.python",
       "settings": {
         "foreground": "#DE8FFF",
         "fontStyle": "italic"
@@ -1111,10 +1110,79 @@
         "foreground": "#99e1e5",
         "fontStyle": ""
       }
+    },
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== Python ===============================================
+    // ========================================================================================
+    {
+      "name": "Python base",
+      "scope": "source.python",
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Function arguments",
+      "scope": "meta.function-call.arguments.python",
+      "settings": {
+        "foreground": "#DF7599"
+        // "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python function",
+      "scope": "punctuation.separator.dict.python",
+      "settings": {
+        "foreground": "#F6C3E5"
+        // "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python function",
+      "scope": "keyword.operator.logical.python",
+      "settings": {
+        "foreground": "#FF77AF"
+        // "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Python item access argument",
+      "scope": "meta.item-access.arguments.python",
+      "settings": {
+        "foreground": "#f0f696",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python item access",
+      "scope": "meta.item-access.python",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python placeholder",
+      "scope": "constant.character.format.placeholder.other.python",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Python cast",
+      "scope": "support.type.python",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
     }
-    ////////////////////////////////////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////////////////////////////////////
 
     // {
     //   "name": "Modifier",
@@ -1123,65 +1191,6 @@
     //     "foreground": "#DE8FFF"
     //   }
     // },
-
-    // {
-    // TODO: this is a variable
-    //   "name": "Function arguments",
-    //   "scope": "meta.function-call.arguments.python",
-    //   "settings": {
-    //     "foreground": "#DF7599"
-    //     // "fontStyle": "bold"
-    //   }
-    // },
-    // {
-    //   "name": "Python function",
-    //   "scope": "punctuation.separator.dict.python",
-    //   "settings": {
-    //     "foreground": "#F6C3E5"
-    //     // "fontStyle": "bold"
-    //   }
-    // },
-    //     {
-    //       "name": "Python function",
-    //       "scope": "keyword.operator.logical.python",
-    //       "settings": {
-    //         "foreground": "#FF77AF"
-    //         // "fontStyle": "bold"
-    //       }
-    //     },
-
-    //     {
-    //       "name": "Python item access argument",
-    //       "scope": "meta.item-access.arguments.python",
-    //       "settings": {
-    //         "foreground": "#f0f696",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "Python item access",
-    //       "scope": "meta.item-access.python",
-    //       "settings": {
-    //         "foreground": "#9795F1",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "Python placeholder",
-    //       "scope": "constant.character.format.placeholder.other.python",
-    //       "settings": {
-    //         "foreground": "#9795F1",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "Python cast",
-    //       "scope": "support.type.python",
-    //       "settings": {
-    //         "foreground": "#9795F1",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
 
     //     {
     //       "name": "Namespace",
