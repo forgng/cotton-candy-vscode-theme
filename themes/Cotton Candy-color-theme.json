@@ -76,7 +76,7 @@
     ////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ============================== General =================================================
+    // ============================== _General =================================================
     // ========================================================================================
     {
       "name": "Print",
@@ -95,7 +95,7 @@
     },
     {
       "name": "Boolean, costants",
-      "scope": "constant.language.boolean,constant.numeric,constant.language.python",
+      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -112,7 +112,7 @@
 
     {
       "name": "Comma, Parenthesis, colon, Double colon",
-      "scope": "punctuation.other.comma,punctuation.accessor,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic,meta.jsx.children,punctuation.separator.comma,meta.brace.square,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx,punctuation.separator.element.python,keyword.operator.type.annotation,meta.brace.round",
+      "scope": "punctuation.other.comma,punctuation.accessor,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic,meta.jsx.children,punctuation.separator.comma,meta.brace.square,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx,punctuation.separator.element.python,keyword.operator.type.annotation,meta.brace.round,punctuation.definition.parameters.end.bracket.round.java,punctuation.section",
       "settings": {
         "foreground": "#f0efe2", //fffdd0, //FCFBE3
         "fontStyle": ""
@@ -262,7 +262,7 @@
 
     {
       "name": "This",
-      "scope": "keyword.operator,variable.language.this",
+      "scope": "keyword.operator,variable.language.this,variable.language.this.java",
       "settings": {
         "foreground": "#EBCA57" //TODO:
       }
@@ -320,7 +320,8 @@
       "name": "Variable modifier",
       "scope": "storage.modifier,storage.modifier.php",
       "settings": {
-        "foreground": "#68bcd2"
+        "foreground": "#68bcd2",
+        "fontStyle": "italic"
       }
     },
 
@@ -1189,7 +1190,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ==================================== _PHP ============================================
+    // ==================================== _PHP ==============================================
     // ========================================================================================
     {
       "name": "Namespace",
@@ -1223,11 +1224,37 @@
         "foreground": "#FFC785",
         "fontStyle": "italic"
       }
+    },
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _Java ==============================================
+    // ========================================================================================
+
+    {
+      "name": "Java type",
+      "scope": "meta.method.body.java",
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Java type",
+      "scope": "keyword.other.package.java,keyword.other.kotlin",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
     }
 
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
+
     // {
     //   "name": "Modifier",
     //   "scope": "keyword.other.declaration-specifier.accessibility.swift",
@@ -1235,80 +1262,6 @@
     //     "foreground": "#DE8FFF"
     //   }
     // },
-
-    //     {
-    //       "name": "PHP ",
-    //       "scope": "support.other.namespace.php",
-    //       "settings": {
-    //         "foreground": "#FFC785",
-    //         "fontStyle": "italic"
-    //       }
-    //     },
-    //     {
-    //       "name": "PHP class",
-    //       "scope": "support.class.php,entity.other.alias.php",
-    //       "settings": {
-    //         "foreground": "#DF7599",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "PHP storage modifier",
-    //       "scope": "storage.modifier.php",
-    //       "settings": {
-    //         "foreground": "#FFC785",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "PHP variable",
-    //       "scope": "variable.other.php",
-    //       "settings": {
-    //         "foreground": "#68bcd2",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "PHP doc variable",
-    //       "scope": "keyword.other.phpdoc.php,keyword.other.type.php",
-    //       "settings": {
-    //         "foreground": "#cacfff",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-
-    //     {
-    //       "name": "Java type",
-    //       "scope": "storage.type.generic.java,meta.generic.kotlin",
-    //       "settings": {
-    //         "foreground": "#1de9b6",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "Java type",
-    //       "scope": "punctuation.bracket.angle.java",
-    //       "settings": {
-    //         "foreground": "#9795F1",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "Java type",
-    //       "scope": "meta.method.body.java",
-    //       "settings": {
-    //         "foreground": "#DF7599",
-    //         "fontStyle": "bold"
-    //       }
-    //     },
-    //     {
-    //       "name": "Java type",
-    //       "scope": "keyword.other.package.java,keyword.other.kotlin",
-    //       "settings": {
-    //         "foreground": "#DF7599",
-    //         "fontStyle": "bold"
-    //       }
-    //     }
 
     //     // {
     //     //   "name": "Go base",
