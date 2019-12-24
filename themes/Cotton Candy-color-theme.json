@@ -516,77 +516,141 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "Mutation/Query keyword",
+      "scope": "keyword.operation.graphql,support.type.graphql,support.type.enum.graphql",
+      "settings": {
+        "foreground": "#72D6C9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Grapqh type",
+      "scope": "keyword.type.graphql",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Grapqh input",
+      "scope": "keyword.input.graphql",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Grapqh input",
+      "scope": "keyword.enum.graphql",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Grapqh Enum key",
+      "scope": "constant.character.enum.graphql",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "GraphQL built in type",
+      "scope": "support.type.builtin.graphql",
+      "settings": {
+        "foreground": "#68bcd2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Grapqh type",
+      "scope": "meta.type.object.graphql",
+      "settings": {
+        "foreground": "#e5b0ea",
+        "fontStyle": "bold"
+      }
+    },
 
     //TODO:
     //support.type.builtin.graphql,support.type.graphql
 
     // ======================= XML/HTML/JSX/VUE/Blade/Liquid/Mustache ===========================================
 
-    // {
-    //   "name": "HTML/XML element",
-    //   "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html,entity.name.tag.localname.xml,source.svelte,source.jest.snap,entity.name.tag.tsx",
-    //   "settings": {
-    //     "foreground": "#9795F1",
-    //     "fontStyle": "bold"
-    //   }
-    // },
-    // {
-    //   "name": "JSX/Vue/HTML/XML attribute",
-    //   "scope": "meta.tag.attributes,entity.other.attribute-name.html,entity.other.attribute-name.localname.xml,entity.other.attribute-name.xml,entity.other.attribute-name.tsx",
-    //   "settings": {
-    //     "foreground": "#e5b0ea",
-    //     "fontStyle": "italic"
-    //   }
-    // },
-    // {
-    //   "name": "XML xml tag",
-    //   "scope": "entity.name.tag.xml",
-    //   "settings": {
-    //     "foreground": "#FF77AF",
-    //     "fontStyle": ""
-    //   }
-    // },
-    // {
-    //   "name": "XML text",
-    //   "scope": "text.xml",
-    //   "settings": {
-    //     "foreground": "#CBF1F5",
-    //     "fontStyle": ""
-    //   }
-    // },
+    {
+      "name": "HTML/XML element",
+      "scope": "entity.name.tag.html,entity.name.tag.inline.any.html,support.class.component,entity.name.tag.template.html,entity.name.tag.block.any,meta.tag.inline.any,text.html.vue-html,entity.name.tag.localname.xml,source.svelte,source.jest.snap,entity.name.tag.tsx",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSX/Vue/HTML/XML attribute",
+      "scope": "meta.tag.attributes,entity.other.attribute-name.html,entity.other.attribute-name.localname.xml,entity.other.attribute-name.xml,entity.other.attribute-name.tsx",
+      "settings": {
+        "foreground": "#e5b0ea",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "XML xml tag",
+      "scope": "entity.name.tag.xml",
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "XML text",
+      "scope": "text.xml",
+      "settings": {
+        "foreground": "#CBF1F5",
+        "fontStyle": ""
+      }
+    },
 
-    // {
-    //   "name": "Tag angular bracket",
-    //   "scope": "punctuation.definition.typeparameters,punctuation.definition.tag.begin,punctuation.definition.tag.end,punctuation.definition.tag.xml",
-    //   "settings": {
-    //     "foreground": "#DE8FFF",
-    //     "fontStyle": "bold"
-    //   }
-    // },
-    // {
-    //   "name": "HTML script",
-    //   "scope": "entity.name.tag.script.html",
-    //   "settings": {
-    //     "foreground": "#DF7599",
-    //     "fontStyle": ""
-    //   }
-    // },
-    // {
-    //   "name": "HTML property =",
-    //   "scope": "meta.tag.inline.any.html,meta.tag.block.any.html",
-    //   "settings": {
-    //     "foreground": "#f0efe2",
-    //     "fontStyle": ""
-    //   }
-    // },
-    // {
-    //   "name": "HTML style tag",
-    //   "scope": "entity.name.tag.style.html",
-    //   "settings": {
-    //     "foreground": "#FFC785",
-    //     "fontStyle": ""
-    //   }
-    // },
+    {
+      "name": "Tag angular bracket",
+      "scope": "punctuation.definition.typeparameters,punctuation.definition.tag.begin,punctuation.definition.tag.end,punctuation.definition.tag.xml",
+      "settings": {
+        "foreground": "#DE8FFF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "HTML script",
+      "scope": "entity.name.tag.script.html",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "HTML property =",
+      "scope": "meta.tag.inline.any.html,meta.tag.block.any.html",
+      "settings": {
+        "foreground": "#f0efe2",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "HTML style tag",
+      "scope": "entity.name.tag.style.html",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Html derivative",
+      "scope": "text.html.derivative",
+      "settings": {
+        "foreground": "#72D6C9",
+        "fontStyle": ""
+      }
+    },
     // {
     //   "name": "Html derivative",
     //   "scope": "text.html.derivative",
@@ -595,55 +659,47 @@
     //     "fontStyle": ""
     //   }
     // },
-    // // {
-    // //   "name": "Html derivative",
-    // //   "scope": "text.html.derivative",
-    // //   "settings": {
-    // //     "foreground": "#72D6C9",
-    // //     "fontStyle": ""
-    // //   }
-    // // },
 
-    // {
-    //   "name": "Vue directive",
-    //   "scope": "meta.directive.vue",
-    //   "settings": {
-    //     "foreground": "#DF7599",
-    //     "fontStyle": "bold"
-    //   }
-    // },
-    // {
-    //   "name": "Blade keyword",
-    //   "scope": "keyword.blade",
-    //   "settings": {
-    //     "foreground": "#FFC785",
-    //     "fontStyle": "bold"
-    //   }
-    // },
-    // {
-    //   "name": "Liquid entity",
-    //   "scope": "entity.name.tag.liquid",
-    //   "settings": {
-    //     "foreground": "#DF7599",
-    //     "fontStyle": ""
-    //   }
-    // },
-    // {
-    //   "name": "Liquid entity",
-    //   "scope": "punctuation.tag.liquid,variable.other.liquid",
-    //   "settings": {
-    //     "foreground": "#efca8c",
-    //     "fontStyle": ""
-    //   }
-    // },
-    // {
-    //   "name": "Liquid entity",
-    //   "scope": "text.html.liquid",
-    //   "settings": {
-    //     "foreground": "#F5B5FC",
-    //     "fontStyle": ""
-    //   }
-    // },
+    {
+      "name": "Vue directive",
+      "scope": "meta.directive.vue",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Blade keyword",
+      "scope": "keyword.blade",
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Liquid entity",
+      "scope": "entity.name.tag.liquid",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Liquid entity",
+      "scope": "punctuation.tag.liquid,variable.other.liquid",
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Liquid entity",
+      "scope": "text.html.liquid",
+      "settings": {
+        "foreground": "#F5B5FC",
+        "fontStyle": ""
+      }
+    },
     ////////////////////////////////////////////////////////////////////////////////////
 
     // ============================= CSS/SCSS/LESS ==========================
