@@ -3,11 +3,34 @@
   "type": "dark",
 
   "colors": {
-    "editor.background": "#24292e",
+    // ======================================================
+    // =================== Status bar =======================
+    // ======================================================
+    "activityBar.background": "#282c34",
+    "sideBar.background": "#21252b",
+
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
+
+    // ======================================================
+    // =================== Editor ===========================
+    // ======================================================
+
+    "editor.background": "#282c34", // 242424
     "editor.foreground": "#f0efe2",
     "editorError.foreground": "#eb5bcb",
     "editorWarning.foreground": "#f6e935",
-    "editorCursor.foreground": "#68bcd2",
+    "editorCursor.foreground": "#f6e935",
+
+    "badge.background": "#282c34",
+
+    // "editor.lineHighlightBackground": "#292c57",
+    "editor.lineHighlightBackground": "#2c313c",
+
+    // "editor.selectionBackground": "#204182cc",
+
+    // "editor.lineHighlightBorder": "#00b8d4",
+    /////////////////////////////////////////////////////////
     // "sideBar.background": "#292c57"
 
     // "sideBarTitle.foreground": "#1de9b6",
@@ -20,32 +43,39 @@
     // "list.activeSelectionForeground": "#ff0000",
     // "sideBar.foreground": "#9795F1",
     "selection.background": "#F5B5FC",
+    // "editor.findMatchBackground": "#FFFBBE",
+    "editor.findMatchBorder": "#68bcd2",
+    "editor.findMatchHighlightBackground": "#f2f2f2",
+    // "editorBracketMatch.background": "#f6e935",
+    // "editorBracketMatch.border": "#f2f2f2",
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
 
     // ======================================================
     // =================== Tabs =============================
     // ======================================================
-    "tab.activeBackground": "#24292e",
-    "tab.activeBorderTop": "#1de9b6",
+    "tab.activeBackground": "#282c34",
+    "tab.activeBorder": "#1de9b6",
     "tab.activeForeground": "#f0efe2",
     "tab.inactiveBackground": "#2f363c",
     "tab.hoverBorder": "#1de9b6",
-    // ======================================================
-    // ======================================================
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
 
-    // "editor.findMatchBackground": "#FFFBBE",
-    "editor.findMatchBorder": "#68bcd2",
-    "editor.findMatchHighlightBackground": "#f2f2f2",
+    // ======================================================
+    // =================== List =============================
+    // ======================================================
+    "list.hoverBackground": "#003037",
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
+
     // ======================================================
     // =================== Status bar =======================
     // ======================================================
     "statusBar.background": "#484c7f", // 3f426f
-    "statusBar.foreground": "#1de9b6",
-    // ======================================================
-    // ======================================================
-
-    // "editorBracketMatch.background": "#f6e935",
-    // "editorBracketMatch.border": "#f2f2f2",
-    // "welcomePage.buttonBackground": "#484c7f"
+    "statusBar.foreground": "#1de9b6", // f6e935
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
 
     "button.background": "#484c7f",
     "editorWidget.background": "#322957",
@@ -55,18 +85,24 @@
     "editorHoverWidget.background": "#322957",
     "editorHoverWidget.border": "#00cee6",
     "editorHoverWidget.foreground": "#f0efe2",
-    // ======================================================
-    // ======================================================
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
 
     // ======================================================
     // =================== Suggest widget ===================
     // ======================================================
     "editorSuggestWidget.background": "#322957",
     "editorSuggestWidget.foreground": "#f0efe2",
-    "editorSuggestWidget.selectedBackground": "#000",
-    "editorSuggestWidget.border": "#00cee6"
+    "editorSuggestWidget.selectedBackground": "#006372",
+    "editorSuggestWidget.border": "#f6e935"
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
     // ======================================================
+    // =================== Terminal =====================
     // ======================================================
+
+    /////////////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////
   },
   "tokenColors": [
     {
@@ -165,7 +201,8 @@
         "constant.language.symbol.hashkey.ruby",
         "constant.language.null",
         "constant.other.symbol.elixir",
-        "constant.other.symbol.double-quoted.elixir"
+        "constant.other.symbol.double-quoted.elixir",
+        "constant.keyword.clojure"
       ],
       "settings": {
         "foreground": "#FFC785",
@@ -1890,14 +1927,6 @@
     // =========================================================================
     // ================================ _Elixir ===============================
     // =========================================================================
-    // {
-    //   "name": "Elixir",
-    //   "scope": "keyword.other.special-method.elixir,parameter.variable.function.elixir",
-    //   "settings": {
-    //     "foreground": "#8ed6ff",
-    //     "fontStyle": ""
-    //   }
-    // },
     {
       "name": "Elixir",
       "scope": "punctuation.section.regexp.begin.elixir,punctuation.section.list.begin.elixir,punctuation.section.embedded.elixir",
@@ -1905,7 +1934,34 @@
         "foreground": "#00CEE6",
         "fontStyle": ""
       }
+    },
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+
+    // =========================================================================
+    // ================================ _Clojure ===============================
+    // =========================================================================
+    {
+      "name": "Clojure expression",
+      "scope": [
+        "punctuation.section.expression.begin.clojure",
+        "punctuation.section.expression.end.trailing.clojure"
+      ],
+      "settings": {
+        "foreground": "#F7D009",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Clojure expression",
+      "scope": ["entity.global.clojure"],
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": ""
+      }
     }
+
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
