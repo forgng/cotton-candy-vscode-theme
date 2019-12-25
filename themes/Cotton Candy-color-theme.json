@@ -112,8 +112,8 @@
     // ============================== _General =================================================
     // ========================================================================================
     {
-      "name": "Print",
-      "scope": "support.function.console,support.class.console,support.function.builtin.python,support.function.builtin",
+      "name": "Print, Built in",
+      "scope": "support.function.console,support.class.console,support.function.builtin.python,support.function.builtin,support.function.core.rust",
       "settings": {
         "foreground": "#75BBB9"
       }
@@ -128,7 +128,7 @@
     },
     {
       "name": "Boolean, costants",
-      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go",
+      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go,constant.other.boolean",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -302,7 +302,7 @@
     },
     {
       "name": "Class, Interface",
-      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs,storage.type.interface.ts,storage.type.interface.tsx,storage.type.type.ts, storage.type.type.tsx,storage.type.enum.ts, storage.type.enum.tsx,support.class",
+      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs,storage.type.interface.ts,storage.type.interface.tsx,storage.type.type.ts, storage.type.type.tsx,storage.type.enum.ts, storage.type.enum.tsx,support.class,storage.class.std.rust",
       "settings": {
         "foreground": "#00cee6", //9795F1
         "fontStyle": "bold"
@@ -1334,7 +1334,79 @@
         "foreground": "#1de9b6",
         "fontStyle": ""
       }
+    },
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _Rust ==============================================
+    // ========================================================================================
+    {
+      "name": "Rust meta attribute",
+      "scope": "meta.attribute.rust,entity.name.type.rust",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust Base",
+      "scope": "source.rust",
+      "settings": {
+        "foreground": "#FFFEEC",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust other",
+      "scope": "keyword.other.rust",
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust modifier lifetime",
+      "scope": "storage.modifier.lifetime.rust",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust angular bracket",
+      "scope": "meta.type_params.rust",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust angular bracket",
+      "scope": "support.function.std.rust",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust where",
+      "scope": "keyword.other.where.rust",
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Rust type",
+      "scope": "support.type.core.rust",
+      "settings": {
+        "foreground": "#F7D009",
+        "fontStyle": ""
+      }
     }
+
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
@@ -1346,55 +1418,6 @@
     //     "foreground": "#DE8FFF"
     //   }
     // },
-
-    //     // {
-    //     //   "name": "Rust meta attribute",
-    //     //   "scope": "meta.attribute.rust",
-    //     //   "settings": {
-    //     //     "foreground": "#9795F1",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Rust Base",
-    //     //   "scope": "source.rust",
-    //     //   "settings": {
-    //     //     "foreground": "#FFFEEC",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Rust other",
-    //     //   "scope": "keyword.other.rust",
-    //     //   "settings": {
-    //     //     "foreground": "#be97dc",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Rust modifier lifetime",
-    //     //   "scope": "storage.modifier.lifetime.rust",
-    //     //   "settings": {
-    //     //     "foreground": "#DF7599",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Rust angular bracket",
-    //     //   "scope": "meta.type_params.rust",
-    //     //   "settings": {
-    //     //     "foreground": "#DF7599",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Rust angular bracket",
-    //     //   "scope": "support.function.std.rust",
-    //     //   "settings": {
-    //     //     "foreground": "#8ed6ff",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
 
     //     // {
     //     //   "name": "Coffee Base",
