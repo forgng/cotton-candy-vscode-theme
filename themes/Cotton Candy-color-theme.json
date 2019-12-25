@@ -73,7 +73,7 @@
       "name": "Base",
       "scope": "source",
       "settings": {
-        "foreground": "#f0efe2"
+        "foreground": "#d8d7cb"
         // "fontStyle": "bold"
       }
     },
@@ -113,14 +113,14 @@
     // ========================================================================================
     {
       "name": "Print, Built in",
-      "scope": "support.function.console,support.class.console,support.function.builtin.python,support.function.builtin,support.function.core.rust",
+      "scope": "support.function.console,support.class.console,support.function.builtin.python,support.function.builtin,support.function.core.rust,support.function.swift",
       "settings": {
         "foreground": "#75BBB9"
       }
     },
     {
       "name": "Import/export",
-      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.default,support.type.object.module.js,keyword.control.export,keyword.other.using.cs",
+      "scope": "keyword.import,keyword.control.import,keyword.other.import,keyword.control.from,keyword.control.default,support.type.object.module.js,keyword.control.export,keyword.other.using.cs,meta.require.ruby",
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "italic"
@@ -128,7 +128,7 @@
     },
     {
       "name": "Boolean, costants",
-      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go,constant.other.boolean",
+      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go,constant.other.boolean,constant.other.object,constant.language.symbol.hashkey.ruby",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -181,7 +181,7 @@
     ////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ================================== Function related stuff ==============================
+    // ================================== _Functions ==============================
     // ========================================================================================
     {
       "name": "function definition/async/await",
@@ -199,16 +199,6 @@
         "fontStyle": ""
       }
     },
-
-    // {
-    //   "name": "Function name",
-    //   "scope": "entity.name.function, meta.definition.function,meta.definition.type.body.swift,meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less,support.function.kotlin",
-    //   "settings": {
-    //     "foreground": "#FF9AA2", //FF9AA2
-    //     "fontStyle": "bold"
-    //   }
-    // },
-
     {
       "name": "Function arrow",
       "scope": "storage.type.function.arrow",
@@ -219,7 +209,7 @@
     },
     {
       "name": "Function call",
-      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less,support.function.kotlin",
+      "scope": "meta.function-call,meta.function-call.generic.python,support.function.go,support.function.any-method.builtin.less,support.function.kotlin,meta.method-call.coffee",
       "settings": {
         "foreground": "#68bcd2",
         "fontStyle": "bold"
@@ -281,7 +271,7 @@
     ///////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ================================== Class related stuff =================================
+    // ================================== _Class =================================
     // ========================================================================================
 
     {
@@ -294,15 +284,15 @@
     },
 
     {
-      "name": "This",
-      "scope": "keyword.operator,variable.language.this,variable.language.this.java",
+      "name": "This, Self",
+      "scope": "keyword.operator,variable.language.this,variable.language.this.java,variable.language.self",
       "settings": {
         "foreground": "#EBCA57" //#eff195?
       }
     },
     {
       "name": "Class, Interface",
-      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs,storage.type.interface.ts,storage.type.interface.tsx,storage.type.type.ts, storage.type.type.tsx,storage.type.enum.ts, storage.type.enum.tsx,support.class,storage.class.std.rust",
+      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs,storage.type.interface.ts,storage.type.interface.tsx,storage.type.type.ts, storage.type.type.tsx,storage.type.enum.ts, storage.type.enum.tsx,support.class,storage.class.std.rust,meta.class.instance.constructor.coffee",
       "settings": {
         "foreground": "#00cee6", //9795F1
         "fontStyle": "bold"
@@ -316,15 +306,6 @@
         "fontStyle": "italic"
       }
     },
-
-    // {
-    //   "name": "Ruby class",
-    //   "scope": "support.class.ruby",
-    //   "settings": {
-    //     "foreground": "#DF7599",
-    //     "fontStyle": ""
-    //   }
-    // },
 
     // {
     //   "name": "Dart class",
@@ -368,7 +349,7 @@
     {
       //
       "name": "Variable declaration",
-      "scope": "variable.other.assignment.go,meta.definition.variable,variable.other.readwrite,variable.other.constant,variable.other.php",
+      "scope": "variable.other.assignment.go,meta.definition.variable,variable.other.readwrite,variable.other.constant,variable.other.php,constant.other.declaration.scala,variable.other.declaration.scala,variable.assignment.coffee,variable.other.ruby",
       "settings": {
         "foreground": "#FF9AA2",
         "fontStyle": ""
@@ -597,7 +578,7 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // =================== XML/HTML/JSX/VUE/Blade/Liquid/Mustache =============================
+    // =================== XML/HTML/JSX/VUE/Blade/Liquid/Mustache/Erb =========================
     // ========================================================================================
 
     {
@@ -722,6 +703,23 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "Erb embed",
+      "scope": "punctuation.section.embedded.begin.erb,punctuation.section.embedded.end.erb",
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Erb embed",
+      "scope": "source.ruby.embedded.erb",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+
     ////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////
@@ -1264,7 +1262,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ==================================== _Java ==============================================
+    // ==================================== _Java/_Scala/_Kotlin ==============================
     // ========================================================================================
 
     {
@@ -1283,7 +1281,39 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "Scala package",
+      "scope": "entity.name.package.scala",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
 
+    {
+      "name": "Scala declaration",
+      "scope": "keyword.declaration.scala",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Scala class",
+      "scope": "entity.name.class.declaration,entity.name.class,meta.class.kotlin",
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Kotlin",
+      "scope": "meta.block",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
@@ -1340,7 +1370,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ==================================== _Rust ==============================================
+    // ==================================== _Rust =============================================
     // ========================================================================================
     {
       "name": "Rust meta attribute",
@@ -1405,69 +1435,92 @@
         "foreground": "#F7D009",
         "fontStyle": ""
       }
+    },
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _Swift ============================================
+    // ========================================================================================
+    {
+      "name": "Swift Modifier",
+      "scope": "keyword.other.declaration-specifier.accessibility.swift",
+      "settings": {
+        "foreground": "#9795F1"
+      }
+    },
+    {
+      "name": "Swift reserved",
+      "scope": "keyword.reserved.swift",
+      "settings": {
+        "foreground": "#DE8FFF"
+      }
+    },
+    {
+      "name": "Swift meta tag",
+      "scope": "meta.tag.swift",
+      "settings": {
+        "foreground": "#00CEE6"
+      }
+    },
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _CoffeeScript =====================================
+    // ========================================================================================
+
+    {
+      "name": "Coffee comparison",
+      "scope": "keyword.operator.comparison.coffee",
+      "settings": {
+        "foreground": "#F7D009",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Coffee embed",
+      "scope": "punctuation.section.embedded.coffee",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _Ruby =====================================
+    // ========================================================================================
+    {
+      "name": "Ruby module",
+      "scope": "entity.name.type.module.ruby",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Ruby symbol",
+      "scope": "constant.language.symbol.ruby",
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Ruby other",
+      "scope": "keyword.other.special-method.ruby",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
     }
-
-    ////////////////////////////////////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////////////////////////////////////
-    ////////////////////////////////////////////////////////////////////////////////////////////
-
-    // {
-    //   "name": "Modifier",
-    //   "scope": "keyword.other.declaration-specifier.accessibility.swift",
-    //   "settings": {
-    //     "foreground": "#DE8FFF"
-    //   }
-    // },
-
-    //     // {
-    //     //   "name": "Coffee Base",
-    //     //   "scope": "source.coffee",
-    //     //   "settings": {
-    //     //     "foreground": "#be97dc",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Coffee variable assignment",
-    //     //   "scope": "variable.assignment.coffee",
-    //     //   "settings": {
-    //     //     "foreground": "#9795F1",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-
-    //     // {
-    //     //   "name": "Scala declaration",
-    //     //   "scope": "keyword.declaration.scala",
-    //     //   "settings": {
-    //     //     "foreground": "#9795F1",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Scala class",
-    //     //   "scope": "entity.name.class.declaration,entity.name.class,meta.class.kotlin",
-    //     //   "settings": {
-    //     //     "foreground": "#efca8c",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Scala base",
-    //     //   "scope": "source.scala",
-    //     //   "settings": {
-    //     //     "foreground": "#FFFEEC",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Ruby other",
-    //     //   "scope": "keyword.other.special-method.ruby",
-    //     //   "settings": {
-    //     //     "foreground": "#efca8c",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
     //     // {
     //     //   "name": "Ruby other",
     //     //   "scope": "variable.other.ruby",
@@ -1476,6 +1529,9 @@
     //     //     "fontStyle": ""
     //     //   }
     //     // },
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
 
     //     // {
     //     //   "name": "Dart variable",
@@ -1519,12 +1575,5 @@
     //     //   }
     //     // },
     //     // {
-    //     //   "name": "Kotlin",
-    //     //   "scope": "meta.block",
-    //     //   "settings": {
-    //     //     "foreground": "#8ed6ff",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // }
   ]
 }
