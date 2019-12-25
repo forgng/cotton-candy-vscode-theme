@@ -143,7 +143,9 @@
         "support.type.object.module.js",
         "keyword.control.export",
         "keyword.other.using.cs",
-        "meta.require.ruby"
+        "meta.require.ruby",
+        "keyword.control.at-rule.import.scss",
+        "meta.at-rule.import.scss"
       ],
       "settings": {
         "foreground": "#9795F1",
@@ -742,11 +744,11 @@
     ////////////////////////////////////////////////////////////////////////////
 
     // =========================================================================
-    // =========== _XML/_HTML/_JSX/_VUE/_Blade/_Liquid/_Mustache/_Erb ==========
+    // =========== _XML/_HTML/_JSX/_VUE/_Blade/_Liquid/_Mustache/_Erb/_Pug =====
     // =========================================================================
 
     {
-      "name": "HTML/XML element",
+      "name": "HTML/XML/Pug element",
       "scope": [
         "entity.name.tag.html",
         "entity.name.tag.inline.any.html",
@@ -758,7 +760,8 @@
         "entity.name.tag.localname.xml",
         "source.svelte",
         "source.jest.snap",
-        "entity.name.tag.tsx"
+        "entity.name.tag.tsx",
+        "entity.name.tag.pug"
       ],
       "settings": {
         "foreground": "#9795F1",
@@ -766,13 +769,14 @@
       }
     },
     {
-      "name": "JSX/Vue/HTML/XML attribute",
+      "name": "JSX/Vue/HTML/XML/Pug attribute",
       "scope": [
         "meta.tag.attributes",
         "entity.other.attribute-name.html",
         "entity.other.attribute-name.localname.xml",
         "entity.other.attribute-name.xml",
-        "entity.other.attribute-name.tsx"
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.tag.pug"
       ],
       "settings": {
         "foreground": "#e5b0ea",
@@ -906,13 +910,14 @@
     ////////////////////////////////////////////////////////////////////////////
 
     // =========================================================================
-    // =================== _CSS/_SCSS/_LESS ====================================
+    // =================== _CSS/_SCSS/_LESS/_SASS ==============================
     // =========================================================================
 
     {
       "name": "SCSS/LESS variable",
       "scope": [
         "variable.scss",
+        "sass-script-maps",
         "support.constant.property-value.css",
         "variable.other.less",
         "meta.property-value.css"
