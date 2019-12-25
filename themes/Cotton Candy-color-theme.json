@@ -7,7 +7,7 @@
     "editor.foreground": "#f0efe2",
     "editorError.foreground": "#eb5bcb",
     "editorWarning.foreground": "#f6e935",
-
+    "editorCursor.foreground": "#68bcd2",
     // "sideBar.background": "#292c57"
 
     // "sideBarTitle.foreground": "#1de9b6",
@@ -19,21 +19,54 @@
     // "list.activeSelectionBackground": "#9795F1",
     // "list.activeSelectionForeground": "#ff0000",
     // "sideBar.foreground": "#9795F1",
-
     "selection.background": "#F5B5FC",
+
+    // ======================================================
+    // =================== Tabs =============================
+    // ======================================================
     "tab.activeBackground": "#24292e",
     "tab.activeBorderTop": "#1de9b6",
     "tab.activeForeground": "#f0efe2",
     "tab.inactiveBackground": "#2f363c",
     "tab.hoverBorder": "#1de9b6",
+    // ======================================================
+    // ======================================================
+
     // "editor.findMatchBackground": "#FFFBBE",
     "editor.findMatchBorder": "#68bcd2",
     "editor.findMatchHighlightBackground": "#f2f2f2",
+    // ======================================================
+    // =================== Status bar =======================
+    // ======================================================
     "statusBar.background": "#484c7f", // 3f426f
     "statusBar.foreground": "#1de9b6",
-    "editorCursor.foreground": "#68bcd2"
+    // ======================================================
+    // ======================================================
+
     // "editorBracketMatch.background": "#f6e935",
-    // "editorBracketMatch.border": "#f2f2f2"
+    // "editorBracketMatch.border": "#f2f2f2",
+    // "welcomePage.buttonBackground": "#484c7f"
+
+    "button.background": "#484c7f",
+    "editorWidget.background": "#322957",
+    // ======================================================
+    // =================== hover widget =====================
+    // ======================================================
+    "editorHoverWidget.background": "#322957",
+    "editorHoverWidget.border": "#00cee6",
+    "editorHoverWidget.foreground": "#f0efe2",
+    // ======================================================
+    // ======================================================
+
+    // ======================================================
+    // =================== Suggest widget ===================
+    // ======================================================
+    "editorSuggestWidget.background": "#322957",
+    "editorSuggestWidget.foreground": "#f0efe2",
+    "editorSuggestWidget.selectedBackground": "#000",
+    "editorSuggestWidget.border": "#00cee6"
+    // ======================================================
+    // ======================================================
   },
   "tokenColors": [
     {
@@ -95,7 +128,7 @@
     },
     {
       "name": "Boolean, costants",
-      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java",
+      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -112,7 +145,7 @@
 
     {
       "name": "Comma, Parenthesis, colon, Double colon",
-      "scope": "punctuation.other.comma,punctuation.accessor,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic,meta.jsx.children,punctuation.separator.comma,meta.brace.square,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx,punctuation.separator.element.python,keyword.operator.type.annotation,meta.brace.round,punctuation.definition.parameters.end.bracket.round.java,punctuation.section",
+      "scope": "punctuation.accessor,keyword.operator.comparison,keyword.operator.assignment,keyword.operator.ternary,keyword.operator.arithmetic,meta.jsx.children,punctuation.separator.comma,meta.brace.square,punctuation.definition.block,punctuation.section.embedded.begin,punctuation.section.embedded.end,punctuation.definition.parameters.begin.tsx,punctuation.definition.parameters.end.tsx,punctuation.separator.element.python,keyword.operator.type.annotation,meta.brace.round,punctuation.definition.parameters.end.bracket.round.java,punctuation.section,punctuation.definition.bracket.square.go,punctuation.other",
       "settings": {
         "foreground": "#f0efe2", //fffdd0, //FCFBE3
         "fontStyle": ""
@@ -264,7 +297,7 @@
       "name": "This",
       "scope": "keyword.operator,variable.language.this,variable.language.this.java",
       "settings": {
-        "foreground": "#EBCA57" //TODO:
+        "foreground": "#EBCA57" //#eff195?
       }
     },
     {
@@ -335,7 +368,7 @@
     {
       //
       "name": "Variable declaration",
-      "scope": "meta.definition.variable,variable.other.readwrite,variable.other.constant,variable.other.php",
+      "scope": "variable.other.assignment.go,meta.definition.variable,variable.other.readwrite,variable.other.constant,variable.other.php",
       "settings": {
         "foreground": "#FF9AA2",
         "fontStyle": ""
@@ -388,7 +421,7 @@
       "name": "TS/JS base",
       "scope": "source.tsx,source.ts,source.jsx,source.js",
       "settings": {
-        "foreground": "#f8d0b0", //9795F1
+        "foreground": "#eff195", //9795F1,f8d0b0
         "fontStyle": ""
       }
     },
@@ -405,7 +438,7 @@
       "name": "TS type",
       "scope": "entity.name.type.tsx,entity.name.type.ts,support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx,meta.type.annotation.tsx",
       "settings": {
-        "foreground": "#f8d0b0", //9795F1
+        "foreground": "#eff195", //9795F1, f8d0b0
         "fontStyle": ""
       }
     },
@@ -414,7 +447,7 @@
       "name": "TS interface",
       "scope": "meta.type.parameters.tsx",
       "settings": {
-        "foreground": "#f8d0b0"
+        "foreground": "#eff195" //f8d0b0
         // "fontStyle": "bold"
       }
     },
@@ -1249,8 +1282,59 @@
         "foreground": "#DF7599",
         "fontStyle": "bold"
       }
-    }
+    },
 
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _Go ==============================================
+    // ========================================================================================
+    {
+      "name": "Go entity",
+      "scope": "entity.name.type.go",
+      "settings": {
+        "foreground": "#00cee6",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "Go struct",
+      "scope": "keyword.struct.go",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "Go package keyword",
+      "scope": "keyword.package.go",
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Go type keyword",
+      "scope": "keyword.type.go,entity.name.package.go",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Go address operator",
+      "scope": "keyword.operator.address.go",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    }
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
@@ -1262,23 +1346,6 @@
     //     "foreground": "#DE8FFF"
     //   }
     // },
-
-    //     // {
-    //     //   "name": "Go base",
-    //     //   "scope": "source.go",
-    //     //   "settings": {
-    //     //     "foreground": "#68bcd2",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "Go address operator",
-    //     //   "scope": "keyword.operator.address.go",
-    //     //   "settings": {
-    //     //     "foreground": "#1de9b6",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
 
     //     // {
     //     //   "name": "Rust meta attribute",
