@@ -113,7 +113,7 @@
     // ========================================================================================
     {
       "name": "Print, Built in",
-      "scope": "support.function.console,support.class.console,support.function.builtin.python,support.function.builtin,support.function.core.rust,support.function.swift",
+      "scope": "support.function.console,support.class.console,support.function.builtin.python,support.function.builtin,support.function.core.rust,support.function.swift,keyword.other",
       "settings": {
         "foreground": "#75BBB9"
       }
@@ -128,7 +128,7 @@
     },
     {
       "name": "Boolean, costants",
-      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go,constant.other.boolean,constant.other.object,constant.language.symbol.hashkey.ruby",
+      "scope": "constant.language.boolean,constant.numeric,constant.language.python,constant.language.java,constant.language.go,constant.other.boolean,constant.other.object,constant.language.symbol.hashkey.ruby,constant.language.null",
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": ""
@@ -172,6 +172,14 @@
       "scope": "meta.decorator,storage.type.annotation.java,entity.name.function.decorator.python",
       "settings": {
         "foreground": "#FF9AA2",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.other.use-as.php,keyword.other.namespace.cs",
+      "settings": {
+        "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
@@ -230,7 +238,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ================================== Object JS and key:value related Stuff ===============
+    // ================================== Object and key:value related Stuff ===============
     // ========================================================================================
     {
       "name": "Object key",
@@ -258,8 +266,8 @@
     },
 
     {
-      "name": "JS property",
-      "scope": "variable.other.property,support.variable.property.js",
+      "name": "Property",
+      "scope": "variable.other.property,support.variable.property.js,variable.other.object.property",
       "settings": {
         "foreground": "#DF7599",
         "fontStyle": "italic"
@@ -285,16 +293,24 @@
 
     {
       "name": "This, Self",
-      "scope": "keyword.operator,variable.language.this,variable.language.this.java,variable.language.self",
+      "scope": "keyword.operator,variable.language.this,variable.language.this.java,variable.language.self,keyword.other.this",
       "settings": {
         "foreground": "#EBCA57" //#eff195?
       }
     },
     {
-      "name": "Class, Interface",
-      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs,storage.type.interface.ts,storage.type.interface.tsx,storage.type.type.ts, storage.type.type.tsx,storage.type.enum.ts, storage.type.enum.tsx,support.class,storage.class.std.rust,meta.class.instance.constructor.coffee",
+      "name": "Class/Interface entity",
+      "scope": "entity.name.type.class,entity.name.type.js,keyword.other.class.cs,storage.type.interface.ts,storage.type.interface.tsx,storage.type.type.ts, storage.type.type.tsx,storage.type.enum.ts, storage.type.enum.tsx,support.class,storage.class.std.rust,meta.class.instance.constructor.coffee,entity.name.type.interface.cs",
       "settings": {
         "foreground": "#00cee6", //9795F1
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Interface keywork",
+      "scope": "keyword.other.interface.cs",
+      "settings": {
+        "foreground": "#68bcd2", //9795F1
         "fontStyle": "bold"
       }
     },
@@ -325,14 +341,14 @@
     // ========================================================================================
     {
       "name": "Variable imported",
-      "scope": "variable.other.readwrite.alias,storage.modifier.import.java,entity.name.import",
+      "scope": "variable.other.readwrite.alias,storage.modifier.import.java,entity.name.import,entity.name.type.namespace.cs",
       "settings": {
         "foreground": "#68bcd2"
       }
     },
     {
       "name": "Variable modifier",
-      "scope": "storage.modifier,storage.modifier.php",
+      "scope": "storage.modifier,storage.modifier.php,keyword.other.var.cs",
       "settings": {
         "foreground": "#68bcd2",
         "fontStyle": "italic"
@@ -341,7 +357,7 @@
 
     {
       "name": "Variable type",
-      "scope": "storage.type,keyword.declaration.stable.scala,keyword.other.declaration-specifier.swift",
+      "scope": "storage.type,keyword.declaration.stable.scala,keyword.other.declaration-specifier.swift,keyword.type.cs",
       "settings": {
         "foreground": "#DE8FFF"
       }
@@ -349,7 +365,7 @@
     {
       //
       "name": "Variable declaration",
-      "scope": "variable.other.assignment.go,meta.definition.variable,variable.other.readwrite,variable.other.constant,variable.other.php,constant.other.declaration.scala,variable.other.declaration.scala,variable.assignment.coffee,variable.other.ruby",
+      "scope": "variable.other.assignment.go,meta.definition.variable,variable.other.readwrite,variable.other.constant,variable.other.php,constant.other.declaration.scala,variable.other.declaration.scala,variable.assignment.coffee,variable.other.ruby,variable.language.dart,entity.name.variable.property.cs,entity.name.variable.field.cs,entity.name.variable.local.cs",
       "settings": {
         "foreground": "#FF9AA2",
         "fontStyle": ""
@@ -1223,14 +1239,7 @@
     // ========================================================================================
     // ==================================== _PHP ==============================================
     // ========================================================================================
-    {
-      "name": "Namespace",
-      "scope": "keyword.other.namespace.php,keyword.other.use.php,keyword.other.use-as.php",
-      "settings": {
-        "foreground": "#9795F1",
-        "fontStyle": "bold"
-      }
-    },
+
     {
       "name": "Namespace name",
       "scope": "entity.name.type.namespace.php",
@@ -1241,7 +1250,7 @@
     },
 
     {
-      "name": "Namespace",
+      "name": "<php",
       "scope": "punctuation.section.embedded.begin.php",
       "settings": {
         "foreground": "#68bcd2",
@@ -1495,7 +1504,7 @@
     ////////////////////////////////////////////////////////////////////////////////////////////
 
     // ========================================================================================
-    // ==================================== _Ruby =====================================
+    // ==================================== _Ruby =============================================
     // ========================================================================================
     {
       "name": "Ruby module",
@@ -1520,35 +1529,68 @@
         "foreground": "#9795F1",
         "fontStyle": ""
       }
-    }
-    //     // {
-    //     //   "name": "Ruby other",
-    //     //   "scope": "variable.other.ruby",
-    //     //   "settings": {
-    //     //     "foreground": "#9795F1",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
+    },
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////////////
 
-    //     // {
-    //     //   "name": "Dart variable",
-    //     //   "scope": "variable.other.source.dart",
-    //     //   "settings": {
-    //     //     "foreground": "#F5B5FC",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
-    //     // {
-    //     //   "name": "C# type",
-    //     //   "scope": "keyword.type.cs",
-    //     //   "settings": {
-    //     //     "foreground": "#9795F1",
-    //     //     "fontStyle": ""
-    //     //   }
-    //     // },
+    // ========================================================================================
+    // ==================================== _Dart =============================================
+    // ========================================================================================
+    {
+      "name": "Dart variable",
+      "scope": "keyword.declaration.dart",
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+
+    // ========================================================================================
+    // ==================================== _C# =============================================
+    // ========================================================================================
+
+    // {
+    //   "name": "C# type",
+    //   "scope": "keyword.type.cs",
+    //   "settings": {
+    //     "foreground": "#9795F1",
+    //     "fontStyle": ""
+    //   }
+    // },
+    {
+      "name": "C# function parameter",
+      "scope": "entity.name.variable.parameter.cs",
+      "settings": {
+        "foreground": "#FF9AA2",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "C# angular brackets",
+      "scope": "punctuation.definition.typeparameters.begin.cs,punctuation.definition.typeparameters.end.cs",
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "C# type parameter",
+      "scope": "entity.name.type.type-parameter.cs",
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////////////////////
 
     //     // {
     //     //   "name": "C++ ",
