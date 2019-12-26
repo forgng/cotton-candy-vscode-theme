@@ -810,6 +810,53 @@
     },
 
     {
+      "name": "Function definition",
+      "scope": ["storage.type.function.tsx"],
+      "settings": {
+        "foreground": "#ffffff", //9795F1
+        "fontStyle": "bold underline"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": ["entity.name.function.tsx"],
+      "settings": {
+        "foreground": "#eb5bcb", //9795F1
+        "fontStyle": ""
+      }
+    },
+    // {
+    //   "name": "String",
+    //   "scope": ["string.template.tsx", "string.quoted.double.tsx"],
+    //   "settings": {
+    //     "foreground": "#efca8c", //9795F1
+    //     "fontStyle": ""
+    //   }
+    // },
+    // 00cee6
+    {
+      "name": "Variables",
+      "scope": [
+        "variable.other.readwrite.tsx",
+        "variable.other.constant.tsx",
+        "variable.other.object.tsx"
+      ],
+      "settings": {
+        "foreground": "#faf6e9", //9795F1
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "Function definition",
+      "scope": ["keyword.control.flow.tsx"],
+      "settings": {
+        "foreground": "#ffffff", //9795F1
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "TS optional",
       "scope": ["keyword.operator.optional.ts"],
       "settings": {
