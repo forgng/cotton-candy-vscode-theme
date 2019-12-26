@@ -333,7 +333,7 @@
       "name": "String",
       "scope": ["string", "punctuation.definition.string.begin.shell"],
       "settings": {
-        "foreground": "#1de9b6",
+        "foreground": "#98c379", //#1de9b6
         "fontStyle": ""
       }
     },
@@ -406,6 +406,7 @@
       "name": "Boolean, costants",
       "scope": [
         "constant.language.boolean",
+        "constant.language",
         "constant.numeric",
         "constant.language.python",
         "constant.language.java",
@@ -813,18 +814,18 @@
       "name": "Function definition",
       "scope": ["storage.type.function.tsx"],
       "settings": {
-        "foreground": "#ffffff", //9795F1
-        "fontStyle": "bold underline"
+        // "foreground": "#ffffff", //9795F1
+        "fontStyle": "italic bold underline"
       }
     },
-    {
-      "name": "Function call",
-      "scope": ["entity.name.function.tsx"],
-      "settings": {
-        "foreground": "#eb5bcb", //9795F1
-        "fontStyle": ""
-      }
-    },
+    // {
+    //   "name": "Function call",
+    //   "scope": ["entity.name.function.tsx"],
+    //   "settings": {
+    //     "foreground": "#00cee6", //9795F1
+    //     "fontStyle": "italic"
+    //   }
+    // },
     // {
     //   "name": "String",
     //   "scope": ["string.template.tsx", "string.quoted.double.tsx"],
@@ -834,27 +835,27 @@
     //   }
     // },
     // 00cee6
-    {
-      "name": "Variables",
-      "scope": [
-        "variable.other.readwrite.tsx",
-        "variable.other.constant.tsx",
-        "variable.other.object.tsx"
-      ],
-      "settings": {
-        "foreground": "#faf6e9", //9795F1
-        "fontStyle": "bold"
-      }
-    },
+    // {
+    //   "name": "Variables",
+    //   "scope": [
+    //     "variable.other.readwrite.tsx",
+    //     "variable.other.constant.tsx",
+    //     "variable.other.object.tsx"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#F7D009", //9795F1
+    //     "fontStyle": "bold"
+    //   }
+    // },
 
-    {
-      "name": "Function definition",
-      "scope": ["keyword.control.flow.tsx"],
-      "settings": {
-        "foreground": "#ffffff", //9795F1
-        "fontStyle": "bold"
-      }
-    },
+    // {
+    //   "name": "Function definition",
+    //   "scope": ["keyword.control.flow.tsx"],
+    //   "settings": {
+    //     "foreground": "#ffffff", //9795F1
+    //     "fontStyle": "bold"
+    //   }
+    // },
 
     {
       "name": "TS optional",
@@ -864,6 +865,15 @@
         "fontStyle": ""
       }
     },
+    // {
+    //   "name": "TS storage",
+    //   "scope": ["storage.type.tsx"],
+    //   "settings": {
+    //     "foreground": "#FF9AA2", //9795F1
+    //     "fontStyle": ""
+    //   }
+    // },
+
     {
       "name": "TS type",
       "scope": [
