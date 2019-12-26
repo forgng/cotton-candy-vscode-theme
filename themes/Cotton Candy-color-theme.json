@@ -143,7 +143,7 @@
     "editor.inactiveSelectionBackground": "#44475A75",
 
     "editor.selectionHighlightBackground": "#44475A",
-    "editor.selectionHighlightBorder": "#68bcd2",
+    // "editor.selectionHighlightBorder": "",
 
     "editor.wordHighlightBackground": "#44475A",
     "editor.wordHighlightBorder": "#1de9b6",
@@ -154,8 +154,8 @@
     // "editor.findRangeHighlightBackground": "#c51162",
     // "editor.findMatchBorder": "#000",
     // "editor.findMatchHighlightBorder": "#f6e935",
-    "editor.hoverHighlightBackground": "#fff",
-    "editor.lineHighlightBackground": "#44475A",
+    "editor.hoverHighlightBackground": "#ffffff40",
+    "editor.lineHighlightBackground": "#21252b",
     "editor.lineHighlightBorder": "#44475A",
     "editorLink.activeForeground": "#ff9800",
     "editor.rangeHighlightBackground": "#44475A",
@@ -257,7 +257,7 @@
     // "statusBarItem.activeBackground": "",
     // "statusBarItem.hoverBackground": "#44475A",
     "statusBarItem.prominentBackground": "#eb5bcb",
-    "statusBarItem.prominentHoverBackground": "#e4508f",
+    "statusBarItem.prominentHoverBackground": "#ff9800",
     // Title Bar Colors (macOS)
     "titleBar.activeBackground": "#282c34",
     "titleBar.activeForeground": "#d8d7cb",
