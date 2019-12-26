@@ -2,6 +2,28 @@
   "name": "Cotton Candy",
   "type": "dark",
 
+  "palette": {
+    // WHITE_1 = "#f0efe2";
+    // export const WHITE_2 = "#d8d7cb";
+    // export const RED = "#DF7599";
+    // export const MAGENTA = "#eb5bcb";
+    //                         #FF79C6
+    // export const PINK_1 = "#F5B5FC";
+    // export const PINK_2 = "#FFC9E7";
+    // export const PURPLE = "#DE8FFF";
+    // export const PURPLE_1 = "#9795F1";
+    // export const YELLOW_3 = "#eff195";
+    // export const YELLOW_2 = "#f6e935";
+    // export const YELLOW_4 = "#efca8c";
+    // export const YELLOW_1 = "#EBCA57";
+    // export const GREEN_1 = "#1de9b6";
+    // export const GREEN_2 = "#72D6C9";
+    // export const GREEN_3 = "#75BBB9";
+    // export const LIGHT_BLUE = "#CBF1F5";
+    // export const BLUE_3 = "#68bcd2";
+    // export const BLUE_1 = "#00cee6";
+    // export const BLUE_2 = "#00b8d4";
+  },
   "colors": {
     // "contrastActiveBorder": "#9795F1"
     "contrastBorder": "#212121",
@@ -127,12 +149,12 @@
     "editor.wordHighlightBorder": "#1de9b6",
     "editor.wordHighlightStrongBorder": "#d8d7cb",
 
-    "editor.findMatchBackground": "#c5116240",
-    "editor.findMatchHighlightBackground": "#FF9AA240",
-    "editor.findRangeHighlightBackground": "#c51162",
-    "editor.findMatchBorder": "#F5B5FC",
-    "editor.findMatchHighlightBorder": "#f6e935",
-    "editor.hoverHighlightBackground": "#c51162",
+    "editor.findMatchBackground": "#ffffffBF",
+    "editor.findMatchHighlightBackground": "#ffffff40",
+    // "editor.findRangeHighlightBackground": "#c51162",
+    // "editor.findMatchBorder": "#000",
+    // "editor.findMatchHighlightBorder": "#f6e935",
+    "editor.hoverHighlightBackground": "#fff",
     "editor.lineHighlightBackground": "#44475A",
     "editor.lineHighlightBorder": "#44475A",
     "editorLink.activeForeground": "#ff9800",
@@ -142,7 +164,7 @@
     "editorIndentGuide.background": "#d8d7cb40",
     "editorRuler.foreground": "#c51162",
     "editorCodeLens.foreground": "#c51162",
-    "editorBracketMatch.background": "#44475A",
+    // "editorBracketMatch.background": "#44475A",
     "editorBracketMatch.border": "#f6e935",
     "editorOverviewRuler.border": "#68bcd2",
     // "editorOverviewRuler.findMatchForeground": "",
@@ -166,10 +188,10 @@
     "editorGutter.background": "#282A36", //#21252b,
 
     // Diff Editor Colors — For coloring inserted and removed text, use either a background or a border color but not both.
-    "diffEditor.insertedTextBackground": "#f6e935",
-    "diffEditor.insertedTextBorder": "#f6e935",
-    "diffEditor.removedTextBackground": "#f6e935",
-    "diffEditor.removedTextBorder": "#f6e935",
+    "diffEditor.insertedTextBackground": "#faf8db",
+    // "diffEditor.insertedTextBorder": "",
+    // "diffEditor.removedTextBackground": "",
+    // "diffEditor.removedTextBorder": "",
     // Editor Widget Colors - The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover
     "editorWidget.background": "#322957",
     "editorWidget.border": "#00cee6",
@@ -204,43 +226,44 @@
     "peekViewTitleDescription.foreground": "#d8d7cb",
     "peekViewTitleLabel.foreground": "#fff",
     // Merge Conflicts — Merge conflict decorations are shown when the editor contains special diff ranges.
-    "merge.currentHeaderBackground": "#f6e935",
-    "merge.currentContentBackground": "#f6e935",
-    "merge.incomingHeaderBackground": "#f6e935",
-    "merge.incomingContentBackground": "#f6e935",
-    "merge.border": "#f6e935",
-    "merge.commonContentBackground": "#f6e935",
-    "merge.commonHeaderBackground": "#f6e935",
-    // "editorOverviewRuler.currentContentForeground": "#f6e935",
-    // "editorOverviewRuler.commonContentForeground": "#f6e935",
+    // "merge.currentHeaderBackground": "",
+    // "merge.currentContentBackground": "",
+    // "merge.incomingHeaderBackground": "",
+    // "merge.incomingContentBackground": "",
+    // "merge.border": "",
+    // "merge.commonContentBackground": "",
+    // "merge.commonHeaderBackground": "",
+    // "editorOverviewRuler.currentContentForeground": "",
+    // "editorOverviewRuler.commonContentForeground": "",
     // Panel Colors — Panels are shown below the editor area and contain views like Output and Integrated Terminal.
     "panel.background": "#322957",
-    // "panel.border": "#1de9b6",
-    "panel.dropBackground": "#f6e935",
-    "panelTitle.activeBorder": "#f6e935",
-    "panelTitle.activeForeground": "#f6e935",
-    "panelTitle.inactiveForeground": "#f6e935",
+    // "panel.border": "",
+    // "panel.dropBackground": "",
+    // "panelTitle.activeBorder": "",
+    // "panelTitle.activeForeground": "",
+    // "panelTitle.inactiveForeground": "",
 
     // Status Bar Colors — The Status Bar is shown in the bottom of the workbench.
     "statusBar.background": "#21222C",
     "statusBar.foreground": "#d8d7cb",
     // "statusBar.border": "",
-    "statusBar.debuggingBackground": "#64ffda",
-    "statusBar.debuggingForeground": "#64ffda",
-    "statusBar.debuggingBorder": "#64ffda",
-    "statusBar.noFolderForeground": "#64ffda",
-    "statusBar.noFolderBackground": "#64ffda",
-    "statusBar.noFolderBorder": "#64ffda",
-    "statusBarItem.activeBackground": "#64ffda",
-    "statusBarItem.hoverBackground": "#44475A",
-    "statusBarItem.prominentBackground": "#64ffda",
-    "statusBarItem.prominentHoverBackground": "#64ffda",
+    // "statusBar.debuggingBackground": "",
+    // "statusBar.debuggingForeground": "",
+    // "statusBar.debuggingBorder": "",
+    // "statusBar.noFolderForeground": "",
+    // "statusBar.noFolderBackground": "",
+    // "statusBar.noFolderBorder": "",
+
+    // "statusBarItem.activeBackground": "",
+    // "statusBarItem.hoverBackground": "#44475A",
+    "statusBarItem.prominentBackground": "#eb5bcb",
+    "statusBarItem.prominentHoverBackground": "#e4508f",
     // Title Bar Colors (macOS)
-    "titleBar.activeBackground": "#64ffda",
-    "titleBar.activeForeground": "#ff9800",
-    "titleBar.inactiveBackground": "#ff9800",
-    "titleBar.inactiveForeground": "#ff9800",
-    "titleBar.border": "#ff9800",
+    "titleBar.activeBackground": "#282c34",
+    "titleBar.activeForeground": "#d8d7cb",
+    "titleBar.inactiveBackground": "#21222C",
+    "titleBar.inactiveForeground": "#7f848e",
+    // "titleBar.border": "",
     // Notification Colors — Notification toasts slide up from the bottom-right of the workbench.
     "notificationCenter.border": "#ff9800",
     // "notificationCenterHeader.foreground": "",
@@ -251,11 +274,11 @@
     "notifications.border": "#ff9800",
     // "notificationLink.foreground": "",
     // Extensions
-    "extensionButton.prominentForeground": "#ff9800",
-    "extensionButton.prominentBackground": "#ff9800",
-    "extensionButton.prominentHoverBackground": "#f6e935",
-    "pickerGroup.border": "#f6e935",
-    "pickerGroup.foreground": "#f6e935",
+    // "extensionButton.prominentForeground": "",
+    // "extensionButton.prominentBackground": "",
+    // "extensionButton.prominentHoverBackground": "",
+    "pickerGroup.border": "#eb5bcb",
+    "pickerGroup.foreground": "#eb5bcb",
     // Integrated Terminal Colors
     // "terminal.background": "",
     // "terminal.foreground": "",
@@ -279,21 +302,21 @@
     // "terminalCursor.background": "",
     // "terminalCursor.foreground": "",
     // Debug
-    "debugToolBar.background": "#f6e935",
+    "debugToolBar.background": "#212121"
     // Welcome Page
-    "welcomePage.buttonBackground": "#f6e935",
-    "welcomePage.buttonHoverBackground": "#f6e935",
-    "walkThrough.embeddedEditorBackground": "#f6e935",
+    // "welcomePage.buttonBackground": "",
+    // "welcomePage.buttonHoverBackground": "",
+    // "walkThrough.embeddedEditorBackground": "",
     // Git Colors
-    "gitDecoration.modifiedResourceForeground": "#f6e935",
-    "gitDecoration.deletedResourceForeground": "#f6e935",
-    "gitDecoration.untrackedResourceForeground": "#f6e935",
-    "gitDecoration.ignoredResourceForeground": "#f6e935",
-    "gitDecoration.conflictingResourceForeground": "#f6e935"
+    // "gitDecoration.modifiedResourceForeground": "",
+    // "gitDecoration.deletedResourceForeground": "",
+    // "gitDecoration.untrackedResourceForeground": "",
+    // "gitDecoration.ignoredResourceForeground": "",
+    // "gitDecoration.conflictingResourceForeground": ""
 
-    // "editorGutter.modifiedBackground": "#eb5bcb",
-    // "editorGutter.addedBackground": "#eb5bcb",
-    // "editorGutter.deletedBackground": "#eb5bcb"
+    // "editorGutter.modifiedBackground": "",
+    // "editorGutter.addedBackground": "",
+    // "editorGutter.deletedBackground": ""
   },
   "tokenColors": [
     {
@@ -405,7 +428,7 @@
       "name": "if,else,try,catch,then",
       "scope": ["keyword.control"],
       "settings": {
-        "foreground": "#9795F1"
+        "foreground": "#F7D009"
       }
     },
 
@@ -418,6 +441,7 @@
         "keyword.operator.ternary",
         "keyword.operator.arithmetic",
         "keyword.operator.type.annotation",
+        "keyword.operator.spread",
         "meta.jsx.children,punctuation.separator.comma",
         "meta.brace.square",
         "punctuation.definition.block",
@@ -425,6 +449,7 @@
         "punctuation.section.embedded.end",
         "punctuation.definition.parameters.begin.tsx",
         "punctuation.definition.parameters.end.tsx",
+        "punctuation.definition.binding-pattern.array",
         "punctuation.separator.element.python",
         "meta.brace.round",
         "punctuation.definition.parameters.end.bracket.round.java",
@@ -441,12 +466,13 @@
     },
     {
       "name": "logical/math operators",
-      "scope": ["keyword.operator.logical"],
+      "scope": ["keyword.operator.relational", "keyword.operator.logical"],
       "settings": {
-        "foreground": "#F7D009", //fffdd0, //FCFBE3, //f5f691, //f6e935
+        "foreground": "#fff", //fffdd0, //FCFBE3, //f5f691, //f6e935
         "fontStyle": ""
       }
     },
+
     {
       "name": "Decorator @",
       "scope": [
