@@ -178,7 +178,7 @@
     // "editorOverviewRuler.errorForeground": "",
     // "editorOverviewRuler.warningForeground": "",
     // "editorOverviewRuler.infoForeground": "",
-    "editorError.foreground": "#e4508f",
+    "editorError.foreground": "#f54291",
     // "editorError.border": "",
     // "editorWarning.foreground": "",
     // "editorInfo.foreground": "",
