@@ -538,7 +538,7 @@
     },
     {
       "name": "Function declaration",
-      "scope": ["meta.method.declaration.ts", "entity.name.function"],
+      "scope": ["meta.method.declaration", "meta.function.tsx"],
       "settings": {
         "foreground": "#eb5bcb", //9795F1
         "fontStyle": ""
@@ -806,23 +806,40 @@
     },
 
     {
-      "name": "Function definition",
+      "name": "async/await",
       "scope": [
         "storage.type.function.tsx",
-        "storage.modifier.async.tsx",
-        "keyword.control.flow.tsx",
+        // "storage.modifier.async.tsx",
+        // "keyword.control.flow.tsx",
         "storage.type.function.ts",
-        "storage.modifier.async.ts",
-        "keyword.control.flow.ts",
+        // "storage.modifier.async.ts",
         "storage.type.function.jsx",
-        "storage.modifier.async.jsx",
-        "keyword.control.flow.jsx",
-        "storage.type.function.js",
-        "storage.modifier.async.js",
-        "keyword.control.flow.js"
+        "storage.type.function.js"
+        // "keyword.control.flow.ts",
+        // "storage.modifier.async.jsx",
+        // "keyword.control.flow.jsx",
+        // "storage.modifier.async.js",
+        // "keyword.control.flow.js"
       ],
       "settings": {
-        "foreground": "#ffffff", //9795F1
+        // "foreground": "#f0efe2", //9795F1
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function definition",
+      "scope": [
+        "meta.definition.function.ts",
+        "meta.definition.function.tsx",
+        "meta.definition.function.js",
+        "meta.definition.function.jsx",
+        "meta.definition.method.ts",
+        "meta.definition.method.tsx",
+        "meta.definition.method.js",
+        "meta.definition.method.jsx"
+      ],
+      "settings": {
+        "foreground": "#f0efe2", //9795F1
         "fontStyle": "italic bold underline"
       }
     },
@@ -831,6 +848,19 @@
       "scope": ["support.function.console.tsx"],
       "settings": {
         "foreground": "#eff195", //9795F1,f8d0b0
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "JSX children",
+      "scope": [
+        "meta.jsx.children.ts",
+        "meta.jsx.children.tsx",
+        "meta.jsx.children.js",
+        "meta.jsx.children.jsx"
+      ],
+      "settings": {
+        "foreground": "#f0efe2", //9795F1,f8d0b0
         "fontStyle": ""
       }
     },
