@@ -142,8 +142,8 @@
     "editor.selectionBackground": "#44475A",
     "editor.inactiveSelectionBackground": "#44475A75",
 
-    "editor.selectionHighlightBackground": "#44475A",
-    // "editor.selectionHighlightBorder": "",
+    // "editor.selectionHighlightBackground": "#44475A",
+    "editor.selectionHighlightBorder": "#d8d7cb",
 
     "editor.wordHighlightBackground": "#44475A",
     "editor.wordHighlightBorder": "#1de9b6",
@@ -151,7 +151,7 @@
 
     "editor.findMatchBackground": "#ffffffBF",
     "editor.findMatchHighlightBackground": "#ffffff40",
-    // "editor.findRangeHighlightBackground": "#c51162",
+    "editor.findRangeHighlightBackground": "#c51162",
     // "editor.findMatchBorder": "#000",
     // "editor.findMatchHighlightBorder": "#f6e935",
     "editor.hoverHighlightBackground": "#ffffff40",
