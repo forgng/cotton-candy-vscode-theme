@@ -585,17 +585,9 @@
     },
     {
       "name": "Value",
-      "scope": ["variable.other.object", "support.constant"],
+      "scope": ["support.constant"],
       "settings": {
         "foreground": "#00cee6",
-        "fontStyle": ""
-      }
-    },
-    {
-      "name": "Dot accessor",
-      "scope": ["variable.other.object.property.js"],
-      "settings": {
-        "foreground": "#68bcd2",
         "fontStyle": ""
       }
     },
@@ -748,7 +740,8 @@
         "entity.name.variable.field.cs",
         "entity.name.variable.local.cs",
         "meta.body.function.definition.cpp",
-        "variable.language.elixir"
+        "variable.language.elixir",
+        "variable.other.object"
       ],
       "settings": {
         "foreground": "#FF9AA2",
@@ -813,12 +806,38 @@
 
     {
       "name": "Function definition",
-      "scope": ["storage.type.function.tsx"],
+      "scope": [
+        "storage.type.function.tsx",
+        "storage.modifier.async.tsx",
+        "keyword.control.flow.tsx",
+        "storage.type.function.ts",
+        "storage.modifier.async.ts",
+        "keyword.control.flow.ts",
+        "storage.type.function.jsx",
+        "storage.modifier.async.jsx",
+        "keyword.control.flow.jsx",
+        "storage.type.function.js",
+        "storage.modifier.async.js",
+        "keyword.control.flow.js"
+      ],
       "settings": {
-        // "foreground": "#ffffff", //9795F1
+        "foreground": "#ffffff", //9795F1
         "fontStyle": "italic bold underline"
       }
     },
+    // {
+    //   "name": "Dot accessor",
+    //   "scope": [
+    //     "variable.other.object.property.js",
+    //     "variable.other.object.property.jsx",
+    //     "variable.other.object.property.ts",
+    //     "variable.other.object.property.tsx"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#68bcd2",
+    //     "fontStyle": ""
+    //   }
+    // },
     // {
     //   "name": "Function call",
     //   "scope": ["entity.name.function.tsx"],
@@ -1062,18 +1081,13 @@
     {
       "name": "HTML/XML/Pug element",
       "scope": [
-        "entity.name.tag.html",
-        "entity.name.tag.inline.any.html",
+        "entity.name.tag",
         "support.class.component",
-        "entity.name.tag.template.html",
-        "entity.name.tag.block.any",
         "meta.tag.inline.any",
         "text.html.vue-html",
         "entity.name.tag.localname.xml",
         "source.svelte",
-        "source.jest.snap",
-        "entity.name.tag.tsx",
-        "entity.name.tag.pug"
+        "source.jest.snap"
       ],
       "settings": {
         "foreground": "#9795F1",
@@ -1451,6 +1465,15 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "Markdown raw string",
+      "scope": ["markup.inline.raw.string.markdown"],
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": "bold"
+      }
+    },
+
     {
       "name": "Markdown title",
       "scope": [
