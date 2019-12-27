@@ -155,7 +155,7 @@
     // "editor.findMatchBorder": "#000",
     // "editor.findMatchHighlightBorder": "#f6e935",
     "editor.hoverHighlightBackground": "#ffffff40",
-    "editor.lineHighlightBackground": "#21252b",
+    "editor.lineHighlightBackground": "#44475A",
     "editor.lineHighlightBorder": "#44475A",
     "editorLink.activeForeground": "#ff9800",
     "editor.rangeHighlightBackground": "#44475A",
@@ -333,7 +333,7 @@
       "name": "String",
       "scope": ["string", "punctuation.definition.string.begin.shell"],
       "settings": {
-        "foreground": "#98c379", //#1de9b6
+        "foreground": "#50d890", //#1de9b6, #98c379
         "fontStyle": ""
       }
     },
@@ -825,6 +825,15 @@
         "fontStyle": "italic bold underline"
       }
     },
+    {
+      "name": "Log",
+      "scope": ["support.function.console.tsx"],
+      "settings": {
+        "foreground": "#eff195", //9795F1,f8d0b0
+        "fontStyle": ""
+      }
+    },
+
     // {
     //   "name": "Dot accessor",
     //   "scope": [
@@ -851,6 +860,7 @@
     //   "scope": ["string.template.tsx", "string.quoted.double.tsx"],
     //   "settings": {
     //     "foreground": "#efca8c", //9795F1
+
     //     "fontStyle": ""
     //   }
     // },
