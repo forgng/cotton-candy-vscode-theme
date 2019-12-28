@@ -75,7 +75,7 @@
 
     // Badge — Badges are small information labels, for example, search results count.
     "badge.foreground": "#d8d7cb",
-    "badge.background": "#9795F1",
+    "badge.background": "#eb5bcb",
 
     // Progress Bar
     "progressBar.background": "#eb5bcb",
@@ -893,9 +893,9 @@
 
     {
       "name": "TS interface",
-      "scope": ["meta.type.parameters.tsx"],
+      "scope": ["meta.type.parameters.tsx", "meta.definition.property.tsx"],
       "settings": {
-        "foreground": "#eff195" //f8d0b0
+        "foreground": "#00cee6" //f8d0b0
         // "fontStyle": "bold"
       }
     },
