@@ -601,8 +601,8 @@
         "variable.other.object.property"
       ],
       "settings": {
-        "foreground": "#DF7599",
-        "fontStyle": "italic"
+        "foreground": "#FF9AA2",
+        "fontStyle": ""
       }
     },
 
