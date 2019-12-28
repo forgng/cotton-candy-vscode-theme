@@ -25,7 +25,7 @@
     // export const BLUE_2 = "#00b8d4";
   },
   "colors": {
-    // "contrastActiveBorder": "#9795F1"
+    // "contrastActiveBorder": ""
     "contrastBorder": "#212121",
     // Base Colors
     // "focusBorder": "",
@@ -758,7 +758,7 @@
       ],
       "settings": {
         "foreground": "#DE8FFF",
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
 
@@ -865,59 +865,6 @@
       }
     },
 
-    // {
-    //   "name": "Dot accessor",
-    //   "scope": [
-    //     "variable.other.object.property.js",
-    //     "variable.other.object.property.jsx",
-    //     "variable.other.object.property.ts",
-    //     "variable.other.object.property.tsx"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#68bcd2",
-    //     "fontStyle": ""
-    //   }
-    // },
-    // {
-    //   "name": "Function call",
-    //   "scope": ["entity.name.function.tsx"],
-    //   "settings": {
-    //     "foreground": "#00cee6", //9795F1
-    //     "fontStyle": "italic"
-    //   }
-    // },
-    // {
-    //   "name": "String",
-    //   "scope": ["string.template.tsx", "string.quoted.double.tsx"],
-    //   "settings": {
-    //     "foreground": "#efca8c", //9795F1
-
-    //     "fontStyle": ""
-    //   }
-    // },
-    // 00cee6
-    // {
-    //   "name": "Variables",
-    //   "scope": [
-    //     "variable.other.readwrite.tsx",
-    //     "variable.other.constant.tsx",
-    //     "variable.other.object.tsx"
-    //   ],
-    //   "settings": {
-    //     "foreground": "#F7D009", //9795F1
-    //     "fontStyle": "bold"
-    //   }
-    // },
-
-    // {
-    //   "name": "Function definition",
-    //   "scope": ["keyword.control.flow.tsx"],
-    //   "settings": {
-    //     "foreground": "#ffffff", //9795F1
-    //     "fontStyle": "bold"
-    //   }
-    // },
-
     {
       "name": "TS optional",
       "scope": ["keyword.operator.optional.ts"],
@@ -926,14 +873,6 @@
         "fontStyle": ""
       }
     },
-    // {
-    //   "name": "TS storage",
-    //   "scope": ["storage.type.tsx"],
-    //   "settings": {
-    //     "foreground": "#FF9AA2", //9795F1
-    //     "fontStyle": ""
-    //   }
-    // },
 
     {
       "name": "TS type",
@@ -947,8 +886,8 @@
         "meta.type.annotation.tsx"
       ],
       "settings": {
-        "foreground": "#eff195", //9795F1, f8d0b0
-        "fontStyle": ""
+        "foreground": "#9795F1", //#9795F1, #f8d0b0
+        "fontStyle": "italic"
       }
     },
 
