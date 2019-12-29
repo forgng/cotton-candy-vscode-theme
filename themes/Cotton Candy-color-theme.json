@@ -1010,11 +1010,12 @@
       }
     },
     {
-      "name": "Mutation/Query keyword",
+      "name": "Mutation/Query/Fragment keyword",
       "scope": [
         "keyword.operation.graphql",
         "support.type.graphql",
-        "support.type.enum.graphql"
+        "support.type.enum.graphql",
+        "keyword.fragment.graphql"
       ],
       "settings": {
         "foreground": "#72D6C9",
