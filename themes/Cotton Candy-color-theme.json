@@ -845,7 +845,12 @@
     },
     {
       "name": "Log",
-      "scope": ["support.function.console.tsx"],
+      "scope": [
+        "support.function.console.tsx",
+        "support.function.console.ts",
+        "support.function.console.jsx",
+        "support.function.console.js"
+      ],
       "settings": {
         "foreground": "#eff195", //9795F1,f8d0b0
         "fontStyle": ""
