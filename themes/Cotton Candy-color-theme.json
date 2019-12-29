@@ -384,6 +384,21 @@
       }
     },
     {
+      "name": "Regex group",
+      "scope": ["punctuation.definition.group.regexp"],
+      "settings": {
+        "foreground": "#DF7599"
+      }
+    },
+    // {
+    //   "name": "Regex escape",
+    //   "scope": ["constant.character.escape.backslash.regexp"],
+    //   "settings": {
+    //     "foreground": "#9795F1"
+    //   }
+    // },
+
+    {
       "name": "Import/export",
       "scope": [
         "keyword.import",
