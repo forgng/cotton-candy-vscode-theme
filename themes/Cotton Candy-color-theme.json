@@ -45,9 +45,9 @@
     // "textSeparator.foreground": "",
 
     // Button Control — A set of colors for button widgets such as Open Folder button in the Explorer of a new window.
-    "button.background": "#4a148c",
+    "button.background": "#000",
     "button.foreground": "#d8d7cb",
-    "button.hoverBackground": "#4a148c",
+    "button.hoverBackground": "#282A36",
 
     // Dropdown Control — A set of colors for all dropdown widgets such as in the Integrated Terminal or the Output panel. Note that the dropdown control is not used on macOS currently.
     "dropdown.background": "#282A36",
@@ -194,7 +194,7 @@
     // "diffEditor.removedTextBackground": "",
     // "diffEditor.removedTextBorder": "",
     // Editor Widget Colors - The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover
-    "editorWidget.background": "#322957",
+    "editorWidget.background": "#282A36",
     "editorWidget.border": "#00cee6",
 
     "editorSuggestWidget.background": "#322957",
@@ -266,13 +266,13 @@
     "titleBar.inactiveForeground": "#7f848e",
     // "titleBar.border": "",
     // Notification Colors — Notification toasts slide up from the bottom-right of the workbench.
-    "notificationCenter.border": "#ff9800",
+    // "notificationCenter.border": "#ff9800",
     // "notificationCenterHeader.foreground": "",
     // "notificationCenterHeader.background": "#282c34",
-    "notificationToast.border": "#ff9800",
+    // "notificationToast.border": "#ff9800",
     // "notifications.foreground": "",
-    "notifications.background": "#282c34",
-    "notifications.border": "#ff9800",
+    // "notifications.background": "#282c34",
+    // "notifications.border": "#ff9800",
     // "notificationLink.foreground": "",
     // Extensions
     // "extensionButton.prominentForeground": "",
