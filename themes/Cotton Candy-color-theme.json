@@ -206,9 +206,9 @@
     "editorHoverWidget.background": "#322957",
     "editorHoverWidget.border": "#00cee6",
 
-    "debugExceptionWidget.background": "#00cee6",
-    "debugExceptionWidget.border": "#00cee6",
-    "editorMarkerNavigation.background": "#00cee6",
+    // "debugExceptionWidget.background": "#00cee6",
+    // "debugExceptionWidget.border": "#00cee6",
+    "editorMarkerNavigation.background": "#000000",
     "editorMarkerNavigationError.background": "#00cee6",
     "editorMarkerNavigationWarning.background": "#00cee6",
     "editorMarkerNavigationInfo.background": "#00cee6",
