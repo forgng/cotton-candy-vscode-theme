@@ -189,7 +189,7 @@
     "editorGutter.background": "#282A36", //#21252b,
 
     // Diff Editor Colors — For coloring inserted and removed text, use either a background or a border color but not both.
-    "diffEditor.insertedTextBackground": "#faf8db",
+    // "diffEditor.insertedTextBackground": "#faf8db",
     // "diffEditor.insertedTextBorder": "",
     // "diffEditor.removedTextBackground": "",
     // "diffEditor.removedTextBorder": "",
