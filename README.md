@@ -1,6 +1,6 @@
 # Cotton Candy for [Visual Studio Code](https://code.visualstudio.com/)
 
-![Cotton candy JS example](./images/cotton-candy-example.png)
+![Cotton candy JS example](./cotton-candy-example.png)
 
 ## Install using Command Palette
 
