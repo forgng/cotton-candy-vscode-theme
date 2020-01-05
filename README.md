@@ -1,13 +1,22 @@
-# README
-## This is the README for your extension "cotton-candy"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Cotton Candy for [Visual Studio Code](https://code.visualstudio.com/)
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+![Cotton candy JS example](./images/cotton-candy-example.png)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## Install using Command Palette
 
-**Enjoy!**
+- Go to View -> Command Palette or press Ctrl+Shift+P
+- Then enter Install Extension
+- Write Cotton Candy
+- Select it or press Enter to install
+
+## Install using Git
+
+```sh-session
+  $ git clone https://github.com/forgng/Cotton-Candy.git ~/.vscode/extensions/theme-cotton-candy
+```
+
+### Activating theme
+
+- Go to Preferences -> Color Theme dropdown menu.
+- Search Cotton Candy
+- Select it or press Enter to install
