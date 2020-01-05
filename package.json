@@ -1,13 +1,17 @@
 {
   "name": "theme-cotton-candy",
+  "version": "1.0.0",
   "displayName": "Cotton Candy Theme",
-  "description": "pastel color theme",
+  "description": "Colorful Dark Theme",
   "publisher": "forgng",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/forgng/cotton-candy.git"
   },
-  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/forgng/cotton-candy/issues"
+  },
   "engines": {
     "vscode": "^1.41.0"
   },
@@ -16,7 +20,8 @@
   ],
   "keywords": [
     "VSCode",
-    "Themes"
+    "Themes",
+    "cotton-candy"
   ],
   "contributes": {
     "themes": [
