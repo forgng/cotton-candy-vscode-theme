@@ -74,8 +74,8 @@
     // "scrollbarSlider.hoverBackground": "",
 
     // Badge — Badges are small information labels, for example, search results count.
-    "badge.foreground": "#d8d7cb",
-    "badge.background": "#eb5bcb",
+    "badge.foreground": "#282A36",
+    "badge.background": "#ffc600",
 
     // Progress Bar
     "progressBar.background": "#eb5bcb",
