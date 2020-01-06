@@ -18,10 +18,12 @@
     // export const YELLOW_1 = "#EBCA57";
     // export const GREEN_1 = "#1de9b6";
     // export const GREEN_2 = "#72D6C9";
+    //                           #3dc7b9
     // export const GREEN_3 = "#75BBB9";
     // export const LIGHT_BLUE = "#CBF1F5";
     // export const BLUE_3 = "#68bcd2";
     // export const BLUE_1 = "#00cee6";
+    //                        #249ef5
     // export const BLUE_2 = "#00b8d4";
   },
   "colors": {
