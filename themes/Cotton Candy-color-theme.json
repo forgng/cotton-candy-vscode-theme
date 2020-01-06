@@ -581,7 +581,7 @@
         "source.elixir.embedded.source"
       ],
       "settings": {
-        "foreground": "#68bcd2",
+        "foreground": "#3dc7b9",
         "fontStyle": "bold"
       }
     },
