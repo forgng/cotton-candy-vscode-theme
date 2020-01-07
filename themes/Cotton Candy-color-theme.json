@@ -76,7 +76,7 @@
     // "scrollbarSlider.hoverBackground": "",
 
     // Badge — Badges are small information labels, for example, search results count.
-    "badge.foreground": "#282A36",
+    "badge.foreground": "#282A36", // #1E1E3F
     "badge.background": "#ffc600",
 
     // Progress Bar
@@ -890,6 +890,14 @@
     {
       "name": "TS optional",
       "scope": ["keyword.operator.optional.ts"],
+      "settings": {
+        "foreground": "#F7D009", //9795F1
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "TS Union/Intersection",
+      "scope": ["keyword.operator.type.tsx"],
       "settings": {
         "foreground": "#F7D009", //9795F1
         "fontStyle": ""
