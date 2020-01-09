@@ -821,6 +821,17 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "TS enum",
+      "scope": [
+        "variable.other.enummember.ts",
+        "variable.other.enummember.tsx"
+      ],
+      "settings": {
+        "foreground": "#eff195", //9795F1,f8d0b0
+        "fontStyle": ""
+      }
+    },
 
     {
       "name": "async/await",
@@ -932,11 +943,7 @@
 
     {
       "name": "TS key",
-      "scope": [
-        "variable.object.property.tsx",
-        "variable.object.property.ts",
-        "variable.other.enummember.ts"
-      ],
+      "scope": ["variable.object.property.tsx", "variable.object.property.ts"],
       "settings": {
         "foreground": "#68bcd2",
         "fontStyle": ""
