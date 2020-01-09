@@ -615,7 +615,8 @@
       "scope": [
         "variable.other.property",
         "support.variable.property",
-        "variable.other.object.property"
+        "variable.other.object.property",
+        "support.variable.object.node"
       ],
       "settings": {
         "foreground": "#FF9AA2",
