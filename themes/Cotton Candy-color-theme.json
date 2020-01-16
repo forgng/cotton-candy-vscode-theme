@@ -469,7 +469,7 @@
         "punctuation.section.embedded.end",
         "punctuation.definition.parameters.begin.tsx",
         "punctuation.definition.parameters.end.tsx",
-        "punctuation.definition.binding-pattern.array",
+        "punctuation.definition.binding-pattern",
         "punctuation.separator.element.python",
         "meta.brace.round",
         "punctuation.definition.parameters.end.bracket.round.java",
