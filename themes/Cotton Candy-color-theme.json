@@ -151,7 +151,7 @@
     "editor.wordHighlightBorder": "#1de9b6",
     "editor.wordHighlightStrongBorder": "#d8d7cb",
 
-    "editor.findMatchBackground": "#ffffffBF",
+    "editor.findMatchBackground": "#f9a825",
     "editor.findMatchHighlightBackground": "#ffffff40",
     "editor.findRangeHighlightBackground": "#f54291",
     // "editor.findMatchBorder": "#000",
