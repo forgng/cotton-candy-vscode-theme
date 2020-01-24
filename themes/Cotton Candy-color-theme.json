@@ -169,18 +169,19 @@
 
     // "editorBracketMatch.background": "",
     // "editorBracketMatch.border": "",
-    "editorOverviewRuler.border": "#68bcd2",
-    // "editorOverviewRuler.findMatchForeground": "",
-    // "editorOverviewRuler.rangeHighlightForeground": "",
-    // "editorOverviewRuler.selectionHighlightForeground": "",
-    // "editorOverviewRuler.wordHighlightForeground": "",
-    // "editorOverviewRuler.wordHighlightStrongForeground": "",
-    // "editorOverviewRuler.modifiedForeground": "",
-    // "editorOverviewRuler.addedForeground": "",
-    // "editorOverviewRuler.deletedForeground": "",
-    // "editorOverviewRuler.errorForeground": "",
-    // "editorOverviewRuler.warningForeground": "",
-    // "editorOverviewRuler.infoForeground": "",
+    "editorOverviewRuler.border": "#44475A",
+    // "editorOverviewRuler.findMatchForeground": "#f6e935",
+    // "editorOverviewRuler.rangeHighlightForeground": "#f6e935",
+    // "editorOverviewRuler.selectionHighlightForeground": "#f6e935",
+    // "editorOverviewRuler.wordHighlightForeground": "#f6e935",
+    // "editorOverviewRuler.wordHighlightStrongForeground": "#f6e935",
+    // "editorOverviewRuler.modifiedForeground": "#f6e935",
+    // "editorOverviewRuler.addedForeground": "#f6e935",
+    // "editorOverviewRuler.deletedForeground": "#f6e935",
+    // "editorOverviewRuler.errorForeground": "#f6e935",
+    // "editorOverviewRuler.warningForeground": "#f6e935",
+    // "editorOverviewRuler.infoForeground": "#f6e935",
+
     "editorError.foreground": "#f54291",
     // "editorError.border": "",
     // "editorWarning.foreground": "",
@@ -866,12 +867,17 @@
         "meta.definition.method.tsx",
         "meta.definition.method.js",
         "meta.definition.method.jsx"
+        // "entity.name.function.tsx",
+        // "entity.name.function.jsx",
+        // "entity.name.function.js",
+        // "entity.name.function.ts"
       ],
       "settings": {
         "foreground": "#f0efe2", //9795F1
         "fontStyle": "italic bold underline"
       }
     },
+
     {
       "name": "Log",
       "scope": [
