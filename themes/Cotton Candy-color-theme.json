@@ -151,10 +151,10 @@
     "editor.wordHighlightBorder": "#1de9b6",
     "editor.wordHighlightStrongBorder": "#d8d7cb",
 
-    "editor.findMatchBackground": "#f9a825",
+    "editor.findMatchBackground": "#000",
     "editor.findMatchHighlightBackground": "#ffffff40",
     "editor.findRangeHighlightBackground": "#f54291",
-    // "editor.findMatchBorder": "#000",
+    // "editor.findMatchBorder": "#f9a825",
     // "editor.findMatchHighlightBorder": "#f6e935",
     "editor.hoverHighlightBackground": "#ffffff40",
     "editor.lineHighlightBackground": "#44475A",
