@@ -135,7 +135,7 @@
     // "tab.unfocusedHoverBorder": "",
 
     // Editor Colors — for syntax highlighting, use the editor.tokenColorCustomizations setting. All other editor colors are listed here
-    "editor.background": "#21252b", //#282A36
+    "editor.background": "#21252b", //#282A36 // #0e1111
 
     "editor.foreground": "#d8d7cb",
     "editorLineNumber.foreground": "#484c7f",
@@ -1490,6 +1490,7 @@
         "fontStyle": "bold"
       }
     },
+
     {
       "name": "Markdown raw string",
       "scope": ["markup.inline.raw.string.markdown"],
@@ -1569,6 +1570,15 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "Markdown italic",
+      "scope": ["punctuation.definition.italic.markdown"],
+      "settings": {
+        "foreground": "#efca8c",
+        "fontStyle": "bold"
+      }
+    },
+
     {
       "name": "Markdown code",
       "scope": ["markup.fenced_code.block.markdown"],
