@@ -1311,11 +1311,18 @@
         "entity.name.tag.css",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.pseudo-class.css",
-        "entity.other.attribute-name.id.css",
-        "punctuation.definition.entity.css"
+        "entity.other.attribute-name.id.css"
       ],
       "settings": {
         "foreground": "#FF77AF",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS/SCSS :",
+      "scope": ["punctuation.definition.entity.css"],
+      "settings": {
+        "foreground": "#fff",
         "fontStyle": "bold"
       }
     },
