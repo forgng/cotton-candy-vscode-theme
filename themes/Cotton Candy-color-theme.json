@@ -1310,9 +1310,16 @@
         "entity.other.attribute-name.pseudo-element.css",
         "entity.name.tag.css",
         "entity.other.attribute-name.class",
-        "entity.other.attribute-name.pseudo-class.css",
         "entity.other.attribute-name.id.css"
       ],
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "CSS pseudo class",
+      "scope": ["entity.other.attribute-name.pseudo-class.css"],
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": "bold"
