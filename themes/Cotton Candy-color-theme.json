@@ -1321,8 +1321,8 @@
       "name": "CSS pseudo class",
       "scope": ["entity.other.attribute-name.pseudo-class.css"],
       "settings": {
-        "foreground": "#FF77AF",
-        "fontStyle": "bold"
+        "foreground": "#1DE9B6",
+        "fontStyle": "bold italic"
       }
     },
     {
