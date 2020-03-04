@@ -1315,7 +1315,7 @@
         "punctuation.definition.entity.css"
       ],
       "settings": {
-        "foreground": "#9795F1",
+        "foreground": "#FF77AF",
         "fontStyle": "bold"
       }
     },
