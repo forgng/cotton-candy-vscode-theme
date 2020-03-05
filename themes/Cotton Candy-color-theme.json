@@ -456,13 +456,7 @@
       "name": "Comma, Parenthesis, colon, Double colon",
       "scope": [
         "punctuation.accessor",
-        "keyword.operator.comparison",
-        "keyword.operator.assignment",
-        "keyword.operator.ternary",
-        "keyword.operator.arithmetic",
-        "keyword.operator.type.annotation",
-        "keyword.operator.spread",
-        "keyword.operator.rest",
+
         "meta.jsx.children,punctuation.separator.comma",
         "meta.brace.square",
         "punctuation.definition.block",
@@ -487,7 +481,17 @@
     },
     {
       "name": "logical/math operators",
-      "scope": ["keyword.operator.relational", "keyword.operator.logical"],
+      "scope": [
+        "keyword.operator.relational",
+        "keyword.operator.logical",
+        "keyword.operator.ternary",
+        "keyword.operator.comparison",
+        "keyword.operator.assignment",
+        "keyword.operator.arithmetic",
+        "keyword.operator.type.annotation",
+        "keyword.operator.spread",
+        "keyword.operator.rest"
+      ],
       "settings": {
         "foreground": "#fff", //fffdd0, //FCFBE3, //f5f691, //f6e935
         "fontStyle": ""
