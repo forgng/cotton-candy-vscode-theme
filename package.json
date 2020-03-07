@@ -1,41 +1,41 @@
 {
-	"name": "theme-cotton-candy",
-	"version": "2.1.0",
-	"displayName": "Cotton Candy Theme",
-	"description": "Colorful Dark Theme",
-	"publisher": "forgng",
-	"license": "MIT",
-	"icon": "icon.png",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/forgng/cotton-candy.git"
-	},
-	"bugs": {
-		"url": "https://github.com/forgng/cotton-candy/issues"
-	},
-	"engines": {
-		"vscode": "^1.41.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"keywords": [
-		"VSCode",
-		"Themes",
-		"cotton-candy"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Cotton Candy",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Cotton Candy-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "a7199c7a-a7ce-4f6d-8ebc-3f993fcf6c00",
-		"publisherDisplayName": "forgng",
-		"publisherId": "0a5b255f-80bd-4350-813e-b2e8a1c6714b"
-	}
+  "name": "theme-cotton-candy",
+  "version": "2.1.0",
+  "displayName": "Cotton Candy Theme",
+  "description": "Colorful Dark Theme",
+  "publisher": "forgng",
+  "license": "MIT",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/forgng/cotton-candy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/forgng/cotton-candy/issues"
+  },
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "cotton-candy"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cotton Candy",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cotton-candy-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "a7199c7a-a7ce-4f6d-8ebc-3f993fcf6c00",
+    "publisherDisplayName": "forgng",
+    "publisherId": "0a5b255f-80bd-4350-813e-b2e8a1c6714b"
+  }
 }

@@ -456,7 +456,6 @@
       "name": "Comma, Parenthesis, colon, Double colon",
       "scope": [
         "punctuation.accessor",
-
         "meta.jsx.children,punctuation.separator.comma",
         "meta.brace.square",
         "punctuation.definition.block",
