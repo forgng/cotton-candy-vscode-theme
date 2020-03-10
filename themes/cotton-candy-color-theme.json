@@ -1174,7 +1174,7 @@
       ],
       "settings": {
         "foreground": "#F7D009", // "#DE8FFF",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
     {
