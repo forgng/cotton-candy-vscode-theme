@@ -777,7 +777,7 @@
         "variable.other.object"
       ],
       "settings": {
-        "foreground": "#EB64B9", //#FF9AA2
+        "foreground": "#f181c4", // "#EB64B9", //#FF9AA2
         "fontStyle": ""
       }
     },
@@ -1143,7 +1143,7 @@
         "entity.other.attribute-name.tag.pug"
       ],
       "settings": {
-        "foreground": "#e5b0ea",
+        "foreground": "#74DFC4", //#e5b0ea
         "fontStyle": "italic"
       }
     },
