@@ -25,6 +25,16 @@
     // export const BLUE_1 = "#00cee6";
     //                        #249ef5
     // export const BLUE_2 = "#00b8d4";
+    // Maximum Blue	#40b4c4	normal	Keywords, Properties
+    // Hot Pink	#EB64B9	normal	Functions, Attributes, Highlighting
+    // Powder Blue	#b4dce7	normal	Strings
+    // African Violet	#b381c5	normal	Numbers, Types
+    // Pearl Aqua	#74dfc4	normal	Operators, Tags
+    // Old Lavender	#91889b	normal	Comments
+    // Roman Silver	#716385	normal	Punctuation
+    // Mustard	#ffe261	normal	Builtins, Constants
+    // White	#ffffff	normal	Variables
+    // Raisin Black	#27212e	---	Background
   },
   "colors": {
     // "contrastActiveBorder": ""
@@ -767,7 +777,7 @@
         "variable.other.object"
       ],
       "settings": {
-        "foreground": "#FF9AA2",
+        "foreground": "#EB64B9", //#FF9AA2
         "fontStyle": ""
       }
     },
@@ -1163,7 +1173,7 @@
         "punctuation.definition.tag.xml"
       ],
       "settings": {
-        "foreground": "#DE8FFF",
+        "foreground": "#F7D009", // "#DE8FFF",
         "fontStyle": "bold"
       }
     },
