@@ -384,6 +384,8 @@
     {
       "name": "Print, Built in",
       "scope": [
+        "support.class.console.tsx",
+
         "support.function.console",
         "support.class.console",
         "support.function.builtin.python",
@@ -920,7 +922,10 @@
 
     {
       "name": "TS optional",
-      "scope": ["keyword.operator.optional.ts"],
+      "scope": [
+        "keyword.operator.optional.ts",
+        "keyword.operator.optional.tsx"
+      ],
       "settings": {
         "foreground": "#F7D009", //9795F1
         "fontStyle": ""
