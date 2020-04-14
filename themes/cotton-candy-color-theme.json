@@ -754,7 +754,8 @@
         "keyword.type.cs"
       ],
       "settings": {
-        "foreground": "#DE8FFF"
+        "foreground": "#ff4081" //"#DE8FFF" // "#4db6ac",
+        // "fontStyle": "italic"
       }
     },
     {
@@ -779,7 +780,7 @@
         "variable.other.object"
       ],
       "settings": {
-        "foreground": "#f181c4", // "#EB64B9", //#FF9AA2
+        "foreground": "#f181c4", // "#EB64B9", //#FF9AA2 //#ff80bf
         "fontStyle": ""
       }
     },
