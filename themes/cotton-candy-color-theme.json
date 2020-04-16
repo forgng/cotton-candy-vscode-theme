@@ -345,7 +345,11 @@
     // =========================================================================
     {
       "name": "String",
-      "scope": ["string", "punctuation.definition.string.begin.shell"],
+      "scope": [
+        "string",
+        "punctuation.definition.string.begin",
+        "punctuation.definition.string.end"
+      ],
       "settings": {
         "foreground": "#50d890", //#1de9b6, #98c379
         "fontStyle": ""
@@ -372,6 +376,13 @@
       "settings": {
         "foreground": "#7f848e",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": ["punctuation.definition.comment.ts"],
+      "settings": {
+        "foreground": "#7f848e"
       }
     },
     ////////////////////////////////////////////////////////////////////////////
@@ -462,28 +473,42 @@
         "foreground": "#F7D009"
       }
     },
+    {
+      "name": "${}",
+      "scope": [
+        "punctuation.definition.template-expression.begin",
+        "punctuation.definition.template-expression.end",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
+      ],
+      "settings": {
+        "foreground": "#ff4874"
+      }
+    },
 
     {
-      "name": "Comma, Parenthesis, colon, Double colon",
+      "name": "Punctuation - Comma, Parenthesis, colon, Double colon",
       "scope": [
-        "punctuation.accessor",
         "meta.jsx.children,punctuation.separator.comma",
         "meta.brace.square",
-        "punctuation.definition.block",
-        "punctuation.section.embedded.begin",
-        "punctuation.section.embedded.end",
-        "punctuation.definition.parameters.begin.tsx",
-        "punctuation.definition.parameters.end.tsx",
-        "punctuation.definition.binding-pattern",
-        "punctuation.separator.element.python",
         "meta.brace.round",
-        "punctuation.definition.parameters.end.bracket.round.java",
-        "punctuation.section",
-        "punctuation.definition.bracket.square.go",
-        "punctuation.other",
-        "punctuation.terminator.statement",
-        "punctuation.separator",
-        "punctuation.terminator"
+        "punctuation"
+        // "punctuation.accessor",
+        // "punctuation.definition.parameters.end.bracket.round.java",
+        // "punctuation.section",
+        // "punctuation.definition.bracket.square.go",
+        // "punctuation.other",
+        // "punctuation.terminator.statement",
+        // "punctuation.separator",
+        // "punctuation.terminator",
+        // "punctuation.definition.entity.css",
+        // "punctuation.definition.block",
+        // "punctuation.section.embedded.begin",
+        // "punctuation.section.embedded.end",
+        // "punctuation.definition.parameters.begin.tsx",
+        // "punctuation.definition.parameters.end.tsx",
+        // "punctuation.definition.binding-pattern",
+        // "punctuation.separator.element.python"
       ],
       "settings": {
         "foreground": "#f0efe2", //fffdd0, //FCFBE3
@@ -1353,14 +1378,14 @@
         "fontStyle": "bold italic"
       }
     },
-    {
-      "name": "CSS/SCSS :",
-      "scope": ["punctuation.definition.entity.css"],
-      "settings": {
-        "foreground": "#fff",
-        "fontStyle": "bold"
-      }
-    },
+    // {
+    //   "name": "CSS/SCSS :",
+    //   "scope": ["punctuation.definition.entity.css"],
+    //   "settings": {
+    //     "foreground": "#fff",
+    //     "fontStyle": "bold"
+    //   }
+    // },
 
     {
       "name": "CSS vendor",
@@ -1382,7 +1407,7 @@
         "support.constant.color.w3c-standard-color-name"
       ],
       "settings": {
-        "foreground": "#DE8FFF", //#75BBB9
+        "foreground": "#00bfa5", //#75BBB9
         "fontStyle": "bold"
       }
     },
