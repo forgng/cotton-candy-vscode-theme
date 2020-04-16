@@ -368,19 +368,19 @@
     },
     {
       "name": "Comment",
-      "scope": ["comment"],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#7f848e",
         "fontStyle": "italic"
       }
     },
-    {
-      "name": "Comment",
-      "scope": ["punctuation.definition.comment.ts"],
-      "settings": {
-        "foreground": "#7f848e"
-      }
-    },
+    // {
+    //   "name": "Comment",
+    //   "scope": ["punctuation.definition.comment"],
+    //   "settings": {
+    //     "foreground": "#7f848e"
+    //   }
+    // },
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
@@ -473,7 +473,16 @@
       "name": "${}",
       "scope": [
         "punctuation.definition.template-expression.begin",
-        "punctuation.definition.template-expression.end",
+        "punctuation.definition.template-expression.end"
+      ],
+      "settings": {
+        "foreground": "#ff4874"
+      }
+    },
+
+    {
+      "name": "{}",
+      "scope": [
         "punctuation.section.embedded.begin",
         "punctuation.section.embedded.end"
       ],
