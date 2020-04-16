@@ -385,7 +385,6 @@
       "name": "Print, Built in",
       "scope": [
         "support.class.console.tsx",
-        "support.variable.object.process",
         "support.function.console",
         "support.class.console",
         "support.function.builtin.python",
@@ -395,7 +394,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#75BBB9"
+        "foreground": "#ff4874"
       }
     },
     {
@@ -754,7 +753,7 @@
         "keyword.type.cs"
       ],
       "settings": {
-        "foreground": "#ff4874" //"#DE8FFF" // "#4db6ac", #ffd1dc
+        "foreground": "#75BBB9" //#ff4874 //#75BBB9 //"#DE8FFF" // "#4db6ac", #ffd1dc
         // "fontStyle": "italic"
       }
     },
@@ -839,6 +838,15 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "process",
+      "scope": ["support.variable.object.process"],
+      "settings": {
+        "foreground": "#f0efe2", //9795F1,f8d0b0
+        "fontStyle": ""
+      }
+    },
+
     {
       "name": "TS enum",
       "scope": [
