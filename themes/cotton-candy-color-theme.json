@@ -1180,7 +1180,7 @@
         "entity.other.attribute-name.tag.pug"
       ],
       "settings": {
-        "foreground": "#74DFC4", //#e5b0ea
+        "foreground": "#efca8c", //#e5b0ea
         "fontStyle": "italic"
       }
     },
