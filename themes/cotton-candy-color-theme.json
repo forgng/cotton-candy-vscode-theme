@@ -482,7 +482,8 @@
         "punctuation.definition.bracket.square.go",
         "punctuation.other",
         "punctuation.terminator.statement",
-        "punctuation.separator"
+        "punctuation.separator",
+        "punctuation.terminator"
       ],
       "settings": {
         "foreground": "#f0efe2", //fffdd0, //FCFBE3
@@ -1374,11 +1375,14 @@
       "name": "CSS costant",
       "scope": [
         "constant.numeric.css",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.px.scss",
         "support.constant.property-value.css",
-        "support.constant.font-name.css"
+        "support.constant.font-name.css",
+        "support.constant.color.w3c-standard-color-name"
       ],
       "settings": {
-        "foreground": "#75BBB9",
+        "foreground": "#DE8FFF", //#75BBB9
         "fontStyle": "bold"
       }
     },
