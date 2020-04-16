@@ -345,11 +345,7 @@
     // =========================================================================
     {
       "name": "String",
-      "scope": [
-        "string",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end"
-      ],
+      "scope": ["string", "punctuation.definition.string"],
       "settings": {
         "foreground": "#50d890", //#1de9b6, #98c379
         "fontStyle": ""
