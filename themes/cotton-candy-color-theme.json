@@ -463,8 +463,8 @@
     },
 
     {
-      "name": "if,else,try,catch,then",
-      "scope": ["keyword.control"],
+      "name": "if,else,try,catch,then,return",
+      "scope": ["keyword.control", "keyword.control.flow"],
       "settings": {
         "foreground": "#F7D009"
       }
@@ -591,7 +591,7 @@
         "keyword.function",
         "keyword.other.fn",
         "storage.modifier.async",
-        "keyword.control.flow",
+        // "keyword.control.flow",
         "keyword.other.await.cs"
       ],
       "settings": {
@@ -894,17 +894,9 @@
       "name": "async/await",
       "scope": [
         "storage.type.function.tsx",
-        // "storage.modifier.async.tsx",
-        // "keyword.control.flow.tsx",
         "storage.type.function.ts",
-        // "storage.modifier.async.ts",
         "storage.type.function.jsx",
         "storage.type.function.js"
-        // "keyword.control.flow.ts",
-        // "storage.modifier.async.jsx",
-        // "keyword.control.flow.jsx",
-        // "storage.modifier.async.js",
-        // "keyword.control.flow.js"
       ],
       "settings": {
         // "foreground": "#f0efe2", //9795F1
