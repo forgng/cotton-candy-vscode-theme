@@ -1395,17 +1395,27 @@
     },
 
     {
-      "name": "CSS costant",
+      "name": "CSS value",
       "scope": [
         "constant.numeric.css",
         "keyword.other.unit.px.css",
         "keyword.other.unit.px.scss",
         "support.constant.property-value.css",
         "support.constant.font-name.css",
-        "support.constant.color.w3c-standard-color-name"
+        "support.constant.color.w3c-standard-color-name",
+        "keyword.other.unit"
       ],
       "settings": {
         "foreground": "#00bfa5", //#75BBB9
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "name": "CSS @",
+      "scope": ["punctuation.definition.keyword.scss"],
+      "settings": {
+        "foreground": "#F7D009",
         "fontStyle": "bold"
       }
     },
