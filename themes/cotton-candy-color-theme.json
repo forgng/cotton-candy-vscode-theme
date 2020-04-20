@@ -401,7 +401,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ff4874"
+        "foreground": "#ff4874" //#f8648c
       }
     },
     {
@@ -643,7 +643,7 @@
       "name": "Object key",
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#00cee6",
+        "foreground": "#75BBB9", //#00ccff //#00cee6 #75BBB9
         "fontStyle": ""
       }
     },
@@ -651,7 +651,7 @@
       "name": "Value",
       "scope": ["support.constant"],
       "settings": {
-        "foreground": "#00cee6",
+        "foreground": "#75BBB9",
         "fontStyle": ""
       }
     },
@@ -784,7 +784,7 @@
         "keyword.type.cs"
       ],
       "settings": {
-        "foreground": "#75BBB9" //#ff4874 //#75BBB9 //"#DE8FFF" // "#4db6ac", #ffd1dc
+        "foreground": "#00cee6" //#ff4874 //#75BBB9 //"#DE8FFF" // "#4db6ac", #ffd1dc
         // "fontStyle": "italic"
       }
     },
@@ -993,7 +993,7 @@
       "name": "TS interface",
       "scope": ["meta.type.parameters.tsx", "meta.definition.property.tsx"],
       "settings": {
-        "foreground": "#00cee6" //f8d0b0
+        "foreground": "#00cee6" //#f8d0b0 #00cee6
         // "fontStyle": "bold"
       }
     },
