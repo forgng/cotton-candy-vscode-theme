@@ -352,6 +352,15 @@
       }
     },
     {
+      "name": "Other keyword",
+      "scope": ["keyword.other.tsx"],
+      "settings": {
+        "foreground": "#d8d7cb", //#1de9b6, #98c379
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "doc",
       "scope": [
         "comment.block",
@@ -476,7 +485,7 @@
         "punctuation.definition.template-expression.end"
       ],
       "settings": {
-        "foreground": "#f0efe2" //#9580ff //#ff4874
+        "foreground": "#d8d7cb" // #f0efe2 //#9580ff //#ff4874
       }
     },
 
@@ -487,7 +496,7 @@
         "punctuation.section.embedded.end"
       ],
       "settings": {
-        "foreground": "#f0efe2" //
+        "foreground": "#d8d7cb" //#f0efe2
       }
     },
 
@@ -873,7 +882,7 @@
       "name": "process",
       "scope": ["support.variable.object.process"],
       "settings": {
-        "foreground": "#f0efe2", //9795F1,f8d0b0
+        "foreground": "#d8d7cb", //#9795F1,#f8d0b0 #f0efe2
         "fontStyle": ""
       }
     },
