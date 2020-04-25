@@ -728,7 +728,7 @@
         "meta.body.class.cpp"
       ],
       "settings": {
-        "foreground": "#00cee6", //9795F1
+        "foreground": "#EBCA57", //"#00cee6", //#9795F1
         "fontStyle": "bold"
       }
     },
