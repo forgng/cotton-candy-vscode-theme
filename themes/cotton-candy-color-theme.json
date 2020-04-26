@@ -594,6 +594,29 @@
     // ================================== _Functions ===========================
     // =========================================================================
     {
+      "name": "Function definition",
+      "scope": [
+        "meta.definition.function.ts",
+        "meta.definition.function.tsx",
+        "meta.definition.function.js",
+        "meta.definition.function.jsx",
+        "meta.definition.method.ts",
+        "meta.definition.method.tsx",
+        "meta.definition.method.js",
+        "meta.definition.method.jsx",
+        "entity.name.function.python"
+        // "entity.name.function.tsx",
+        // "entity.name.function.jsx",
+        // "entity.name.function.js",
+        // "entity.name.function.ts"
+      ],
+      "settings": {
+        "foreground": "#f0efe2", //9795F1
+        "fontStyle": "italic bold underline"
+      }
+    },
+
+    {
       "name": "function definition/async/await",
       "scope": [
         "storage.type.function",
@@ -910,27 +933,6 @@
       "settings": {
         // "foreground": "#f0efe2", //9795F1
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "Function definition",
-      "scope": [
-        "meta.definition.function.ts",
-        "meta.definition.function.tsx",
-        "meta.definition.function.js",
-        "meta.definition.function.jsx",
-        "meta.definition.method.ts",
-        "meta.definition.method.tsx",
-        "meta.definition.method.js",
-        "meta.definition.method.jsx"
-        // "entity.name.function.tsx",
-        // "entity.name.function.jsx",
-        // "entity.name.function.js",
-        // "entity.name.function.ts"
-      ],
-      "settings": {
-        "foreground": "#f0efe2", //9795F1
-        "fontStyle": "italic bold underline"
       }
     },
 
@@ -1857,24 +1859,35 @@
     // =========================================================================
 
     {
+      "name": "def",
+      "scope": ["storage.type.function.python"],
+      "settings": {
+        "foreground": "#FFC785",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Function arguments",
       "scope": ["meta.function-call.arguments.python"],
       "settings": {
-        "foreground": "#DF7599"
+        "foreground": "#DF7599",
+        "fontStyle": ""
       }
     },
     {
       "name": "Python function",
       "scope": ["punctuation.separator.dict.python"],
       "settings": {
-        "foreground": "#F6C3E5"
+        "foreground": "#F6C3E5",
+        "fontStyle": ""
       }
     },
     {
       "name": "Python function",
       "scope": ["keyword.operator.logical.python"],
       "settings": {
-        "foreground": "#FF77AF"
+        "foreground": "#FF77AF",
+        "fontStyle": ""
       }
     },
 
