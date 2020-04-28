@@ -1859,6 +1859,15 @@
     // =========================================================================
 
     {
+      "name": "Base",
+      "scope": ["source.python"],
+      "settings": {
+        "foreground": "#D8D7CB",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "def",
       "scope": ["storage.type.function.python"],
       "settings": {
@@ -1867,10 +1876,19 @@
       }
     },
     {
+      "name": "Exception",
+      "scope": ["support.type.exception.python"],
+      "settings": {
+        "foreground": "#be97dc",
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "Function arguments",
       "scope": ["meta.function-call.arguments.python"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#D8D7CB",
         "fontStyle": ""
       }
     },
@@ -1885,6 +1903,14 @@
     {
       "name": "Python function",
       "scope": ["keyword.operator.logical.python"],
+      "settings": {
+        "foreground": "#FF77AF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Python builtin",
+      "scope": ["support.function.builtin.python"],
       "settings": {
         "foreground": "#FF77AF",
         "fontStyle": ""
