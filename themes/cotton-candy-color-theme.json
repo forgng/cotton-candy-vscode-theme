@@ -902,6 +902,15 @@
       }
     },
     {
+      "name": "Object property",
+      "scope": ["variable.object.property"],
+      "settings": {
+        "foreground": "#f181c4", //9795F1,f8d0b0
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "process",
       "scope": ["support.variable.object.process"],
       "settings": {
