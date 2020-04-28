@@ -1872,7 +1872,15 @@
       "scope": ["source.python"],
       "settings": {
         "foreground": "#D8D7CB",
-        "fontStyle": "bold"
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Access member",
+      "scope": ["meta.member.access.python"],
+      "settings": {
+        "foreground": "#8ed6ff",
+        "fontStyle": ""
       }
     },
 
