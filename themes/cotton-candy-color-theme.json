@@ -499,6 +499,13 @@
         "foreground": "#d8d7cb" //#f0efe2
       }
     },
+    {
+      "name": "Escape",
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#d8d7cb"
+      }
+    },
 
     {
       "name": "Punctuation - Comma, Parenthesis, colon, Double colon",
@@ -1869,9 +1876,17 @@
 
     {
       "name": "Base",
+      "scope": ["keyword.control.import.python"],
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "Base",
       "scope": ["source.python"],
       "settings": {
-        "foreground": "#D8D7CB",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1929,7 +1944,7 @@
       "name": "Python builtin",
       "scope": ["support.function.builtin.python"],
       "settings": {
-        "foreground": "#FF77AF",
+        "foreground": "#75BBB9",
         "fontStyle": ""
       }
     },
