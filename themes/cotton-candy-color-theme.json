@@ -921,7 +921,7 @@
       "name": "process",
       "scope": ["support.variable.object.process"],
       "settings": {
-        "foreground": "#d8d7cb", //#9795F1,#f8d0b0 #f0efe2
+        "foreground": "#eff195", //"#249ef5", //#9795F1,#f8d0b0 #f0efe2
         "fontStyle": ""
       }
     },
