@@ -1978,7 +1978,15 @@
       "scope": ["support.type.python"],
       "settings": {
         "foreground": "#9795F1",
-        "fontStyle": "bold"
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "magic",
+      "scope": ["support.function.magic.python"],
+      "settings": {
+        "foreground": "#f0efe2",
+        "fontStyle": ""
       }
     },
 
