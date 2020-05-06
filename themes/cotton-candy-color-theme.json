@@ -1054,6 +1054,14 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "Generator *",
+      "scope": ["keyword.generator.asterisk"],
+      "settings": {
+        "foreground": "#ff4874", //9795F1
+        "fontStyle": "bold"
+      }
+    },
 
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
@@ -1357,6 +1365,15 @@
       }
     },
     {
+      "name": "Style in html",
+      "scope": ["meta.embedded.line.css"],
+      "settings": {
+        "foreground": "#DF7599",
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "CSS/SCSS property",
       "scope": ["support.type.property-name.css"],
       "settings": {
@@ -1383,10 +1400,18 @@
     },
 
     {
+      "name": "CSS/SCSS element",
+      "scope": ["entity.name.tag.css"],
+      "settings": {
+        "foreground": "#DE8FFF",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "CSS/SCSS class, id, element, Pseudo class/element",
       "scope": [
         "entity.other.attribute-name.pseudo-element.css",
-        "entity.name.tag.css",
         "entity.other.attribute-name.class",
         "entity.other.attribute-name.id.css"
       ],
@@ -1501,7 +1526,7 @@
       "scope": [
         "entity.name.tag.reference.scss",
         "entity.name.tag.wildcard.css",
-        "source.css.scss"
+        "source.css"
       ],
       "settings": {
         "foreground": "#00CEE6",
