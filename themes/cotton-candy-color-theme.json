@@ -1058,7 +1058,7 @@
       "name": "Generator *",
       "scope": ["keyword.generator.asterisk"],
       "settings": {
-        "foreground": "#ff4874", //9795F1
+        "foreground": "#1de9b6", //9795F1
         "fontStyle": "bold"
       }
     },
