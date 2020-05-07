@@ -347,7 +347,7 @@
       "name": "String",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#50d890", //#1de9b6, #98c379
+        "foreground": "#00faac", //"#50d890", //#1de9b6, #98c379
         "fontStyle": ""
       }
     },
