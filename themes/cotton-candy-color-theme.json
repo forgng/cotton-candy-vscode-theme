@@ -145,7 +145,7 @@
     // "tab.unfocusedHoverBorder": "",
 
     // Editor Colors — for syntax highlighting, use the editor.tokenColorCustomizations setting. All other editor colors are listed here
-    "editor.background": "#21252b", //#282A36 // #0e1111
+    "editor.background": "#21252b", //#282A36 // #0e1111 //#322957
 
     "editor.foreground": "#d8d7cb",
     "editorLineNumber.foreground": "#484c7f",
@@ -904,7 +904,7 @@
       "name": "TS/JS base",
       "scope": ["source.tsx", "source.ts", "source.jsx", "source.js"],
       "settings": {
-        "foreground": "#eff195", //9795F1,f8d0b0
+        "foreground": "#eff195", //#9795F1,#f8d0b0 #fef96a
         "fontStyle": ""
       }
     },
@@ -955,10 +955,10 @@
     {
       "name": "Log",
       "scope": [
-        "support.function.console.tsx",
-        "support.function.console.ts",
-        "support.function.console.jsx",
-        "support.function.console.js"
+        "support.function.console"
+        // "support.function.console.ts",
+        // "support.function.console.jsx",
+        // "support.function.console.js"
       ],
       "settings": {
         "foreground": "#eff195", //9795F1,f8d0b0
