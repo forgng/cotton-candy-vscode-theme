@@ -798,7 +798,7 @@
         "entity.name.type.namespace.cs"
       ],
       "settings": {
-        "foreground": "#68bcd2"
+        "foreground": "#86cbee" //"#68bcd2"
       }
     },
     {
