@@ -444,7 +444,7 @@
         "meta.at-rule.import.scss"
       ],
       "settings": {
-        "foreground": "#9795F1", //#9580ff
+        "foreground": "#e040fb", //  "#9795F1", //#9580ff
         "fontStyle": "italic"
       }
     },
