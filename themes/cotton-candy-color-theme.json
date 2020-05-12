@@ -485,7 +485,7 @@
         "punctuation.definition.template-expression.end"
       ],
       "settings": {
-        "foreground": "#d8d7cb" // #f0efe2 //#9580ff //#ff4874
+        "foreground": "#FFC785" // #f0efe2 //#9580ff //#ff4874
       }
     },
 
