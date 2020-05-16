@@ -2032,6 +2032,15 @@
     // =========================================================================
 
     {
+      "name": "$ variable",
+      "scope": ["punctuation.definition.variable.php"],
+      "settings": {
+        "foreground": "#FF9AA2",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "Namespace name",
       "scope": ["entity.name.type.namespace.php"],
       "settings": {
