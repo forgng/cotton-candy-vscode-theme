@@ -611,7 +611,9 @@
         "meta.definition.method.tsx",
         "meta.definition.method.js",
         "meta.definition.method.jsx",
-        "entity.name.function.python"
+        "entity.name.function.python",
+        "meta.function.php"
+
         // "entity.name.function.tsx",
         // "entity.name.function.jsx",
         // "entity.name.function.js",
@@ -2035,11 +2037,10 @@
       "name": "$ variable",
       "scope": ["punctuation.definition.variable.php"],
       "settings": {
-        "foreground": "#FF9AA2",
+        "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
-
     {
       "name": "Namespace name",
       "scope": ["entity.name.type.namespace.php"],
@@ -2048,12 +2049,28 @@
         "fontStyle": "bold"
       }
     },
+    {
+      "name": "php doc variable",
+      "scope": ["keyword.other.phpdoc.php"],
+      "settings": {
+        "foreground": "#3dc7b9",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "PHP doc return type",
+      "scope": ["keyword.other.type.php"],
+      "settings": {
+        "foreground": "#249ef5",
+        "fontStyle": "bold"
+      }
+    },
 
     {
       "name": "<php",
       "scope": ["punctuation.section.embedded.begin.php"],
       "settings": {
-        "foreground": "#68bcd2",
+        "foreground": "#EB64B9",
         "fontStyle": "bold"
       }
     },
