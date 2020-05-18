@@ -1205,7 +1205,6 @@
         "entity.name.tag",
         "support.class.component",
         "meta.tag.inline.any",
-        "text.html.vue-html",
         "entity.name.tag.localname.xml",
         "source.svelte",
         "source.jest.snap"
@@ -1240,7 +1239,7 @@
     },
     {
       "name": "XML text",
-      "scope": ["text.xml"],
+      "scope": ["text.xml", "text.html.vue-html"],
       "settings": {
         "foreground": "#CBF1F5",
         "fontStyle": ""
