@@ -611,8 +611,8 @@
         "meta.definition.method.tsx",
         "meta.definition.method.js",
         "meta.definition.method.jsx",
-        "entity.name.function.python",
-        "meta.function.php"
+        "entity.name.function.python"
+        // "meta.function.php"
 
         // "entity.name.function.tsx",
         // "entity.name.function.jsx",
@@ -1227,7 +1227,7 @@
       ],
       "settings": {
         "foreground": "#efca8c", //#e5b0ea
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
     {
@@ -2075,11 +2075,19 @@
       }
     },
     {
-      "name": "PHP ",
+      "name": "PHP",
       "scope": ["support.other.namespace.php"],
       "settings": {
         "foreground": "#FFC785",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Blade",
+      "scope": ["keyword.blade"],
+      "settings": {
+        "foreground": "#EB64B9",
+        "fontStyle": ""
       }
     },
 
