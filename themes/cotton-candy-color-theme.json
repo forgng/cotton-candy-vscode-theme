@@ -1241,7 +1241,7 @@
       "name": "XML text",
       "scope": ["text.xml", "text.html.vue-html"],
       "settings": {
-        "foreground": "#CBF1F5",
+        "foreground": "#f0efe2",
         "fontStyle": ""
       }
     },
