@@ -2049,6 +2049,15 @@
       }
     },
     {
+      "name": "::",
+      "scope": ["keyword.operator.class.php"],
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
       "name": "php doc variable",
       "scope": ["keyword.other.phpdoc.php"],
       "settings": {
