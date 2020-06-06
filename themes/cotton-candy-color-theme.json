@@ -807,7 +807,7 @@
       "name": "Variable modifier",
       "scope": [
         "storage.modifier",
-        "storage.modifier.php",
+        // "storage.modifier.php",
         "keyword.other.var.cs"
       ],
       "settings": {
@@ -2075,7 +2075,11 @@
     },
     {
       "name": "Class",
-      "scope": ["storage.modifier.extends.php", "storage.type.class.php"],
+      "scope": [
+        "storage.modifier.extends.php",
+        "storage.type.class.php",
+        "storage.modifier.php"
+      ],
       "settings": {
         "foreground": "#00CEE6",
         "fontStyle": "bold"
