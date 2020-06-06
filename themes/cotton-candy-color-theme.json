@@ -668,7 +668,7 @@
         "source.elixir.embedded.source"
       ],
       "settings": {
-        "foreground": "#3dc7b9",
+        "foreground": "#3dc7b9", //#00cbae
         "fontStyle": "bold"
       }
     },
@@ -2070,6 +2070,14 @@
       "scope": ["keyword.other.type.php"],
       "settings": {
         "foreground": "#249ef5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Class",
+      "scope": ["storage.modifier.extends.php", "storage.type.class.php"],
+      "settings": {
+        "foreground": "#00CEE6",
         "fontStyle": "bold"
       }
     },
