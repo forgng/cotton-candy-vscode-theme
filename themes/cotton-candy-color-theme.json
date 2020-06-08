@@ -2078,7 +2078,8 @@
       "scope": [
         "storage.modifier.extends.php",
         "storage.type.class.php",
-        "storage.modifier.php"
+        "storage.modifier.php",
+        "storage.modifier"
       ],
       "settings": {
         "foreground": "#00CEE6",
@@ -2107,6 +2108,23 @@
       "scope": ["keyword.blade"],
       "settings": {
         "foreground": "#EB64B9",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "::, ->",
+      "scope": ["keyword.operator.class.php"],
+      "settings": {
+        "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "Other",
+      "scope": ["keyword.other.class.php"],
+      "settings": {
+        "foreground": "#00CEE6",
         "fontStyle": ""
       }
     },
