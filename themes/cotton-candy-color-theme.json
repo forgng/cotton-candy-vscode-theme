@@ -1774,7 +1774,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#9795F1",
+        "foreground": "#DF7599",
         "fontStyle": "bold"
       }
     },
@@ -1782,7 +1782,7 @@
       "name": "JSON string, ENV key",
       "scope": ["support.type.property-name.json", "variable.other.env"],
       "settings": {
-        "foreground": "#9795F1",
+        "foreground": "#DF7599",
         "fontStyle": "bold"
       }
     },
@@ -1821,6 +1821,15 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "yaml -",
+      "scope": ["punctuation.definition.block.sequence.item.yaml"],
+      "settings": {
+        "foreground": "#f0efe2",
+        "fontStyle": ""
+      }
+    },
+
     {
       "name": "Nginx",
       "scope": ["constant.language.module.core"],
