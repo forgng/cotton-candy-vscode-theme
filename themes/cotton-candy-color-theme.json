@@ -513,7 +513,9 @@
         "meta.jsx.children,punctuation.separator.comma",
         "meta.brace.square",
         "meta.brace.round",
-        "punctuation"
+        "punctuation",
+        "constant.character.brace",
+        "constant.character.end"
         // "punctuation.accessor",
         // "punctuation.definition.parameters.end.bracket.round.java",
         // "punctuation.section",
@@ -1774,7 +1776,7 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
@@ -1782,7 +1784,7 @@
       "name": "JSON string, ENV key",
       "scope": ["support.type.property-name.json", "variable.other.env"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#9795F1",
         "fontStyle": "bold"
       }
     },
@@ -1832,6 +1834,15 @@
 
     {
       "name": "Nginx",
+      "scope": ["source.nginx", "constant.language.module"],
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+
+    {
+      "name": "Nginx",
       "scope": ["constant.language.module.core"],
       "settings": {
         "foreground": "#9795F1",
@@ -1858,7 +1869,7 @@
       "name": "Docker",
       "scope": ["keyword.other.special-method.dockerfile"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#9795F1",
         "fontStyle": ""
       }
     },
