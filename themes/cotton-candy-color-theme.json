@@ -1657,7 +1657,7 @@
       "name": "Markdown paragraph",
       "scope": ["meta.paragraph.markdown"],
       "settings": {
-        "foreground": "#75BBB9", //1de9b6
+        "foreground": "#75BBB9", //#1de9b6
         "fontStyle": ""
       }
     },
@@ -1849,7 +1849,7 @@
       "name": "Docker",
       "scope": ["keyword.other.special-method.dockerfile"],
       "settings": {
-        "foreground": "#9795F1",
+        "foreground": "#DF7599",
         "fontStyle": ""
       }
     },
