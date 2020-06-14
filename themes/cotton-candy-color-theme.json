@@ -705,7 +705,8 @@
         "variable.other.property",
         "support.variable.property",
         "variable.other.object.property",
-        "support.variable.object.node"
+        "support.variable.object.node",
+        "variable.other.member.terraform"
       ],
       "settings": {
         "foreground": "#FF9AA2",
@@ -1733,13 +1734,21 @@
     ////////////////////////////////////////////////////////////////////////////
 
     // =========================================================================
-    // ========== _Config,_Json,_docker,_nginx,_git,_ignore,_env,_Gradle) ======
+    // ========== _Config,_Json,_docker,_nginx,_git,_ignore,_env,_Gradle, _Terraform) ======
     // =========================================================================
     {
       "name": "ENV base",
       "scope": ["source.env"],
       "settings": {
         "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Terraform build in",
+      "scope": ["support.function.builtin.terraform"],
+      "settings": {
+        "foreground": "#FFC785",
         "fontStyle": ""
       }
     },
