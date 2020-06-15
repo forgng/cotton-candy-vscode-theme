@@ -667,7 +667,8 @@
         "support.function.any-method.builtin.less",
         "support.function.kotlin",
         "meta.method-call.coffee",
-        "source.elixir.embedded.source"
+        "source.elixir.embedded.source",
+        "entity.name.function.target.makefile"
       ],
       "settings": {
         "foreground": "#3dc7b9", //#00cbae
@@ -705,7 +706,8 @@
         "variable.other.property",
         "support.variable.property",
         "variable.other.object.property",
-        "support.variable.object.node"
+        "support.variable.object.node",
+        "variable.other.member.terraform"
       ],
       "settings": {
         "foreground": "#FF9AA2",
@@ -850,7 +852,8 @@
         "entity.name.variable.local.cs",
         "meta.body.function.definition.cpp",
         "variable.language.elixir",
-        "variable.other.object"
+        "variable.other.object",
+        "variable.other.makefile"
       ],
       "settings": {
         "foreground": "#f181c4", // "#EB64B9", //#FF9AA2 //#ff80bf
@@ -1733,13 +1736,21 @@
     ////////////////////////////////////////////////////////////////////////////
 
     // =========================================================================
-    // ========== _Config,_Json,_docker,_nginx,_git,_ignore,_env,_Gradle) ======
+    // ========== _Config,_Json,_docker,_nginx,_git,_ignore,_env,_Gradle, _Terraform) ======
     // =========================================================================
     {
       "name": "ENV base",
       "scope": ["source.env"],
       "settings": {
         "foreground": "#1de9b6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Terraform build in",
+      "scope": ["support.function.builtin.terraform"],
+      "settings": {
+        "foreground": "#FFC785",
         "fontStyle": ""
       }
     },
@@ -2582,6 +2593,38 @@
       "scope": ["entity.global.clojure"],
       "settings": {
         "foreground": "#00CEE6",
+        "fontStyle": ""
+      }
+    },
+
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+
+    // =========================================================================
+    // ================================ _Makefile ==============================
+    // =========================================================================
+    {
+      "name": "Recipe",
+      "scope": ["meta.scope.recipe.makefile"],
+      "settings": {
+        "foreground": "#00CEE6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "PHONY",
+      "scope": ["support.function.target.PHONY.makefile"],
+      "settings": {
+        "foreground": "#9795F1",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Prerequisites",
+      "scope": ["meta.scope.prerequisites.makefile"],
+      "settings": {
+        "foreground": "#F7D009",
         "fontStyle": ""
       }
     }
