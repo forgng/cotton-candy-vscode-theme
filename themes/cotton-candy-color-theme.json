@@ -1564,10 +1564,10 @@
       }
     },
     {
-      "name": "Shebang",
+      "name": "Source shell",
       "scope": ["source.shell"],
       "settings": {
-        "foreground": "#DE8FFF",
+        "foreground": "#f0efe2",
         "fontStyle": "bold"
       }
     },
