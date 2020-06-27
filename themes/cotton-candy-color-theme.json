@@ -2155,7 +2155,7 @@
       "name": "::, ->",
       "scope": ["keyword.operator.class.php"],
       "settings": {
-        "foreground": "#1de9b6",
+        "foreground": "#FFC785",
         "fontStyle": ""
       }
     },
