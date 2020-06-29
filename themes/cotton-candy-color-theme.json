@@ -1564,10 +1564,10 @@
       }
     },
     {
-      "name": "Shebang",
+      "name": "Source shell",
       "scope": ["source.shell"],
       "settings": {
-        "foreground": "#DE8FFF",
+        "foreground": "#f0efe2",
         "fontStyle": "bold"
       }
     },
@@ -1911,7 +1911,7 @@
       "name": "SQL Base",
       "scope": ["source.sql"],
       "settings": {
-        "foreground": "#FFFEEC",
+        "foreground": "#f0efe2",
         "fontStyle": ""
       }
     },
@@ -2072,6 +2072,15 @@
       }
     },
     {
+      "name": "use",
+      "scope": ["keyword.other.function.use.php"],
+      "settings": {
+        "foreground": "#F7D009",
+        "fontStyle": "italic bold"
+      }
+    },
+
+    {
       "name": "Namespace name",
       "scope": ["entity.name.type.namespace.php"],
       "settings": {
@@ -2146,7 +2155,7 @@
       "name": "::, ->",
       "scope": ["keyword.operator.class.php"],
       "settings": {
-        "foreground": "#1de9b6",
+        "foreground": "#FFC785",
         "fontStyle": ""
       }
     },
@@ -2291,7 +2300,7 @@
       "name": "Rust Base",
       "scope": ["source.rust"],
       "settings": {
-        "foreground": "#FFFEEC",
+        "foreground": "#f0efe2",
         "fontStyle": ""
       }
     },
