@@ -1627,16 +1627,24 @@
     // ================================== _Markdown ============================
     // =========================================================================
     {
-      "name": "Markdown title",
-      "scope": ["heading.1.markdown"],
+      "name": "title",
+      "scope": ["entity.name.section.markdown"],
       "settings": {
-        "foreground": "#a374d5",
+        "foreground": "#DF7599",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "#",
+      "scope": ["punctuation.definition.heading.markdown"],
+      "settings": {
+        "foreground": "#DF7599",
         "fontStyle": "bold"
       }
     },
 
     {
-      "name": "Markdown raw string",
+      "name": "raw string",
       "scope": ["markup.inline.raw.string.markdown"],
       "settings": {
         "foreground": "#1de9b6",
@@ -1678,7 +1686,7 @@
       "name": "Markdown link",
       "scope": ["markup.underline.link.markdown"],
       "settings": {
-        "foreground": "#cacfff",
+        "foreground": "#00CEE6",
         "fontStyle": "underline"
       }
     },
@@ -1686,7 +1694,7 @@
       "name": "Markdown link title",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#FFC785",
         "fontStyle": "underline"
       }
     },
