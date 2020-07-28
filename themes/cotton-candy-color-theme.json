@@ -1001,7 +1001,7 @@
       "name": "TS ?",
       "scope": ["punctuation.accessor.optional.ts"],
       "settings": {
-        "foreground": "#00cee6", //9795F1
+        "foreground": "#F7D009", //9795F1
         "fontStyle": "bold"
       }
     },
