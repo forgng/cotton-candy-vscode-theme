@@ -710,7 +710,7 @@
         "variable.other.member.terraform"
       ],
       "settings": {
-        "foreground": "#FF9AA2",
+        "foreground": "#f0efe2",
         "fontStyle": ""
       }
     },
@@ -856,7 +856,7 @@
         "variable.other.makefile"
       ],
       "settings": {
-        "foreground": "#f181c4", // "#EB64B9", //#FF9AA2 //#ff80bf
+        "foreground": "#f181c4", // "#EB64B9", //#FF9AA2 //#ff80bf //#ff7edb
         "fontStyle": ""
       }
     },
@@ -997,6 +997,15 @@
         "fontStyle": ""
       }
     },
+    {
+      "name": "TS ?",
+      "scope": ["punctuation.accessor.optional.ts"],
+      "settings": {
+        "foreground": "#00cee6", //9795F1
+        "fontStyle": "bold"
+      }
+    },
+
     {
       "name": "TS Union/Intersection",
       "scope": ["keyword.operator.type.tsx"],
