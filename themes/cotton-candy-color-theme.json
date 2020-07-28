@@ -999,7 +999,10 @@
     },
     {
       "name": "TS ?",
-      "scope": ["punctuation.accessor.optional.ts"],
+      "scope": [
+        "punctuation.accessor.optional.ts",
+        "punctuation.accessor.optional.tsx"
+      ],
       "settings": {
         "foreground": "#F7D009", //9795F1
         "fontStyle": "bold"
