@@ -444,7 +444,7 @@
         "meta.at-rule.import.scss"
       ],
       "settings": {
-        "foreground": "#e040fb", //  "#9795F1", //#9580ff
+        "foreground": "#DE8FFF", //  "#9795F1", //#9580ff
         "fontStyle": "italic"
       }
     },
@@ -868,7 +868,7 @@
         "parameter.variable.function.elixir"
       ],
       "settings": {
-        "foreground": "#DE8FFF",
+        "foreground": "#ffab40", //#e040fb //#DE8FFF
         "fontStyle": ""
       }
     },
