@@ -869,7 +869,7 @@
       ],
       "settings": {
         "foreground": "#ffab40", //#e040fb //#DE8FFF
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
 
@@ -1031,7 +1031,7 @@
       ],
       "settings": {
         "foreground": "#9795F1", //#9795F1, #f8d0b0
-        "fontStyle": "italic"
+        "fontStyle": ""
       }
     },
 
