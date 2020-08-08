@@ -1789,7 +1789,10 @@
     },
     {
       "name": ":",
-      "scope": ["punctuation.separator.dictionary.key-value.json"],
+      "scope": [
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.key-value.mapping.yaml"
+      ],
       "settings": {
         "foreground": "#FFC785"
       }
