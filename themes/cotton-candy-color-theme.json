@@ -202,7 +202,7 @@
     "editorGutter.background": "#282A36", //#21252b,
 
     // Diff Editor Colors — For coloring inserted and removed text, use either a background or a border color but not both.
-    // "diffEditor.insertedTextBackground": "#faf8db",
+    // "diffEditor.insertedTextBackground": "",
     // "diffEditor.insertedTextBorder": "",
     // "diffEditor.removedTextBackground": "",
     // "diffEditor.removedTextBorder": "",
@@ -322,7 +322,7 @@
     // "welcomePage.buttonHoverBackground": "",
     // "walkThrough.embeddedEditorBackground": "",
     // Git Colors
-    // "gitDecoration.modifiedResourceForeground": "",
+    // "gitDecoration.modifiedResourceForeground": ""
     // "gitDecoration.deletedResourceForeground": "",
     // "gitDecoration.untrackedResourceForeground": "",
     // "gitDecoration.ignoredResourceForeground": "",
@@ -372,7 +372,7 @@
       ],
       "settings": {
         "foreground": "#32afa9",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
     {
@@ -420,13 +420,6 @@
         "foreground": "#DF7599"
       }
     },
-    // {
-    //   "name": "Regex escape",
-    //   "scope": ["constant.character.escape.backslash.regexp"],
-    //   "settings": {
-    //     "foreground": "#9795F1"
-    //   }
-    // },
 
     {
       "name": "Import/export",
@@ -868,7 +861,7 @@
         "parameter.variable.function.elixir"
       ],
       "settings": {
-        "foreground": "#ffab40", //#e040fb //#DE8FFF
+        "foreground": "#ffab40", //#fc9867 //#e040fb //#DE8FFF
         "fontStyle": "italic"
       }
     },
@@ -1242,7 +1235,7 @@
         "entity.other.attribute-name.tag.pug"
       ],
       "settings": {
-        "foreground": "#efca8c", //#e5b0ea
+        "foreground": "#efca8c", //#ffd866 //#e5b0ea
         "fontStyle": ""
       }
     },
@@ -1272,7 +1265,7 @@
         "punctuation.definition.tag.xml"
       ],
       "settings": {
-        "foreground": "#F7D009", // "#DE8FFF",
+        "foreground": "#ffd866", // "#DE8FFF", //#F7D009
         "fontStyle": ""
       }
     },
@@ -1788,6 +1781,21 @@
       }
     },
     {
+      "name": "Regex escape",
+      "scope": ["constant.character.escape.json"],
+      "settings": {
+        "foreground": "#FFC785"
+      }
+    },
+    {
+      "name": ":",
+      "scope": ["punctuation.separator.dictionary.key-value.json"],
+      "settings": {
+        "foreground": "#FFC785"
+      }
+    },
+
+    {
       "name": "TOML(like) table punctuation",
       "scope": [
         "entity.name.section.group-title.ini",
@@ -1813,7 +1821,12 @@
     },
     {
       "name": "JSON string, ENV key",
-      "scope": ["support.type.property-name.json", "variable.other.env"],
+      "scope": [
+        "support.type.property-name.json",
+        // "punctuation.support.type.property-name.begin.json",
+        // "punctuation.support.type.property-name.end.json",
+        "variable.other.env"
+      ],
       "settings": {
         "foreground": "#9795F1",
         "fontStyle": "bold"
