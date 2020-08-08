@@ -459,7 +459,7 @@
         "constant.keyword.clojure"
       ],
       "settings": {
-        "foreground": "#FFC785",
+        "foreground": "#ff6188", //#ff6188 //#FFC785
         "fontStyle": ""
       }
     },
@@ -545,7 +545,7 @@
         "keyword.operator.rest"
       ],
       "settings": {
-        "foreground": "#fff", //fffdd0, //FCFBE3, //f5f691, //f6e935
+        "foreground": "#ffd866", //#fffdd0, //#FCFBE3, //#f5f691, //#f6e935
         "fontStyle": ""
       }
     },
@@ -1815,26 +1815,28 @@
       "scope": [
         "keyword.key.toml",
         "keyword.other.definition.ini",
-        "entity.name.tag.yaml"
-      ],
-      "settings": {
-        "foreground": "#9795F1",
-        "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "JSON string, ENV key",
-      "scope": [
+        "entity.name.tag.yaml",
         "support.type.property-name.json",
-        // "punctuation.support.type.property-name.begin.json",
-        // "punctuation.support.type.property-name.end.json",
         "variable.other.env"
       ],
       "settings": {
         "foreground": "#9795F1",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
+    // {
+    //   "name": "JSON string, ENV key",
+    //   "scope": [
+
+    //     // "punctuation.support.type.property-name.begin.json",
+    //     // "punctuation.support.type.property-name.end.json",
+
+    //   ],
+    //   "settings": {
+    //     "foreground": "#9795F1",
+    //     "fontStyle": "bold"
+    //   }
+    // },
     {
       "name": "Ignore file",
       "scope": ["text.gitignore", "source.ini,source.ignore"],
