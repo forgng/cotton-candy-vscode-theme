@@ -508,7 +508,8 @@
         "meta.brace.round",
         "punctuation",
         "constant.character.brace",
-        "constant.character.end"
+        "constant.character.end",
+        "keyword.operator.assignment"
         // "punctuation.accessor",
         // "punctuation.definition.parameters.end.bracket.round.java",
         // "punctuation.section",
@@ -524,13 +525,14 @@
         // "punctuation.definition.parameters.begin.tsx",
         // "punctuation.definition.parameters.end.tsx",
         // "punctuation.definition.binding-pattern",
-        // "punctuation.separator.element.python"
+        // "punctuation.separator.element.python",
       ],
       "settings": {
         "foreground": "#f0efe2", //fffdd0, //FCFBE3
         "fontStyle": ""
       }
     },
+
     {
       "name": "logical/math operators",
       "scope": [
@@ -538,7 +540,7 @@
         "keyword.operator.logical",
         "keyword.operator.ternary",
         "keyword.operator.comparison",
-        "keyword.operator.assignment",
+        // "keyword.operator.assignment",
         "keyword.operator.arithmetic",
         "keyword.operator.type.annotation",
         "keyword.operator.spread",
@@ -1781,12 +1783,23 @@
       }
     },
     {
-      "name": "Regex escape",
-      "scope": ["constant.character.escape.json"],
+      "name": "Regex",
+      "scope": [
+        "constant.character.escape.json",
+        "constant.other.character-class.regexp"
+      ],
       "settings": {
         "foreground": "#FFC785"
       }
     },
+    // {
+    //   "name": "Regex /",
+    //   "scope": ["string.regexp"],
+    //   "settings": {
+    //     "foreground": "#ff6188"
+    //   }
+    // },
+
     {
       "name": ":",
       "scope": [
