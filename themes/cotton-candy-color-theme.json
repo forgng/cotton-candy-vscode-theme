@@ -459,7 +459,7 @@
         "constant.keyword.clojure"
       ],
       "settings": {
-        "foreground": "#ff6188", //#ff6188 //#FFC785
+        "foreground": "#9795F1", //"#ff6188", //#ff6188 //#FFC785
         "fontStyle": ""
       }
     },
