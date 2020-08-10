@@ -666,7 +666,7 @@
         "entity.name.function.target.makefile"
       ],
       "settings": {
-        "foreground": "#3dc7b9", //#00cbae
+        "foreground": "#3dc7b9", //#00cbae #3dc7b9
         "fontStyle": "bold"
       }
     },
@@ -851,7 +851,7 @@
         "variable.other.makefile"
       ],
       "settings": {
-        "foreground": "#f181c4", // "#EB64B9", //#FF9AA2 //#ff80bf //#ff7edb
+        "foreground": "#fe90af", // #f181c4 // #fe90af "#EB64B9", //#FF9AA2 //#ff80bf //#ff7edb
         "fontStyle": ""
       }
     },
