@@ -1037,7 +1037,7 @@
         "meta.type.annotation.tsx"
       ],
       "settings": {
-        "foreground": "#9795F1", //#9795F1, #f8d0b0
+        "foreground": "#9795F1", //#9795F1, #f8d0b0 //#BD93F9
         "fontStyle": ""
       }
     },
@@ -1068,7 +1068,7 @@
         "punctuation.definition.typeparameters.end.tsx"
       ],
       "settings": {
-        "foreground": "#00cee6", //9795F1
+        "foreground": "#f181c4", //9795F1
         "fontStyle": "bold"
       }
     },
