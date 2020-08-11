@@ -633,7 +633,7 @@
         "keyword.other.await.cs"
       ],
       "settings": {
-        "foreground": "#FFC785",
+        "foreground": "#F7D009", //#F7D009 #FFC785
         "fontStyle": "italic bold"
       }
     },
