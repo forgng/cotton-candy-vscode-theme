@@ -1480,11 +1480,18 @@
     },
 
     {
+      "name": "CSS unit measure",
+      "scope": ["keyword.other.unit.px", "keyword.other.unit.vh"],
+      "settings": {
+        "foreground": "#f181c4",
+        "fontStyle": ""
+      }
+    },
+
+    {
       "name": "CSS value",
       "scope": [
         "constant.numeric.css",
-        "keyword.other.unit.px.css",
-        "keyword.other.unit.px.scss",
         "support.constant.property-value.css",
         "support.constant.font-name.css",
         "support.constant.color.w3c-standard-color-name",
