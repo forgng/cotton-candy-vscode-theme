@@ -1649,7 +1649,7 @@
       "name": "title",
       "scope": ["entity.name.section.markdown"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#FFC785",
         "fontStyle": "bold"
       }
     },
@@ -1689,7 +1689,7 @@
       "name": "Markdown paragraph",
       "scope": ["meta.paragraph.markdown"],
       "settings": {
-        "foreground": "#75BBB9", //#1de9b6
+        "foreground": "#f0efe2", // "#75BBB9", //#1de9b6
         "fontStyle": ""
       }
     },
