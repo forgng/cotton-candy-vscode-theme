@@ -437,7 +437,7 @@
         "meta.at-rule.import.scss"
       ],
       "settings": {
-        "foreground": "#DE8FFF", //  "#9795F1", //#9580ff
+        "foreground": "#9795F1", //  "#9795F1", //#9580ff #e5b0ea
         "fontStyle": "italic"
       }
     },
@@ -919,6 +919,18 @@
       }
     },
 
+    // {
+    //   "name": "Ts interface name",
+    //   "scope": [
+    //     "entity.name.type.interface.tsx",
+    //     "entity.name.type.interface.ts"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#f181c4", //9795F1,f8d0b0
+    //     "fontStyle": ""
+    //   }
+    // },
+
     {
       "name": "process",
       "scope": ["support.variable.object.process"],
@@ -1222,7 +1234,7 @@
         "source.jest.snap"
       ],
       "settings": {
-        "foreground": "#9795F1",
+        "foreground": "#00CEE6", // #00CEE6  #9795F1
         "fontStyle": "bold"
       }
     },
@@ -1238,7 +1250,7 @@
       ],
       "settings": {
         "foreground": "#efca8c", //#ffd866 //#e5b0ea
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
