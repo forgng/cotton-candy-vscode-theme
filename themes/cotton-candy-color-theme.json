@@ -347,7 +347,7 @@
       "name": "String",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#00faac", //"#50d890", //#1de9b6, #98c379
+        "foreground": "#00faac", //"#50d890", //#1de9b6, #98c379 #93f9bd
         "fontStyle": ""
       }
     },
@@ -459,7 +459,7 @@
         "constant.keyword.clojure"
       ],
       "settings": {
-        "foreground": "#9795F1", //"#ff6188", //#ff6188 //#FFC785
+        "foreground": "#BD93F9", //"#ff6188", //#ff6188 //#FFC785 //#BD93F9
         "fontStyle": ""
       }
     },
@@ -1681,7 +1681,7 @@
         "heading.6.markdown"
       ],
       "settings": {
-        "foreground": "#be97dc",
+        "foreground": "#be97dc", //
         "fontStyle": "bold"
       }
     },
@@ -1713,10 +1713,22 @@
       "name": "Markdown link title",
       "scope": ["string.other.link.title.markdown"],
       "settings": {
-        "foreground": "#FFC785",
+        "foreground": "#BD93F9", //#be97dc
         "fontStyle": "underline"
       }
     },
+    {
+      "name": "Markdown italic",
+      "scope": [
+        "markup.italic.markdown",
+        "punctuation.definition.italic.markdown"
+      ],
+      "settings": {
+        "foreground": "#BD93F9", //#be97dc
+        "fontStyle": "italic"
+      }
+    },
+
     {
       "name": "Markdown link description",
       "scope": ["string.other.link.description.markdown"],
@@ -1727,7 +1739,10 @@
     },
     {
       "name": "Markdown punctuation",
-      "scope": ["punctuation.definition.string.begin.markdown"],
+      "scope": [
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown"
+      ],
       "settings": {
         "foreground": "#F5B5FC",
         "fontStyle": ""
