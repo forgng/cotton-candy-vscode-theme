@@ -437,7 +437,7 @@
         "meta.at-rule.import.scss"
       ],
       "settings": {
-        "foreground": "#9795F1", //  "#9795F1", //#9580ff #e5b0ea
+        "foreground": "#DE8FFF", //  "#9795F1", //#9580ff #e5b0ea
         "fontStyle": "italic"
       }
     },
@@ -799,7 +799,7 @@
         "entity.name.type.namespace.cs"
       ],
       "settings": {
-        "foreground": "#86cbee" //"#68bcd2"
+        "foreground": "#f0efe2" //"#68bcd2" //#e5b0ea
       }
     },
     {
