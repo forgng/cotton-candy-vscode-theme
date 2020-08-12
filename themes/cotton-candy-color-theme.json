@@ -1657,7 +1657,7 @@
       "scope": ["punctuation.definition.heading.markdown"],
       "settings": {
         "foreground": "#f181c4",
-        "fontStyle": "bold"
+        "fontStyle": ""
       }
     },
 
@@ -1670,20 +1670,20 @@
       }
     },
 
-    {
-      "name": "Markdown title",
-      "scope": [
-        "heading.2.markdown",
-        "heading.3.markdown",
-        "heading.4.markdown",
-        "heading.5.markdown",
-        "heading.6.markdown"
-      ],
-      "settings": {
-        "foreground": "#be97dc", //
-        "fontStyle": "bold"
-      }
-    },
+    // {
+    //   "name": "Markdown title",
+    //   "scope": [
+    //     "heading.2.markdown",
+    //     "heading.3.markdown",
+    //     "heading.4.markdown",
+    //     "heading.5.markdown",
+    //     "heading.6.markdown"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#be97dc", //
+    //     "fontStyle": "bold"
+    //   }
+    // },
     {
       "name": "Markdown paragraph",
       "scope": ["meta.paragraph.markdown"],
@@ -1749,9 +1749,9 @@
     },
     {
       "name": "Markdown Bold",
-      "scope": ["punctuation.definition.bold.markdown"],
+      "scope": ["punctuation.definition.bold.markdown", "markup.bold.markdown"],
       "settings": {
-        "foreground": "#efca8c",
+        "foreground": "#BD93F9",
         "fontStyle": "bold"
       }
     },
