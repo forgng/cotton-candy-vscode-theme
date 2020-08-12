@@ -647,7 +647,8 @@
         "support.function.kotlin",
         "meta.method-call.coffee",
         "source.elixir.embedded.source",
-        "entity.name.function.target.makefile"
+        "entity.name.function.target.makefile",
+        "support.function.misc.css"
       ],
       "settings": {
         "foreground": "#3dc7b9", //#00cbae #3dc7b9
@@ -844,7 +845,8 @@
       "scope": [
         "variable.parameter",
         "variable.parameter.function-call.python",
-        "parameter.variable.function.elixir"
+        "parameter.variable.function.elixir",
+        "variable.argument.css"
       ],
       "settings": {
         "foreground": "#ffab40", //#fc9867 //#e040fb //#DE8FFF
@@ -1407,8 +1409,7 @@
         "constant.numeric.css",
         "support.constant.property-value.css",
         "support.constant.font-name.css",
-        "support.constant.color.w3c-standard-color-name",
-        "keyword.other.unit"
+        "support.constant.color.w3c-standard-color-name"
       ],
       "settings": {
         "foreground": "#fffb96", //#75BBB9 //#fffb96 //#FFC785
@@ -1483,7 +1484,7 @@
 
     {
       "name": "CSS unit measure",
-      "scope": ["keyword.other.unit.px", "keyword.other.unit.vh"],
+      "scope": ["keyword.other.unit"],
       "settings": {
         "foreground": "#f181c4",
         "fontStyle": ""
