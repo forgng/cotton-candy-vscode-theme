@@ -5,7 +5,7 @@
   "palette": {
     // WHITE_1 = "#f0efe2";
     // export const WHITE_2 = "#d8d7cb";
-    // export const RED = "#DF7599";
+    // export const RED = "#f181c4";
     // export const MAGENTA = "#eb5bcb";
     //                         #FF79C6
     // export const PINK_1 = "#F5B5FC";
@@ -417,7 +417,7 @@
       "name": "Regex group",
       "scope": ["punctuation.definition.group.regexp"],
       "settings": {
-        "foreground": "#DF7599"
+        "foreground": "#f181c4"
       }
     },
 
@@ -1126,7 +1126,7 @@
       "name": "Grapqh parentesis",
       "scope": ["punctuation.operation.graphql"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1134,7 +1134,7 @@
       "name": "Grapqh input variable",
       "scope": ["variable.parameter.graphql"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1164,7 +1164,7 @@
       "name": "Grapqh input",
       "scope": ["keyword.input.graphql"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": "bold"
       }
     },
@@ -1274,7 +1274,7 @@
       "name": "HTML script",
       "scope": ["entity.name.tag.script.html"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1306,7 +1306,7 @@
       "name": "Vue directive",
       "scope": ["meta.directive.vue"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": "bold"
       }
     },
@@ -1322,7 +1322,7 @@
       "name": "Liquid entity",
       "scope": ["entity.name.tag.liquid"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1357,7 +1357,7 @@
       "name": "Erb embed",
       "scope": ["source.ruby.embedded.erb"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1380,7 +1380,7 @@
         "meta.property-value.css"
       ],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1388,7 +1388,7 @@
       "name": "Style in html",
       "scope": ["meta.embedded.line.css"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1616,7 +1616,7 @@
         "variable.other.normal.shell"
       ],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": "bold"
       }
     },
@@ -1656,7 +1656,7 @@
       "name": "#",
       "scope": ["punctuation.definition.heading.markdown"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": "bold"
       }
     },
@@ -1804,7 +1804,7 @@
         "entity.other.attribute-name.table.toml"
       ],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -1907,7 +1907,7 @@
       "name": "Gradle",
       "scope": ["meta.method.groovy"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -2340,7 +2340,7 @@
       "name": "Go struct",
       "scope": ["keyword.struct.go"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -2349,7 +2349,7 @@
       "name": "Go package keyword",
       "scope": ["keyword.package.go"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": "bold"
       }
     },
@@ -2406,7 +2406,7 @@
       "name": "Rust modifier lifetime",
       "scope": ["storage.modifier.lifetime.rust"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -2414,7 +2414,7 @@
       "name": "Rust angular bracket",
       "scope": ["meta.type_params.rust"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -2492,7 +2492,7 @@
       "name": "Coffee embed",
       "scope": ["punctuation.section.embedded.coffee"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
@@ -2507,7 +2507,7 @@
       "name": "Ruby module",
       "scope": ["entity.name.type.module.ruby"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4",
         "fontStyle": ""
       }
     },
