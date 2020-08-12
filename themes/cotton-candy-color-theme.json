@@ -1400,7 +1400,7 @@
         "support.type.property-name.scss"
       ],
       "settings": {
-        "foreground": "#84ffff", //#00bfa5 #FFC785
+        "foreground": "#84ffff", //#00bfa5 #FFC785 #BD93F9
         "fontStyle": ""
       }
     },
@@ -1453,7 +1453,7 @@
         "entity.other.attribute-name.id.css"
       ],
       "settings": {
-        "foreground": "#9795F1",
+        "foreground": "#f181c4", // #f181c4 #9795F1
         "fontStyle": "bold"
       }
     },
@@ -1465,14 +1465,17 @@
         "fontStyle": "bold italic"
       }
     },
-    // {
-    //   "name": "CSS/SCSS :",
-    //   "scope": ["punctuation.definition.entity.css"],
-    //   "settings": {
-    //     "foreground": "#fff",
-    //     "fontStyle": "bold"
-    //   }
-    // },
+    {
+      "name": "CSS/SCSS :",
+      "scope": [
+        "punctuation.definition.entity.css",
+        "punctuation.definition.entity.scss"
+      ],
+      "settings": {
+        "foreground": "#1DE9B6",
+        "fontStyle": "bold"
+      }
+    },
 
     {
       "name": "CSS vendor",
@@ -1967,9 +1970,13 @@
     // =========================================================================
     {
       "name": "SQL operation",
-      "scope": ["keyword.other.sql,keyword.other.DML.sql"],
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.create.II.sql"
+      ],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4", //#f181c4 #DF7599
         "fontStyle": "bold"
       }
     },
@@ -1989,6 +1996,15 @@
         "fontStyle": ""
       }
     },
+    // {
+    //   "name": "SQL Base",
+    //   "scope": ["keyword.other.DDL.create.II.sql"],
+    //   "settings": {
+    //     "foreground": "#be97dc",
+    //     "fontStyle": ""
+    //   }
+    // },
+
     {
       "name": "SQL DB name",
       "scope": ["constant.other.database-name.sql"],
@@ -2263,7 +2279,7 @@
       "name": "Java type",
       "scope": ["keyword.other.package.java", "keyword.other.kotlin"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4", // #f181c4 #DF7599
         "fontStyle": "bold"
       }
     },
@@ -2271,7 +2287,7 @@
       "name": "Scala package",
       "scope": ["entity.name.package.scala"],
       "settings": {
-        "foreground": "#DF7599",
+        "foreground": "#f181c4", // #f181c4 #DF7599
         "fontStyle": "bold"
       }
     },
