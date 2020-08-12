@@ -1763,14 +1763,14 @@
         "fontStyle": "bold"
       }
     },
-    {
-      "name": "Markdown italic",
-      "scope": ["punctuation.definition.italic.markdown"],
-      "settings": {
-        "foreground": "#efca8c",
-        "fontStyle": "bold"
-      }
-    },
+    // {
+    //   "name": "Markdown italic",
+    //   "scope": ["punctuation.definition.italic.markdown"],
+    //   "settings": {
+    //     "foreground": "#efca8c",
+    //     "fontStyle": "bold"
+    //   }
+    // },
 
     {
       "name": "Markdown code",
