@@ -347,7 +347,7 @@
       "name": "String",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#00faac", //"#50d890", //#1de9b6, #98c379 #93f9bd
+        "foreground": "#00faac", //"#50d890", //#1de9b6, #98c379 #93f9bd //#05ffa1
         "fontStyle": ""
       }
     },
@@ -510,22 +510,6 @@
         "constant.character.brace",
         "constant.character.end",
         "keyword.operator.assignment"
-        // "punctuation.accessor",
-        // "punctuation.definition.parameters.end.bracket.round.java",
-        // "punctuation.section",
-        // "punctuation.definition.bracket.square.go",
-        // "punctuation.other",
-        // "punctuation.terminator.statement",
-        // "punctuation.separator",
-        // "punctuation.terminator",
-        // "punctuation.definition.entity.css",
-        // "punctuation.definition.block",
-        // "punctuation.section.embedded.begin",
-        // "punctuation.section.embedded.end",
-        // "punctuation.definition.parameters.begin.tsx",
-        // "punctuation.definition.parameters.end.tsx",
-        // "punctuation.definition.binding-pattern",
-        // "punctuation.separator.element.python",
       ],
       "settings": {
         "foreground": "#f0efe2", //fffdd0, //FCFBE3
@@ -1408,12 +1392,30 @@
 
     {
       "name": "CSS/SCSS property",
-      "scope": ["support.type.property-name.css"],
+      "scope": [
+        "support.type.property-name.css",
+        "support.type.property-name.scss"
+      ],
       "settings": {
-        "foreground": "#FFC785",
+        "foreground": "#84ffff", //#00bfa5 #FFC785
         "fontStyle": ""
       }
     },
+    {
+      "name": "CSS value",
+      "scope": [
+        "constant.numeric.css",
+        "support.constant.property-value.css",
+        "support.constant.font-name.css",
+        "support.constant.color.w3c-standard-color-name",
+        "keyword.other.unit"
+      ],
+      "settings": {
+        "foreground": "#fffb96", //#75BBB9 //#fffb96 //#FFC785
+        "fontStyle": "bold"
+      }
+    },
+
     {
       "name": "CSS selection operator",
       "scope": ["meta.property-list.scss", "meta.property-list.css"],
@@ -1485,21 +1487,6 @@
       "settings": {
         "foreground": "#f181c4",
         "fontStyle": ""
-      }
-    },
-
-    {
-      "name": "CSS value",
-      "scope": [
-        "constant.numeric.css",
-        "support.constant.property-value.css",
-        "support.constant.font-name.css",
-        "support.constant.color.w3c-standard-color-name",
-        "keyword.other.unit"
-      ],
-      "settings": {
-        "foreground": "#00bfa5", //#75BBB9
-        "fontStyle": "bold"
       }
     },
 
