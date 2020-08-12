@@ -20,3 +20,10 @@
 - Go to Preferences -> Color Theme dropdown menu.
 - Search Cotton Candy
 - Select it or press Enter to install
+
+### Acknowledgement
+
+Cotton Candy has been inspiried by the following themes
+
+- [Dracula](https://draculatheme.com/)
+- [Monokai](https://monokai.pro/vscode)
