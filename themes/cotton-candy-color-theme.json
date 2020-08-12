@@ -1235,8 +1235,22 @@
         "entity.other.attribute-name.tag.pug"
       ],
       "settings": {
-        "foreground": "#efca8c", //#ffd866 //#e5b0ea
+        "foreground": "#efca8c", // #fffb96  //#ffd866 //#e5b0ea #efca8c
         "fontStyle": "italic"
+      }
+    },
+
+    {
+      "name": "Tag angular bracket",
+      "scope": [
+        "punctuation.definition.typeparameters",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag.end",
+        "punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#ffd866", //#fffb96 // "#DE8FFF", //#F7D009 #ffd866
+        "fontStyle": ""
       }
     },
     {
@@ -1256,19 +1270,6 @@
       }
     },
 
-    {
-      "name": "Tag angular bracket",
-      "scope": [
-        "punctuation.definition.typeparameters",
-        "punctuation.definition.tag.begin",
-        "punctuation.definition.tag.end",
-        "punctuation.definition.tag.xml"
-      ],
-      "settings": {
-        "foreground": "#ffd866", // "#DE8FFF", //#F7D009
-        "fontStyle": ""
-      }
-    },
     {
       "name": "HTML script",
       "scope": ["entity.name.tag.script.html"],
